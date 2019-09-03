@@ -1,0 +1,45 @@
+// 侧边栏
+
+.sidebar {
+
+  flex: 0 0 20%;
+  font-size: 1.2rem;
+  margin-top: 4rem; 
+  
+  &__about {
+    margin-top: var(--gutter-bigger);
+  }
+
+  // 侧边栏作者介绍
+  &__about-info { 
+    display: flex; 
+    align-items: center;
+  }
+  
+  &__photo {
+    display: block;
+    margin-right: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+}
+
+// Social icon 组件在 sass/components/_social.scss
+.sidebar__social {
+  margin-top: 2rem;
+
+  a {
+    &:link,
+    &:visited {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  } 
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+

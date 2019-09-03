@@ -1,0 +1,16 @@
+// 书签页面 - 主要内容
+
+.bookmarks {
+  display: flex; 
+  justify-content: space-between; 
+  
+  &__ref {
+    font-size: 1.2rem;
+    color: var(--grey);
+    text-decoration: underline;
+  }
+}
+
+
+
+

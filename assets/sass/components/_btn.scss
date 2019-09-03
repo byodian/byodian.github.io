@@ -1,0 +1,46 @@
+.btn {
+  border: 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--highlight-2);
+  border-bottom: var(--line);
+  border-bottom-color: currentColor;
+  
+  &:hover {
+    color: var(--highlight-1);
+  }
+}
+
+// Read More Button - home page
+
+.btn-read {
+  padding-bottom: .5rem;
+  margin-top: var(--gutter-big);
+
+  font-size: 1.4rem;
+  transition: all .2s;
+
+   &:hover span {
+      margin-left: 10px;
+    }
+
+  span {
+    margin-left: 3px;
+    transition: margin-left .2s;
+  }
+}
+
+// articels page
+.btn-box {
+  display: flex;
+  justify-content: space-between; 
+
+  margin: 8rem 0;
+}
+
+.btn-prev,
+.btn-next {
+  &:hover {
+    border-bottom-color: rgba(255,255,255, .7);
+  }
+}

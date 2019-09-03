@@ -1,0 +1,56 @@
+// infomation
+
+.info {
+  margin: 7.5rem 0;
+  font-size: 1.6rem;
+  
+}
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  &__photo {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+  }
+
+  &__job {
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--gutter-bigger);
+  }
+
+  &__study {
+    word-spacing: .2rem;
+    margin-bottom: var(--gutter-middle);
+  }
+}
+
+// Homepage Content
+.homepage-articles,
+.homepage-projects {
+  
+  margin-bottom: var(--gutter-bigger);
+}
+
+// Social icon 组件在 sass/components/_social.scss
+
+.homepage-icons {
+  align-items: center;
+  height: 10rem; 
+
+  a {
+    &:link,
+    &:visited {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  svg {
+    width: 3rem;
+    height: 3rem;
+  }
+}

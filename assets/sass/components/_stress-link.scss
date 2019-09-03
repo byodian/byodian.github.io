@@ -1,0 +1,13 @@
+.stress {
+
+  &:link,
+  &:visited {
+    color: var(--highlight-2);
+    text-decoration: underline;
+  }
+
+  &:hover,
+  &:active {
+    color: var(--highlight-1);
+  }
+}

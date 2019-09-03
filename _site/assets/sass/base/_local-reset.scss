@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body { box-sizing: border-box; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul, ol, dd { list-style: none; }
+
+cite { font-style: normal; }
+
+fieldset { border-width: 0; }
+
+table, th, tr, td { border-collapse: collapse; }
