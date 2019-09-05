@@ -3,6 +3,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/admin");
 
   // Layout Alliases 
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
