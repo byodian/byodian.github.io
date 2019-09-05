@@ -1,8 +1,7 @@
 ---
-title       : "Trillo"
-description : "Trillo flexbox"
-imageUrl   : "/assets/img/project-1.jpg"
-imageAlt    : "project-1"
+title: "如何成为一名作家"
+description: "Loream"
+category: writer
 ---
 
 # Recommend

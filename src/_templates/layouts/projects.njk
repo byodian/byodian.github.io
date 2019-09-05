@@ -1,0 +1,24 @@
+{% extends "layouts/base.njk" %}
+
+{% block projectsPage %}
+
+  <section class="projects">
+    <div class="columns">
+      {% for project in collections.projects %}
+        <div class="column">
+          <a href="{{ project.url }}">
+            <div class="box">
+              <figure class="column__photo-box">
+                <img class="column__photo" src="{{ project.data.imageUrl }}" alt="{{ project.data.imageAlt }}">
+              </figure>
+              <h3 class="column__heading">{{ project.data.title }}</h3>
+              <p class="column__info">{{ project.data.description }}</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock projectsPage %}
+
+{% block pageFooter %}{% endblock pageFooter %}

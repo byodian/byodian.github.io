@@ -1,10 +1,8 @@
 ---
-title       : "Trillo"
-description : "Trillo flexbox"
-imageUrl   : "/assets/img/project-1.jpg"
-imageAlt    : "project-1"
+title: "如何成为一名歌手"
+description: "Loream"
+category: singer
 ---
-
 # Recommend
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.

@@ -1,10 +1,9 @@
 ---
-layout: "layouts/post.njk"
-title: "About"
-description: "关于我"
+layout: post
+title: About
 ---
 
-### markdown
+# markdown
 
 - apple
 - banana

@@ -1,8 +1,7 @@
 ---
-title       : "Trillo"
-description : "Trillo flexbox"
-imageUrl   : "/assets/img/project-1.jpg"
-imageAlt    : "project-1"
+title: "如何成为一名设计师"
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non sequi, a hic eos dolorum delectus ratione reiciendis consequatur, cumque asperiores nihil libero ducimus modi totam vel porro quam aperiam."
+category: designer
 ---
 
 # Recommend
@@ -98,3 +97,5 @@ I didn’t know my birthday was coming until all the banks sent me text messages
 [youtube1](http://www.youtube.com)
 
 [youtube2][1]
+
+

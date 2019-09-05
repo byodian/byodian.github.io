@@ -1,8 +1,7 @@
 ---
-title       : "Trillo"
-description : "Trillo flexbox"
-imageUrl   : "/assets/img/project-1.jpg"
-imageAlt    : "project-1"
+title: "如何成为一名老师"
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non sequi, a hic eos dolorum delectus ratione reiciendis consequatur, cumque asperiores nihil libero ducimus modi totam vel porro quam aperiam."
+category: teacher
 ---
 
 # Recommend
