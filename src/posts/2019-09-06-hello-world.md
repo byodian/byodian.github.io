@@ -10,3 +10,11 @@ image: /assets/uploads/avatar.jpg
 ```js
 let a = 3;
 ```
+
+![avtar](/assets/uploads/avatar.jpg "This is me.")
+
+> 男孩别哭
+
+>
+
+> 好的
