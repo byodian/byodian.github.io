@@ -62,6 +62,7 @@ collections:
     slug: "{{ slug }}"
     folder: "src/about"
     fields: 
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
