@@ -62,7 +62,6 @@ collections:
     slug: "{{ slug }}"
     folder: "src/about"
     fields: 
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
@@ -98,31 +97,31 @@ collections:
             widget: "object"
             required: false
             fields: 
-              - { label: "Url", name: "url", widget: "string"}
-              - { label: "Text", name: "text", widget: "string"}
+              - { label: "Url", name: "url", widget: "string", required: false }
+              - { label: "Text", name: "text", widget: "string", required: false }
           - label: "Projects"
             name: "projects"
             widget: "object"
             required: false
             fields: 
-              - { label: "Title", name: "title", widget: "string"}
-              - { label: "ImageUrl", name: "imageUrl", widget: "string" }
-              - { label: "Url", name: "url", widget: "string"}
-              - { label: "Description", name: "description", widget: "string"}
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "ImageUrl", name: "imageUrl", widget: "string" , required: false }
+              - { label: "Url", name: "url", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "string", required: false }
           - label: "Posts"
             name: "posts"
             widget: "object"
             required: false
             fields: 
-              - { label: "Description", name: "description", widget: "string"}
-              - { label: "ImageUrl", name: "date", widget: "string" }
-              - { label: "Category", name: "category", widget: "string"}
+              - { label: "Description", name: "description", widget: "string", required: false }
+              - { label: "ImageUrl", name: "date", widget: "string" , required: false }
+              - { label: "Category", name: "category", widget: "string", required: false }
               - label: "Link"
                 name: "link"
                 widget: "object"
                 fields: 
-                  - { label: "Url", name: "url", widget: "string" }
-                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Url", name: "url", widget: "string" , required: false }
+                  - { label: "Name", name: "name", widget: "string" , required: false }
       - label: "Categories"
         name: "categories"
         required: false
@@ -132,20 +131,20 @@ collections:
             name: "bookmarkTags"
             widget: "object"
             fields: 
-              - { label: "Url", name: "url", widget: "string"}
-              - { label: "Name", name: "name", widget: "string"}
+              - { label: "Url", name: "url", widget: "string", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
       - label: "Site Setting"
         name: "site Setting"
         file: "src/_data/setting.js"
         required: false
         fields: 
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "PersonalInfo", name: "personalInfo", widget: "string" }
-          - { label: "Avatar", name: "avatar", widget: "string" }
+          - { label: "Title", name: "title", widget: "string", required: false  }
+          - { label: "PersonalInfo", name: "personalInfo", widget: "string" , required: false }
+          - { label: "Avatar", name: "avatar", widget: "string", required: false  }
           - label: "Socials"
             name: "socials"
             widget: "object"
             fields: 
-              - { label: "Url", name: "url", widget: "string"}
-              - { label: "Name", name: "name", widget: "string"}
+              - { label: "Url", name: "url", widget: "string", required: false }
+              - { label: "Name", name: "name", widget: "string", required: false }
           
