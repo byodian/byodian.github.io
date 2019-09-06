@@ -1,10 +1,8 @@
 ---
 title: "如何成为一名作家"
-description: "Loream"
+description: "In this tutorial, we'll take a look at how we've added margins in the past with Flex and how gap makes it so we can have these internal margins with no hacks."
 category: writer
 ---
-
-# Recommend
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.
 

@@ -6,11 +6,12 @@
   }
 
   &__heading {
-    font-size: 2rem;
+    margin-bottom: var(--gutter-small);
+    font-size: 2.2rem;
+    font-weight: var(--font-weight-normal);
   } 
 
   &__link {
-  
     &:hover {
       text-decoration: underline;
     }
@@ -18,11 +19,15 @@
 
   &__info {
     margin-bottom: var(--gutter-middle);
-    font-size: 1.4rem;
+    font-size: 1.4rem;  
   }
 
   &__time {
     margin-right: var(--gutter-small)
+  }
+
+  &__overview {
+    font-size: 1.8rem;
   }
 }
 

@@ -6,20 +6,20 @@
 
   <section class="info">
     <div class="site-info">
-      <img src="/assets/img/avatar.png" alt="info photo" class="site-info__photo">
-      <h1 class="heading-primary">byodian</h1>
-      <p class="site-info__job">Web 设计&middot;开发</p>
+      <img src="{{ setting.avatar }}" alt="info photo" class="site-info__photo">
+      <h1 class="heading-primary">{{ homepage.siteName }}</h1>
+      <p class="site-info__job">{{ setting.personalInfo }}</p>
       <p class="site-info__study">正在学习
-        {% for study in studys %}
-          <a class="stress" href="{{ study.link.url }}">{{ study.link.text }}</a>
+        {% for study in homepage.studys %}
+          <a class="stress" href="{{ study.url }}">{{ study.text }}</a>
         {% endfor %}
       </p>
 
       <figure class="social-icons homepage-icons">
-        {% for icon in icons %}
-          <a class="social-link" href="{{ icon.link.url}}">
+        {% for icon in setting.socials %}
+          <a class="social-link" href="{{ icon.url}}">
             <svg class="social-icon">
-              <use xlink:href="/assets/img/sprites.svg#{{ icon.link.name }}"></use>
+              <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
             </svg>
           </a>
         {% endfor %}
@@ -33,17 +33,17 @@
     <section class="section-info">
       <h2 class="heading-secondary ">最近文章</h2>   
       <button class="btn btn-read">
-        <a href="/articles">查看更多</a>
+        <a href="/posts">查看更多</a>
       </button>
     </section>
 
-    {% for post in posts %}
+    {% for post in homepage.posts %}
       <article class="article">
         <h3 class="article__heading">
           <a class="article__link" href="{{ post.link.url }}">{{ post.link.name }}</a>
         </h3>
         <div class="article__info">
-          <time class="article__time" datetime="2019-08-01">{{ post.date }}</time>
+          <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable}}</time>
           <a href="#" class="stress article__category">{{ post.category }}</a>
         </div>
         <p class="article__overview">{{ post.description }}</p>
@@ -61,15 +61,17 @@
     </section>
 
     <div class="columns">
-      {% for project in projects %}
+      {% for project in homepage.projects %}
         <div class="column">
           <a href="{{ project.url }}">
             <div class="box">
               <figure class="column__photo-box">
                 <img class="column__photo" src="{{ project.imageUrl }}" alt="{{ project.title }}">
               </figure>
-              <h3 class="column__heading">{{ project.title }}</h3>
-              <p class="column__info">{{ project.description }}</p>
+              <div class="column__info">
+                <h3 class="column__heading">{{ project.title }}</h3>
+                <p class="column__description">{{ project.description }}</p>
+              </div>
             </div>
           </a>
         </div>

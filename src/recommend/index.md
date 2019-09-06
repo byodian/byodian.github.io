@@ -4,8 +4,6 @@ title: Recommend
 description: 推荐
 ---
 
-# Recommend
-
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.
 
 一年前，我还在深圳前公司写 Vue 时，有一次需要写一个比较复杂的轮播组件。当时为了省事就去网上找开源方案。在众多开源库中，我发现一个作品完成度挺高，就仔细看了下。这个**开源库的文档站**点在风格上具有高度个性化的审美溢出，比如在文档里放自拍和作者喜欢的书籍摘抄。这在凸显技术专业性的开源社区里面是比较独特的。虽然当时这个库因为不能满足定制化需求而没有被选用，但库作者本人还是给我留下了很深印象。
@@ -94,17 +92,6 @@ I didn’t know my birthday was coming until all the banks sent me text messages
 
 [![youtube](/assets/img/youtube.jpg)](http://www.youtube.com)
 
-## link
-
-<https://www.youtbe.com>
-
-[youtube1](http://www.youtube.com)
-
-[youtube2][1]
-
-
-
-[1]: http://www.youtube.com
 
 ```js
 var = a;
@@ -123,3 +110,14 @@ p {
   background-color: #f00;
 }
 ```
+
+## link
+
+<https://www.youtbe.com>
+
+[youtube1](http://www.youtube.com)
+
+
+<div class="iframe-wrapper">
+  <iframe width="1519" height="562" src="https://www.youtube.com/embed/wKGtDaDAsOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -12,44 +12,134 @@ collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     description: >
-      文章发布操作
+      文章页面
     folder: "src/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { 
-        label: "Title" , 
-        name: "title", 
-        widget: "string", 
-        tagname: "h1"
-      }
-      - { 
-        label: "Publish Date", 
-        name: "date", 
-        widget: "datetime",
-        dateFormat: "YYYY-MM-DD",
-        timeFormat: "YYYY-MMM-DD HH:mm"
-      }
-      - { 
-        label: "Cover Image",
-        name: "image",
-        widget: "image",
-        required: false,
-        tagname: ''
-      }
-      - {
-        label: "Body",
-        name: "body",
-        widget: "markdown",
-        hint: "Main conent goes here"
-      }
-      - {
-        label: "Description",
-        name: "description",
-        widget: "string"
-      }
-      - {
-        label: "Category",
-        name: "category",
-        widget: "string"
-      }
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "bookmarks" # Used in routes, e.g., /admin/collections/blog
+    label: "Bookmarks" # Used in the UI
+    description: >
+      收藏页面
+    folder: "src/bookmarks" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "SourceUrl", name: "sourceUrl", widget: "string" }
+      - { label: "SourceName", name: "sourceName", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+        
+  - name: "recommend"
+    label: "Recommend"
+    description: >
+        推荐页面
+    create: false
+    slug: "{{ slug }}"
+    folder: "src/recommend"
+    fields: 
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "about"
+    label: "About"
+    description: >
+        关于我
+    create: false
+    slug: "{{ slug }}"
+    folder: "src/about"
+    fields: 
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects" # Used in the UI
+    description: >
+      项目页面
+    folder: "src/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "ImageAlt", name: "imageAlt", widget: "string" }
+      - { label: "ImageUrl", name: "imageUrl", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: 'pages'
+    label: 'Page'
+    files: 
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/_data/homepage.js"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/homepage.njk" }
+          - { label: "SiteName", name: "siteName", widget: "string" }
+          - label: "Studys"
+            name: "studys"
+            widget: "object"
+            fields: 
+              - { label: "Url", name: "url", widget: "string"}
+              - { label: "Text", name: "text", widget: "string"}
+          - label: "Projects"
+            name: "projects"
+            widget: "object"
+            fields: 
+              - { label: "Title", name: "title", widget: "string"}
+              - { label: "ImageUrl", name: "imageUrl", widget: "string" }
+              - { label: "Url", name: "url", widget: "string"}
+              - { label: "Description", name: "description", widget: "string"}
+          - label: "Posts"
+            name: "posts"
+            widget: "object"
+            fields: 
+              - { label: "Description", name: "description", widget: "string"}
+              - { label: "ImageUrl", name: "date", widget: "string" }
+              - { label: "Category", name: "category", widget: "string"}
+              - label: "Link"
+                name: "link"
+                widget: "object"
+                fields: 
+                  - { label: "Url", name: "url", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+      - label: "Categories"
+        name: "categories"
+        file: "src/_data/categories.js"
+        fields:
+          - label: "BookmarkTags"
+            name: "bookmarkTags"
+            widget: "object"
+            fields: 
+              - { label: "Url", name: "url", widget: "string"}
+              - { label: "Name", name: "name", widget: "string"}
+      - label: "Site Setting"
+        name: "site Setting"
+        file: "src/_data/setting.js"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "PersonalInfo", name: "personalInfo", widget: "string" }
+          - { label: "Avatar", name: "avatar", widget: "string" }
+          - label: "Socials"
+            name: "socials"
+            widget: "object"
+            fields: 
+              - { label: "Url", name: "url", widget: "string"}
+              - { label: "Name", name: "name", widget: "string"}
+          

@@ -36,9 +36,12 @@
       }
     }
 
-    &:hover {
-      border-bottom-color: var(--highlight-1);
+    &:hover:not(.is-active),
+    &:active:not(.is-active) {
+      color: var(--highlight-1);
     }
   } 
 
-
+  .site-nav__link.is-active {
+  border-bottom-color: var(--highlight-1);
+}

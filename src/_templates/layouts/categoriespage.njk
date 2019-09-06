@@ -14,7 +14,7 @@
               </a>
             </h3>
             <div class="article__info">
-              <time class="article__time" datetime="2019-08-01">August 8th, 2019</time>
+              <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable }}</time>
               <a href="#" class="stress article__tag">{{ post.data.category }}</a>
             </div>
             <p class="article__overview">{{ post.data.description }}</p>

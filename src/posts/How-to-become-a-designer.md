@@ -1,10 +1,8 @@
 ---
 title: "如何成为一名设计师"
 description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio non sequi, a hic eos dolorum delectus ratione reiciendis consequatur, cumque asperiores nihil libero ducimus modi totam vel porro quam aperiam."
-category: designer
+category: "designer"
 ---
-
-# Recommend
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.
 

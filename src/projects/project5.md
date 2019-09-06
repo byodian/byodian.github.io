@@ -5,8 +5,6 @@ imageUrl   : "/assets/img/project-1.jpg"
 imageAlt    : "project-1"
 ---
 
-# Recommend
-
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.
 
 一年前，我还在深圳前公司写 Vue 时，有一次需要写一个比较复杂的轮播组件。当时为了省事就去网上找开源方案。在众多开源库中，我发现一个作品完成度挺高，就仔细看了下。这个**开源库的文档站**点在风格上具有高度个性化的审美溢出，比如在文档里放自拍和作者喜欢的书籍摘抄。这在凸显技术专业性的开源社区里面是比较独特的。虽然当时这个库因为不能满足定制化需求而没有被选用，但库作者本人还是给我留下了很深印象。*我在作者身上看到的是带有明显痕迹的属于青春期的渴望，即” 我存在，理应被见证 “。彼时我已离这种心境渐远，但还是能从回忆里找到共情。*

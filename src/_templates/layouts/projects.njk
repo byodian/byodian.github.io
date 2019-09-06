@@ -11,8 +11,10 @@
               <figure class="column__photo-box">
                 <img class="column__photo" src="{{ project.data.imageUrl }}" alt="{{ project.data.imageAlt }}">
               </figure>
-              <h3 class="column__heading">{{ project.data.title }}</h3>
-              <p class="column__info">{{ project.data.description }}</p>
+              <div class="column__info">
+                <h3 class="column__heading">{{ project.data.title }}</h3>
+                <p class="column__description">{{ project.data.description }}</p>
+              </div>
             </div>
           </a>
         </div>
