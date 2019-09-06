@@ -62,7 +62,7 @@ collections:
     slug: "{{ slug }}"
     folder: "src/about"
     fields: 
-      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
@@ -92,16 +92,18 @@ collections:
         file: "src/_data/homepage.js"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/homepage.njk" }
-          - { label: "SiteName", name: "siteName", widget: "string" }
+          - { label: "SiteName", name: "siteName", widget: "string" , required: false}
           - label: "Studys"
             name: "studys"
             widget: "object"
+            required: false
             fields: 
               - { label: "Url", name: "url", widget: "string"}
               - { label: "Text", name: "text", widget: "string"}
           - label: "Projects"
             name: "projects"
             widget: "object"
+            required: false
             fields: 
               - { label: "Title", name: "title", widget: "string"}
               - { label: "ImageUrl", name: "imageUrl", widget: "string" }
@@ -110,6 +112,7 @@ collections:
           - label: "Posts"
             name: "posts"
             widget: "object"
+            required: false
             fields: 
               - { label: "Description", name: "description", widget: "string"}
               - { label: "ImageUrl", name: "date", widget: "string" }
@@ -122,6 +125,7 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
       - label: "Categories"
         name: "categories"
+        required: false
         file: "src/_data/categories.js"
         fields:
           - label: "BookmarkTags"
@@ -133,6 +137,7 @@ collections:
       - label: "Site Setting"
         name: "site Setting"
         file: "src/_data/setting.js"
+        required: false
         fields: 
           - { label: "Title", name: "title", widget: "string" }
           - { label: "PersonalInfo", name: "personalInfo", widget: "string" }
