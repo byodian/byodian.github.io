@@ -4,11 +4,11 @@ module.exports = {
   'avatar'      : '/assets/img/avatar.png',
   'socials': [
     {
-      'url':  'https://twitter.com/byodian1',
+      'url': 'https://github.com/byodian',
       'name': 'icon-github'
     }, 
     {
-      'url': 'https://github.com/byodian',
+      'url':  'https://twitter.com/byodian1',
       'name': 'icon-twitter'
     },
     {
