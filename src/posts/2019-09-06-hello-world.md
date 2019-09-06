@@ -1,5 +1,5 @@
 ---
-title: hello world
+title: Hello world
 date: 2019-09-27T23:48:10.579Z
 image: /assets/uploads/avatar.jpg
 description: >-
