@@ -25,7 +25,7 @@ collections:
         allow_add: false
         default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
 
@@ -45,8 +45,8 @@ collections:
         allow_add: false
         default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
       - { label: "SourceUrl", name: "sourceUrl", widget: "string" }
       - { label: "SourceName", name: "sourceName", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
@@ -61,7 +61,7 @@ collections:
     fields: 
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
 
   - name: "about"
@@ -74,7 +74,7 @@ collections:
     fields: 
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
 
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
@@ -87,10 +87,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
-      - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
       - { label: "ImageAlt", name: "imageAlt", widget: "string" }
-      - { label: "ImageUrl", name: "imageUrl", widget: "string" }
+      - { label: "ImageUrl", name: "imageUrl", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
   
   - label: "Pages"
@@ -116,7 +116,6 @@ collections:
           - { label: "Network ICON", name: "icon", widget: "file", hint: "This must be an icon" }
           - { label: "Network LOGO", name: "logo", widget: "file", hint: "This must be an SVG" }
           - { label: "Network AVATAR", name: "avatar", widget: "file" }
-          - {label: "Logo", name: "logo", widget: "image", required: false, hint: "If not specified, Site Name will be used as a text link" }
           - label: "Social Networks"
             name: "socials"
             widget: "list"

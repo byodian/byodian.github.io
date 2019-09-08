@@ -1,8 +1,9 @@
 ---
-title       : "Nature"
-description : "Nature float"
-imageUrl   : "/assets/img/project-2.jpg"
-imageAlt    : "project-2"
+title       : Nature
+mySlug: nature project
+description : Nature float
+imageUrl   : /assets/img/project-2.jpg
+imageAlt    : project-2
 ---
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.

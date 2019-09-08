@@ -42,11 +42,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('posts', collection => {
-    return collection.getFilteredByGlob(['./src/posts/*.md']).reverse()
+    return collection.getFilteredByGlob(['./src/posts/*.md']).reverse();
   });
 
   eleventyConfig.addCollection('bookmarks', collection => {
-    return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse()
+    return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse();
   });
 
   eleventyConfig.addCollection('tagsList', collection => {

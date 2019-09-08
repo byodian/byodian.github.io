@@ -1,8 +1,9 @@
 ---
-title       : "Trillo"
-description : "Trillo flexbox"
-imageUrl   : "/assets/img/project-3.jpg"
-imageAlt    : "project-3"
+title       : Trillo
+mySlug: Trillo project
+description : Trillo flexbox
+imageUrl   : /assets/img/project-3.jpg
+imageAlt    : project-3
 ---
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.
