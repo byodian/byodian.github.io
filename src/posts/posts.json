@@ -1,4 +1,4 @@
 {
   "layout": "post",
-  "tags": "posts"
+  "permalink" : "/{{ mySlug | slug }}/index.html"
 }

@@ -3,17 +3,17 @@
 {% block pageHeader %}{% endblock pageHeader %}
 
 {% block articlesPage %}
-  {# <section class="articles__content">
+  <section class="articles__content">
     <section class="section">
-      <h1 class="heading-primary">{{ title }}</h1>
+      <h1 class="heading-primary">{{ title | slug}}</h1>
       <p class="heading__info">{{ description }}</p>
-    </section> #}
+    </section>
     <section class="articles">
 
       {% for post in collections.posts %}
         <article class="article">
           <h3 class="article__heading">
-            <a class="article__link" href="{{ post.url}}">{{ post.data.title }}</a>
+            <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
           </h3>
           <div class="article__info">
             <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable}}</time>
@@ -22,8 +22,22 @@
           <p class="article__overview">{{ post.data.description }}</p>
         </article>
       {% endfor %}
+
     </section>
-  {# </section> #}
+
+    <div class="post" style="padding: 2rem 0;">
+      <div class="post-article">
+        <div>
+          {% for post in collections.all | reverse%}
+            <a href="{{ post.url }}" style="display: block;">{{ post.data.tags }}</a>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+  </section>
 
 {% endblock articlesPage %}
+
 {% block pageFooter %}{% endblock pageFooter %}

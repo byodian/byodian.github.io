@@ -21,7 +21,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
 
   - name: "bookmarks" # Used in routes, e.g., /admin/collections/blog
@@ -36,7 +35,6 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
       - { label: "SourceUrl", name: "sourceUrl", widget: "string" }
       - { label: "SourceName", name: "sourceName", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
@@ -76,9 +74,47 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "ImageAlt", name: "imageAlt", widget: "string" }
       - { label: "ImageUrl", name: "imageUrl", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+  
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/_data/homepage.json"
+        fields:
+          - {label: "SiteName", name: "siteName", widget: "string"}
+          - label: "Studys"
+            name: "studys"
+            widget: "list"
+            fields: 
+              - { label: "Study URL", name: "url", widget: "string" }
+              - { label: "Study name", name: "text", widget: "string" }
+
+      - label: "Site Settings"
+        name: "settings"
+        file: "src/_data/settings.json"
+        fields:
+          - {label: "SiteName", name: "title", widget: "string"}
+          - {label: "PersonalInfo", name: "personalInfo", widget: "string"}
+          - { label: "Network ICON", name: "icon", widget: "file", hint: "This must be an icon" }
+          - { label: "Network LOGO", name: "logo", widget: "file", hint: "This must be an SVG" }
+          - { label: "Network AVATAR", name: "avatar", widget: "file" }
+          - {label: "Logo", name: "logo", widget: "image", required: false, hint: "If not specified, Site Name will be used as a text link" }
+          - label: "Social Networks"
+            name: "socials"
+            widget: "list"
+            fields: 
+              - { label: "Social Network URL", name: "url", widget: "string" }
+              - { label: "Social Network URL", name: "name", widget: "string" }

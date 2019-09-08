@@ -37,16 +37,16 @@
       </button>
     </section>
 
-    {% for post in homepage.posts %}
+    {% for post in collections.posts %}
       <article class="article">
         <h3 class="article__heading">
-          <a class="article__link" href="{{ post.link.url }}">{{ post.link.name }}</a>
+          <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
         </h3>
         <div class="article__info">
-          <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable}}</time>
-          <a href="#" class="stress article__category">{{ post.category }}</a>
+          <time class="article__time" datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateReadable}}</time>
+          <a href="#" class="stress article__category">{{ post.data.category }}</a>
         </div>
-        <p class="article__overview">{{ post.description }}</p>
+        <p class="article__overview">{{ post.data.description }}</p>
       </article>
     {% endfor %}
 
@@ -61,16 +61,16 @@
     </section>
 
     <div class="columns">
-      {% for project in homepage.projects %}
+      {% for project in collections.projects %}
         <div class="column">
           <a href="{{ project.url }}">
             <div class="box">
               <figure class="column__photo-box">
-                <img class="column__photo" src="{{ project.imageUrl }}" alt="{{ project.title }}">
+                <img class="column__photo" src="{{ project.data.imageUrl }}" alt="{{ project.data.title }}">
               </figure>
               <div class="column__info">
-                <h3 class="column__heading">{{ project.title }}</h3>
-                <p class="column__description">{{ project.description }}</p>
+                <h3 class="column__heading">{{ project.data.title }}</h3>
+                <p class="column__description">{{ project.data.description }}</p>
               </div>
             </div>
           </a>

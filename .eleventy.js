@@ -20,6 +20,10 @@ module.exports = function(eleventyConfig) {
   // syntaxhightlight
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
+  /****************************
+   * Filter 
+   */
+
   // Date Format
   eleventyConfig.addFilter('dateISO', date => {
     return moment(date).toISOString();
@@ -28,6 +32,52 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('dateReadable', date => {
     return moment(date).format('LL');
   });
+
+  /**
+   * Collections
+   */
+
+  eleventyConfig.addCollection('projects', collection => {
+    return collection.getFilteredByGlob('./src/projects/*.md').reverse();
+  });
+
+  eleventyConfig.addCollection('posts', collection => {
+    return collection.getFilteredByGlob(['./src/posts/*.md']).reverse()
+  });
+
+  eleventyConfig.addCollection('bookmarks', collection => {
+    return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse()
+  });
+
+  eleventyConfig.addCollection('tagsList', collection => {
+    return collection.getFilteredByGlob(['./src/posts/*.md', './src/bookmarks/*.md']).reverse()
+  });
+
+  /**
+   * 
+  [
+    { 
+      inputPath: './test1.md',
+      fileSlug: 'test1', // fileSlug was added in 0.5.3
+      outputPath: './_site/test1/index.html',
+      url: '/test1/',
+      date: 2018-01-09T04:10:17.000Z,
+      data: { title: 'Test Title', tags: ['tag1', 'tag2'], date: 'Last Modified' },
+      templateContent: '<h1>This is my title</h1>\n\n<p>This is content…' 
+    },
+      { 
+      inputPath: './test1.md',
+      fileSlug: 'test1', // fileSlug was added in 0.5.3
+      outputPath: './_site/test1/index.html',
+      url: '/test1/',
+      date: 2018-01-09T04:10:17.000Z,
+      data: { title: 'Test Title', tags: ['tag1', 'p>This is content…' tag2'], date: 'Last Modified' },
+      templateContent: '<h1>This is my title</h1>\n\n<
+    }
+  ]
+   */
+
+
 
   return {
 

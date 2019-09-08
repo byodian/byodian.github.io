@@ -16,8 +16,9 @@
 
   .site-nav__logo {
     display: block; // 去除行内元素垂直布局的间隙
+    width: 3rem;
     height: 3rem;
-    border-radius: 50%;
+    fill: var(--highlight-3)
   }
 
   .site-nav__link {
@@ -43,5 +44,5 @@
   } 
 
   .site-nav__link.is-active {
-  border-bottom-color: var(--highlight-1);
+  border-bottom-color: var(--highlight-3);
 }
