@@ -146,7 +146,7 @@ document.documentElement.parentElement; // null
 
 返回与给定的 CSS 选择器匹配的所有元素。
 
-```html,js
+```html
 <ul>
   <li>a</li>
   <li>b</li>
