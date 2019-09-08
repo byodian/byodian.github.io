@@ -18,6 +18,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
@@ -32,6 +38,12 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
@@ -74,12 +86,6 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - { label: "Myslug", name: "mySlug", widget: "string" }
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        allow_add: false
-        default: ["news"]
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Cover Image", name: "image", widget: "image", required: false, tagname: '' }
       - { label: "Description", name: "description", widget: "string" }
