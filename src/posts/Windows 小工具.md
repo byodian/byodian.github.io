@@ -1,5 +1,5 @@
 ---
-title: 推荐 3 个 Windows 小工具
+title: Windows 小工具
 mySlug: windows smart tools
 date: 2018-10-02 21:01:53
 description: >
