@@ -1,8 +1,10 @@
 ---
 title: jQuery 基础知识
 mySlug: jQuery basics
-date: 2018-11-14T23:59:50 
-description: >
+tags:
+  - JavaScript
+date: 2018-11-14T23:59:50.000Z
+description: |
   jQuery 基础知识总结
 ---
 
