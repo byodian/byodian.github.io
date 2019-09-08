@@ -107,10 +107,9 @@ collections:
             fields: 
               - { label: "Study URL", name: "url", widget: "string" }
               - { label: "Study name", name: "text", widget: "string" }
-
       - label: "Site Settings"
         name: "settings"
-        file: "src/_data/settings.json"
+        file: "src/_data/setting.json"
         fields:
           - {label: "SiteName", name: "title", widget: "string"}
           - {label: "PersonalInfo", name: "personalInfo", widget: "string"}
