@@ -13,6 +13,12 @@
   } 
 
   &__link {
+
+    &:link,
+    &:visited {
+      color: var(--highlight-2);
+    }
+
     &:hover {
       text-decoration: underline;
     }
