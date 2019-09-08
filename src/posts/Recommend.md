@@ -1,7 +1,9 @@
 ---
 layout: post
+mySlug: recommend
 title: Recommend
 description: 推荐
+eleventyExcludeFromCollections: true
 ---
 
 I didn’t know my birthday was coming until all the banks sent me text messages at the beginning of this month. I didn’t plan to celebrate my birthday, just like in the past two years.

@@ -55,7 +55,7 @@ body {
 
   & > h4 { font-size: 1.4rem; }
 
-  & > p, ul, ol { margin-bottom: 3rem; }
+  & > p, ul, ol { margin-bottom: 1.5rem; }
 
   & > ul, ol {
 
@@ -81,7 +81,7 @@ body {
   }
 
   & > ol {
-    list-style-type: circle;
+    list-style-type: decimal;
   }
 
   a {
@@ -99,6 +99,7 @@ body {
   img, object, video, audio  {
     max-width: 100%;
     height: auto;
+    margin-bottom: 1.5rem;
   }
 
 }

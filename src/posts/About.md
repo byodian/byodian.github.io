@@ -1,7 +1,9 @@
 ---
 title: About me
+mySlug: about
 date: 2019-09-06T11:06:02.946Z
 layout: post
+eleventyExcludeFromCollections: true
 ---
 
 
