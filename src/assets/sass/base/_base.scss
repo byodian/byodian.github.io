@@ -6,6 +6,10 @@
 
   html { 
     font-size: 62.5%; // Default 1rem = 10px 
+
+    @include respond(big-desktop) { // > 1800px
+      font-size: 75%; // 1rem =12px
+    }
   }
   
 

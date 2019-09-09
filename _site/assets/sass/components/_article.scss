@@ -1,15 +1,25 @@
 .article {
   font-size: 1.6rem;
 
+ 
+
   &:not(:last-of-type) {
     margin-bottom: var(--gutter-bigger);
+
+    @media only screen and (max-width: 37.5em) { // 600px
+      margin-bottom: 6rem;
+    }
   }
 
   &__heading {
     margin-bottom: var(--gutter-small);
     font-size: 2.2rem;
     font-weight: var(--font-weight-bold);
-    line-height: .785;
+    line-height: .785;  
+
+    @media only screen and (max-width: 37.5em) { // 600px
+      font-size: 1.8rem;
+    }
   } 
 
   &__link {
@@ -29,8 +39,12 @@
   }
 
   &__overview {
-    font-size: 1.8rem;
-    font-weight: var(--font-weight-lighter);
+    font-size: 1.6rem;
+    font-weight: var(--font-weight-normal);
+    @media only screen and (max-width: 37.5em) { // 600px
+      font-size: 1.5rem;
+    }
   }
+
 }
 

@@ -1,0 +1,9 @@
+// 分类页面 - 主要内容
+
+.categories {
+  flex: 0 0 70%;
+
+  @media only screen and (max-width: 48em) { // 760px
+    flex: 0 0 100%;
+  }
+}

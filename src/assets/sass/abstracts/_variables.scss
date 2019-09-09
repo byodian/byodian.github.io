@@ -41,3 +41,10 @@
 
   --shadow-outline: 0 0 1px var(--black-light);
 }
+
+// Sass Variable - Media breakpoints
+
+$bp-largest: 112.5em;    // 1800px = 16*112.5
+$bp-large: 75em;        // 1200px = 16*75
+$bp-medium: 56.25em;    // 900px = 16*56.25
+$bp-small: 31.25em;     // 500px = 16*31.25

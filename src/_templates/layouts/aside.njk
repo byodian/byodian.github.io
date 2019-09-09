@@ -1,0 +1,31 @@
+<aside class="sidebar">
+  <section class="tags">
+    <h3 class="heading-tertiary heading-tertiary--aside">标签</h3>
+    <ul class="tags__items">
+      {% for tag in collections.tagList %}
+        <li class="tags__item">
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a class="tags__link" href="{{ tagUrl }}">{{ tag }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="sidebar__about">
+    <h3 class="heading-tertiary heading-tertiary--aside">About</h3>
+    <div class="sidebar__about-info">
+      <figure class="sidebar__photo-box">
+        <img class="sidebar__photo" src="{{ setting.avatar }}" alt="avatar photo">
+      </figure>
+      <p class="sidebar__para">{{ setting.personalInfo }}</p>
+    </div>
+  </section>
+  <figure class="social-icons sidebar__social">
+    {% for icon in setting.socials %}
+      <a class="social-link" href="{{ icon.url}}">
+        <svg class="social-icon">
+          <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
+        </svg>
+      </a>
+    {% endfor %}
+  </figure>
+</aside>

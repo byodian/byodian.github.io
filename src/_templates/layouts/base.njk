@@ -18,6 +18,10 @@
               <use xlink:href="{{ setting.logo }}"></use>
             </svg>
           </a>
+            <input type="checkbox" id="btn-menu" class="btn-menu">
+            <label for="btn-menu" class="btn-label">
+              <span class="btn-span"></span>
+            </label>
           <div class="site-nav__items">
             <a href="/" class="site-nav__link">Home</a>
             <a href="/projects/" class="site-nav__link">Projects</a>
@@ -32,7 +36,6 @@
         {% block pageHeader %}
           <section class="page-heading">
             <h1 class="heading-primary">{{ title }}</h1>
-            <p class="heading__info">{{ description }}</p>
           </section>
         {% endblock pageHeader %}
         {% block content %}
@@ -44,7 +47,8 @@
       {% block pageFooter %}
         <footer class="footer">
           <p>&copy; byodian | build with
-            <a class="stress" href="https://www.11ty.io/">11ty</a> and 
+            <a class="stress" href="https://www.11ty.io/">11ty</a>
+            and
             <a class="stress" href="https://www.netlify.com/">Netlify</a>.
           </p>
         </footer>

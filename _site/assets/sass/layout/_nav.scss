@@ -1,6 +1,6 @@
 .nav {
   font-size: 1.8rem;
-  margin: 1.5rem 0;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -8,17 +8,26 @@
   display: flex;
   align-items: center;
   border-bottom: var(--line-lighter);
+
+  @media only screen and (max-width: 56.25em) {
+    flex-direction: column;
+    position: relative;
+  }
 }
 
   .site-nav__brand {
     margin-right: auto;
+
+    @media only screen and (max-width: 56.25em) {
+      padding-bottom: 1rem;
+    }
   }
 
   .site-nav__logo {
     display: block; // 去除行内元素垂直布局的间隙
     width: 3rem;
     height: 3rem;
-    fill: var(--highlight-3)
+    fill: var(--highlight-3);
   }
 
   .site-nav__link {
@@ -34,6 +43,17 @@
 
       &:not(:last-child) {
         margin-right: 2rem;
+
+        @media only screen and (max-width: 56.25em) {
+          margin-right: 0;
+        }
+      }
+
+      @media only screen and (max-width: 56.25em) {
+        padding: 1rem 0;
+        border-bottom: 0;
+        font-size: 1.6rem;
+        display: block;
       }
     }
 
@@ -45,4 +65,13 @@
 
   .site-nav__link.is-active {
   border-bottom-color: var(--highlight-3);
+}
+
+.site-nav__items {
+  transition: all .2s;
+  
+  @media only screen and (max-width: 56.25em) {
+    display: none;
+    width: 0;
+  }
 }

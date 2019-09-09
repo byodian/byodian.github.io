@@ -20,12 +20,13 @@ permalink: /tags/{{ tag }}/
   <section class="page-heading">
     <h1 class="heading-primary">{{ tag }}</h1>
   </section>
-
-  <section class="articles">
-    {% set postslist = collections[tag] %}
-    {% include "layouts/postslist.njk" %}
+  <section class="bookmarks">
+    <section class="categories">
+      {% set postslist = collections[tag] %}
+      {% include "layouts/postslist.njk" %}
+    </section>
+    {% include 'layouts/aside.njk' %}
   </section>
-
 {% endblock articlesPage %}
 
 {% block pageFooter %}{% endblock pageFooter %}
