@@ -1,18 +1,18 @@
 {% extends "layouts/base.njk" %}
-
 {% block pageHeader%}{% endblock pageHeader%}
-
 {% block content %}
-<div class="post">
-  <div class="post-article">
-    <section class="post__info">
-      <h1 class="post__title">{{ title }}</h1>
-      <time class="post__date" datetime="{{ date | dateISO }}">{{ date | dateReadable }}</time>
-    </section>
-
-    {{ content | safe}}
-
+  <div class="post">
+    <div class="post-article">
+      <section class="post__info">
+        <h1 class="post__title">{{ title }}</h1>
+        <time class="post__date" datetime="{{ date | dateISO }}">{{ date | dateReadable }}</time>
+        {% for tag in tags %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl }}" class="stress stress--tag">{{ tag }}</a>
+        {% endfor %}
+      </section>
+      {{ content | safe}}
+    </div>
   </div>
-</div>
 {% endblock content %}
 {% block pageFooter %}{% endblock pageFooter %}

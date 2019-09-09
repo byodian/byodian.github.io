@@ -1,29 +1,9 @@
 {% extends "layouts/base.njk" %}
-
 {% block pageHeader %}{% endblock pageHeader %}
-
 {% block articlesPage %}
-  {# <section class="articles__content">
-    <section class="section">
-      <h1 class="heading-primary">{{ title }}</h1>
-      <p class="heading__info">{{ description }}</p>
-    </section> #}
-    <section class="articles">
-
-      {% for post in collections.posts %}
-        <article class="article">
-          <h3 class="article__heading">
-            <a class="article__link" href="{{ post.url}}">{{ post.data.title }}</a>
-          </h3>
-          <div class="article__info">
-            <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable}}</time>
-            <a href="#" class="stress article__category">{{ post.data.category }}</a>
-          </div>
-          <p class="article__overview">{{ post.data.description }}</p>
-        </article>
-      {% endfor %}
-    </section>
-  {# </section> #}
-
+  <section class="articles">
+    {% set postslist = collections.posts %}
+    {% include "layouts/postslist.njk" %}
+  </section>
 {% endblock articlesPage %}
 {% block pageFooter %}{% endblock pageFooter %}

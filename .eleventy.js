@@ -49,36 +49,8 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse();
   });
 
-  eleventyConfig.addCollection('tagsList', collection => {
-    return collection.getFilteredByGlob(['./src/posts/*.md', './src/bookmarks/*.md']).reverse()
-  });
-
-  /**
-   * 
-  [
-    { 
-      inputPath: './test1.md',
-      fileSlug: 'test1', // fileSlug was added in 0.5.3
-      outputPath: './_site/test1/index.html',
-      url: '/test1/',
-      date: 2018-01-09T04:10:17.000Z,
-      data: { title: 'Test Title', tags: ['tag1', 'tag2'], date: 'Last Modified' },
-      templateContent: '<h1>This is my title</h1>\n\n<p>This is content…' 
-    },
-      { 
-      inputPath: './test1.md',
-      fileSlug: 'test1', // fileSlug was added in 0.5.3
-      outputPath: './_site/test1/index.html',
-      url: '/test1/',
-      date: 2018-01-09T04:10:17.000Z,
-      data: { title: 'Test Title', tags: ['tag1', 'p>This is content…' tag2'], date: 'Last Modified' },
-      templateContent: '<h1>This is my title</h1>\n\n<
-    }
-  ]
-   */
-
-
-
+  eleventyConfig.addCollection('tagList', require('./src/_templates/getTagList'));
+  
   return {
 
     passthroughFileCopy: true,
@@ -86,7 +58,7 @@ module.exports = function(eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     dir: {
       input: 'src',
-      output: 'dist',
+      output: '_site',
       includes: '_templates'
     }
   }

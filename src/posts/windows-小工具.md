@@ -3,14 +3,14 @@ title: Windows 小工具
 mySlug: windows smart tools
 tags:
   - Tool
-  - windows
+  - Windows
 date: 2018-10-02T21:01:00.000Z
 description: wox 软件快速启动器，Altdrg 软件窗口调整，QuickLook 文件快速预览。
 ---
 
-## [Wox](http://www.wox.one/)
+## Wox
 
-**Wox 是一款开源的快速启动器，支持中文**。用于快速搜索本机安装的程序，文件。也可以通过插件完成搜索网络内容、翻译单词、弹出 U 盘等操作。
+[Wox](http://www.wox.one/) 是一款开源的快速启动器，用于快速搜索本机安装的程序和文件。也可以通过插件完成搜索网络内容、翻译单词、弹出 U 盘等操作。
 
 <img src="https://raw.githubusercontent.com/byodian/logpic/master/Wox1.png"/>
 
@@ -38,11 +38,11 @@ Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用�
 
 <img src="https://raw.githubusercontent.com/byodian/logpic/master/yd1.png">
 
-[关于插件更详细的介绍](http://www.wox.one/plugin)
+插件介绍：<http://www.wox.one/plugin>
 
-## [QuickLook](https://pooi.moe/QuickLook/?utm_source=www.appinn.com)
+## QuickLook
 
-**QuickLook 是一款文件预览工具**，允许在不运行关联程序的情况下，通过敲击空格来快速预览。它支持大部分的文件格式，比如图片、音乐、视频、PDF、PSD 等。
+[QuickLook](https://pooi.moe/QuickLook/?utm_source=www.appinn.com) 是一款文件预览工具，允许在不运行关联程序的情况下，通过敲击空格来快速预览。它支持大部分的文件格式，比如图片、音乐、视频、PDF、PSD 等。
 
 ### 操作
 
@@ -54,13 +54,13 @@ Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用�
 
 ### 安装
 
-选中下载的插件文件，使用空格打开，点击 Install 按钮，重启 QuickLook。[插件下载地址](https://github.com/QL-Win/QuickLook/wiki/Available-Plugins)   
+选中下载的插件文件，使用空格打开，点击 Install 按钮，重启 QuickLook。[下载地址](https://github.com/QL-Win/QuickLook/wiki/Available-Plugins)   
 
 <img src="https://raw.githubusercontent.com/byodian/logpic/master/officepllugin.png"/>
 
-## [AltDrag](https://stefansundin.github.io/altdrag/)
+## AltDrag
 
-**AltDrag 是一款移动和调整软件窗口的工具。**
+[AltDrag](https://stefansundin.github.io/altdrag/) 是一款移动和调整软件窗口的工具。
 
 ### 操作
 

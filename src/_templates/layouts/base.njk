@@ -28,23 +28,19 @@
           </div>
         </div>
       </nav>
-
       <main class="content">
         {% block pageHeader %}
-          <section class="section">
+          <section class="page-heading">
             <h1 class="heading-primary">{{ title }}</h1>
             <p class="heading__info">{{ description }}</p>
           </section>
         {% endblock pageHeader %}
-
         {% block content %}
           {{ content | safe }}
         {% endblock content %}
-
         {% block articlesPage %}{% endblock articlesPage %}
         {% block projectsPage %}{% endblock projectsPage %}
       </main>
-
       {% block pageFooter %}
         <footer class="footer">
           <p>&copy; byodian | build with
@@ -53,7 +49,6 @@
           </p>
         </footer>
       {% endblock pageFooter %}
-
     </div>
     <script src="/assets/js/index.js"></script>
   </body>

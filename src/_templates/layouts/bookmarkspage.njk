@@ -1,55 +1,21 @@
 {% extends "layouts/base.njk" %}
-
 {# {% block pageHeader %}{% endblock pageHeader %} #}
-
 {% block content %}
-
   <section class="bookmarks">
     <section class="categories">
-      {% for bookmark in collections.bookmarks %}
-
-        <article class="article category__item">
-          <div class="category__content">
-            <h3 class="article__heading">
-              <a class="article__link" href="{{ bookmark.url }}">
-                {{ bookmark.data.title }}
-              </a>
-            </h3>
-            <div class="article__info">
-              <time class="article__time" datetimme="{{ bookmarkdate | dateISO}}">{{ bookmark.date | dateReadable }}</time>
-              <a href="#" class="stress article__tag">{{ bookmark.data.category }}</a>
-            </div>
-            <p class="article__overview">{{ bookmark.data.description }}</p>
-
-          </div>
-          <a class="bookmarks__ref" href="{{ bookmark.data.sourceUrl }}">{{ bookmark.data.sourceName }}</a>
-        </article>
-      {% endfor %}
-
-      {# <div class="btn-box">
-        <button class="btn btn-prev">
-          <a href="#">
-            <span>&larr;
-            </span>上一页</a>
-        </button>
-        <button class="btn btn-next">
-          <a href="#">下一页
-            <span>&rarr;</span></a> 
-        </button>
-      </div> #}
-
+      {% set postslist = collections.bookmarks %}
+      {% include "layouts/postslist.njk" %}
     </section>
     <aside class="sidebar">
       <section class="tags">
         <h3 class="heading-tertiary heading-tertiary--aside">标签</h3>
         <ul class="tags__items">
-
-          {% for tag in collections.tagsList %}
+          {% for tag in collections.tagList %}
             <li class="tags__item">
-              <a class="tags__link" href="{{ tag.url }}">{{ tag.data.tags }}</a>
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <a class="tags__link" href="{{ tagUrl }}">{{ tag }}</a>
             </li>
           {% endfor %}
-
         </ul>
       </section>
       <section class="sidebar__about">

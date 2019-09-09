@@ -1,0 +1,31 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - posts
+    - bookmarks
+    - projects
+    - all
+    - tagLists
+  addAllPagesToCollections: true
+permalink: /tags/{{ tag }}/
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block articlesPage %}
+
+  <section class="page-heading">
+    <h1 class="heading-primary">{{ tag }}</h1>
+  </section>
+
+  <section class="articles">
+    {% set postslist = collections[tag] %}
+    {% include "layouts/postslist.njk" %}
+  </section>
+
+{% endblock articlesPage %}
+
+{% block pageFooter %}{% endblock pageFooter %}

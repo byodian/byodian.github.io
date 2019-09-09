@@ -1,0 +1,16 @@
+{% for post in postslist %}
+  <article class="article">
+    <h3 class="article__heading">
+      <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
+    </h3>
+    <div class="article__info">
+      <time class="article__time" datetime="{{ post.date | dateISO }}">{{ post.date | dateReadable}}</time>
+      {% for tag in post.data.tags %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl }}" class="stress stress--tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    <p class="article__overview">{{ post.data.description }}</p>
+    <a class="bookmarks__ref" href="{{ post.data.sourceUrl }}">{{ post.data.sourceName }}</a>
+  </article>
+{% endfor %}

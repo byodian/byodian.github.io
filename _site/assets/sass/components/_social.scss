@@ -1,0 +1,38 @@
+// social icon 组件
+.social-icons {
+  display: flex;
+
+  a {
+    &:link,
+    &:visited {
+      display: flex;  // 子元素垂直水平对齐容器
+      border-radius: 50%;
+      transition: all .2s;
+
+      &:not(:last-child) {
+        margin-right: var(--gutter-middle);
+      }
+    }
+
+    &:hover {
+      background-color: var(--black-deep);
+  
+      svg {
+        fill: var(--highlight-1);
+      }
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
+  svg {
+    margin: auto; // flex item 居中对齐
+    fill: var(--black-deep);
+    transition: all .2s;
+  }
+}
+
+
+

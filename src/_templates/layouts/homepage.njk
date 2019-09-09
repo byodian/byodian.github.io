@@ -1,9 +1,6 @@
 {% extends "layouts/base.njk" %}
-
 {% block pageHeader %}{% endblock pageHeader %}
-
 {% block content %}
-
   <section class="info">
     <div class="site-info">
       <img src="{{ setting.avatar }}" alt="info photo" class="site-info__photo">
@@ -14,7 +11,6 @@
           <a class="stress" href="{{ study.url }}">{{ study.text }}</a>
         {% endfor %}
       </p>
-
       <figure class="social-icons homepage-icons">
         {% for icon in setting.socials %}
           <a class="social-link" href="{{ icon.url}}">
@@ -24,58 +20,29 @@
           </a>
         {% endfor %}
       </figure>
-
     </div>
   </section>
-
   <section class="homepage-articles">
-
     <section class="section-info">
-      <h2 class="heading-secondary ">最近文章</h2>   
+      <h2 class="heading-secondary ">最近文章</h2>
       <button class="btn btn-read">
         <a href="/posts">查看更多</a>
       </button>
     </section>
-
-    {% for post in collections.posts %}
-      <article class="article">
-        <h3 class="article__heading">
-          <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
-        </h3>
-        <div class="article__info">
-          <time class="article__time" datetime="{{ post.data.date | dateISO }}">{{ post.data.date | dateReadable}}</time>
-          <a href="#" class="stress article__category">{{ post.data.category }}</a>
-        </div>
-        <p class="article__overview">{{ post.data.description }}</p>
-      </article>
-    {% endfor %}
-
+    <section class="articles">
+      {% set postslist = collections.posts %}
+      {% include "layouts/postslist.njk" %}
+    </section>
   </section>
   <section class="homepage-projects">
-
     <section class="section-info">
       <h2 class="heading-secondary">最近项目</h2>
       <button class="btn btn-read">
         <a href="/projects">查看更多</span></a>
-      </button>
-    </section>
-
-    <div class="columns">
-      {% for project in collections.projects %}
-        <div class="column">
-          <a href="{{ project.url }}">
-            <div class="box">
-              <figure class="column__photo-box">
-                <img class="column__photo" src="{{ project.data.imageUrl }}" alt="{{ project.data.title }}">
-              </figure>
-              <div class="column__info">
-                <h3 class="column__heading">{{ project.data.title }}</h3>
-                <p class="column__description">{{ project.data.description }}</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      {% endfor %}
-
-    </section>
-  {% endblock content %}
+    </button>
+  </section>
+  <div class="columns">
+    {% set columns = collections.projects %}
+    {% include 'layouts/column.njk' %}
+  </section>
+{% endblock content %}

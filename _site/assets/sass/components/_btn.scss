@@ -1,0 +1,43 @@
+.btn {
+  border: 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  
+  &:hover {
+    color: var(--highlight-1);
+  }
+}
+
+// Read More Button - home page
+
+.btn-read {
+  position: absolute;
+  top: 1em;
+  right: 0;
+
+  font-size: 1.4rem;
+
+  &:hover span {
+      margin-left: 10px;
+    }
+
+  span {
+    margin-left: 3px;
+    transition: margin-left .2s;
+  }
+}
+
+// articels page
+.btn-box {
+  display: flex;
+  justify-content: space-between; 
+
+  margin: 8rem 0;
+}
+
+.btn-prev,
+.btn-next {
+  &:hover {
+    border-bottom-color: rgba(255,255,255, .7);
+  }
+}

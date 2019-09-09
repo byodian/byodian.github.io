@@ -1,0 +1,48 @@
+.nav {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--line-lighter);
+}
+
+  .site-nav__brand {
+    margin-right: auto;
+  }
+
+  .site-nav__logo {
+    display: block; // 去除行内元素垂直布局的间隙
+    width: 3rem;
+    height: 3rem;
+    fill: var(--highlight-3)
+  }
+
+  .site-nav__link {
+    
+    &:link,
+    &:visited {
+      display: inline-block;
+      text-decoration: none;
+      padding: 1.5rem 1rem;
+      border-bottom: var(--line-transparent);
+      font-weight: var(--font-weight-lighter);
+      color: var(--black-deep);
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+
+    &:hover:not(.is-active),
+    &:active:not(.is-active) {
+      color: var(--highlight-1);
+    }
+  } 
+
+  .site-nav__link.is-active {
+  border-bottom-color: var(--highlight-3);
+}
