@@ -1,9 +1,8 @@
 // projects
 
 .columns {
-  display: flex;
+  @extend %flex-wrap;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .column {
@@ -35,8 +34,7 @@
   &__heading {
     margin-bottom: .5rem;
 
-    font-size: 1.6rem;
-    font-weight: var(--font-weight-bold);
+    @include font(1.6rem, var(--font-weight-bold), inherit);
   }
 
   &__description {

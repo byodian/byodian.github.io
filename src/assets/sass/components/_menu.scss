@@ -16,9 +16,9 @@
 .btn-span,
 .btn-span::before,
 .btn-span::after {
+  display: inline-block;
   width: 2.5rem;
   height: 2px;
-  display: inline-block;
   background-color: #c3c3c3;
 }
 

@@ -1,10 +1,8 @@
-// Color
+
 :root {
-  --black-lighter : rgba(10, 10, 10, .05);
+  // Color
   --black-light   : #555;
   --black-deep    : rgba(10, 10, 10, .8);
-  --white         : #fff;
-  --grey-lighter  : #f9f9f9;
   --grey-light    : #F0F0F0;
   --grey          :  #999;
 
@@ -13,19 +11,13 @@
   --highlight-3         : #f9994b;
 
   --color-text-default  : var(--black-deep);
-
   --color-code: rgba(255,229,100,.2);
 
-  --line                : 2px solid var(--black-deep);
-  --line-lighter        : 1px solid var(--grey-light);
-  --line-transparent    : 2px solid transparent;
+  // border
+  --line       : 1px solid var(--grey-light);
 
-
-  // Font Weight
-  --font-weight-lighter : 300;
-  --font-weight-normal  : 400;
-  --font-weight-bold    : 500;
-  --font-weight-bolder  : 700;
+  // box-shadow
+  --shadow-outline: 0 0 1px var(--black-light);
 
   // gap
   --gutter-bigger       : 4rem;
@@ -37,13 +29,13 @@
   --margin-top          : 6rem;
   --margin-bottom       : 4rem;
 
-  // box-shadow
-
-  --shadow-outline: 0 0 1px var(--black-light);
+  --font-weight-lighter : 300;
+  --font-weight-normal  : 400;
+  --font-weight-bold    : 500;
+  --font-weight-bolder  : 700;
 }
 
 // Sass Variable - Media breakpoints
-
 $bp-largest: 112.5em;    // 1800px = 16*112.5
 $bp-large: 75em;        // 1200px = 16*75
 $bp-medium: 56.25em;    // 900px = 16*56.25

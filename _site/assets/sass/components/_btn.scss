@@ -1,7 +1,6 @@
 .btn {
   border: 0;
-  font-size: 1.6rem;
-  font-weight: 300;
+  @include font(1.6rem, var(--font-weight-normal), inherit);
   
   &:hover {
     color: var(--highlight-1);

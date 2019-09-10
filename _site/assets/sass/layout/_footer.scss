@@ -3,6 +3,5 @@
   align-items: center;
   justify-content: center;
   padding: 2rem 0;
-  font-size: 1.4rem;
-  font-weight: var(--font-weight-lighter);
+  @include font(1.6rem, var(--font-weight-normal), inherit);
 }

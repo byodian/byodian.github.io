@@ -1,11 +1,8 @@
 // 分类页面 - 侧边栏标签云
 .tags {
   &__items {
-    display: flex;
-
-    flex-wrap: wrap;
+    @extend %flex-wrap;
     font-size: 1.2rem;
- 
   }
 
   &__item {
@@ -21,7 +18,7 @@
     display: inline-block;
     padding: .5rem 1rem;
     border-radius: 10px;
-    background-color: var(--grey-lighter);
+    border: var(--line-lighter);
     box-shadow: var(--shadow-outline);
   }
 }

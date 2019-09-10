@@ -3,27 +3,37 @@
 .info {
   margin: 7.5rem 0;
   font-size: 1.6rem;
-  
+
+  @media only screen and (max-width: 37.5em) {
+    margin: 4.5rem 0;
+  }
 }
 
 .site-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__photo {
-    height: 30rem;
-    width: 30rem;
+    @include size(30rem, 30rem);
     border-radius: 50%;
+
+    @media only screen and (max-width: 37.5em) {
+      @include size(20rem, 20rem);
+    }
   }
 
   &__job {
     font-weight: var(--font-weight-bold);
     margin-bottom: var(--gutter-bigger);
+    
+    @media only screen and (max-width: 37.5em) {
+      margin-bottom: 2.8rem;
+    }
   }
 
   &__study {
-    word-spacing: .2rem;
+    word-spacing: 0.2rem;
     margin-bottom: var(--gutter-middle);
   }
 }
@@ -31,7 +41,6 @@
 // Homepage Content
 .homepage-articles,
 .homepage-projects {
-  
   margin-bottom: var(--gutter-bigger);
 }
 
@@ -46,18 +55,27 @@
 
 .homepage-icons {
   align-items: center;
-  height: 10rem; 
+  height: 10rem;
+
+  @media only screen and (max-width: 37.5em) {
+    height: 6rem;
+  }
 
   a {
     &:link,
     &:visited {
-      width: 5rem;
-      height: 5rem;
+      @include size(5rem, 5rem);
+      @media only screen and (max-width: 37.5em) {
+        @include size(4rem, 4rem);
+      }
     }
   }
 
   svg {
-    width: 3rem;
-    height: 3rem;
+    @include size(3rem, 3rem);
+
+    @media only screen and (max-width: 37.5em) {
+      @include size(2.5rem, 2.5rem);
+    }
   }
 }

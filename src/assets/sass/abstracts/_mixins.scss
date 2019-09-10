@@ -31,3 +31,14 @@
     @media only screen and (min-width: $bp-largest) { @content; } // 1800px
   }
 }
+
+@mixin font($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+ 
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
