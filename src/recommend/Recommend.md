@@ -1,6 +1,9 @@
 ---
 title: Recommend
+mySlug: recommend
 date: 2019-09-11T12:34:56.254Z
+layout: post
+eleventyExcludeFromCollections: true
 ---
 效率工具推荐
 - [Windows](#windows)
