@@ -36,6 +36,14 @@ module.exports = function(eleventyConfig) {
     return moment(date).format('LL');
   });
 
+  // filter array
+  eleventyConfig.addFilter('arrFilter', arr => {
+
+    const selectedArr = arr.slice(0, 3);
+    return selectedArr;
+  });
+
+
   /**
    * Collections
    */

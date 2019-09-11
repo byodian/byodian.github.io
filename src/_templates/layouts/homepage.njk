@@ -33,7 +33,7 @@
       </button>
     </section>
     <section class="articles">
-      {% set postslist = collections.posts %}
+      {% set postslist = collections.posts | arrFilter %}
       {% include "layouts/postslist.njk" %}
     </section>
   </section>
@@ -45,7 +45,7 @@
     </button>
   </section>
   <div class="columns">
-    {% set columns = collections.projects %}
+    {% set columns = collections.projects | arrFilter %}
     {% include 'layouts/column.njk' %}
   </section>
 {% endblock content %}
