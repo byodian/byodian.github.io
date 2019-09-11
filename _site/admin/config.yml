@@ -58,6 +58,7 @@ collections:
     create: false
     folder: "src/recommend"
     fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Myslug", name: "mySlug", widget: "string"}
       - { label: "Description", name: "description", widget: "string" }
@@ -72,6 +73,7 @@ collections:
     create: false
     folder: "src/about"
     fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Myslug", name: "mySlug", widget: "string"}
       - { label: "Description", name: "description", widget: "string" }
