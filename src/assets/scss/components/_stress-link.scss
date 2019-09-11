@@ -1,0 +1,31 @@
+.stress {
+  &:link,
+  &:visited {
+    color: var(--highlight-2);
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.stress.stress--tag {
+  font-size: 1.4rem;
+
+  &:link,
+  &:visited {
+    color: var(--highlight-1);
+    text-decoration: none;
+
+    &:not(:last-of-type) {
+      margin-right: .5rem;
+    }
+  }
+
+  &:hover,
+  &:active {
+    color: var(--highlight-2)
+  }
+
+}

@@ -5,7 +5,9 @@ moment.locale('en');
 module.exports = function(eleventyConfig) {
 
   // pathCopy
-  eleventyConfig.addPassthroughCopy('src/assets');
+  eleventyConfig.addPassthroughCopy('src/assets/img');
+  eleventyConfig.addPassthroughCopy('src/assets/uploads');
+
   eleventyConfig.addPassthroughCopy('src/admin');
 
   // Layout Alliases 

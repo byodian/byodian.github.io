@@ -1,0 +1,60 @@
+// projects
+
+.columns {
+  @extend %flex-wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 0 0 32%;
+
+  margin-bottom: calc((100% - 32% *3) / 2);
+  border-radius: 2px;
+
+  @media only screen and (max-width: 56.25em) {
+    flex: 0 0 48%;
+    margin-bottom: calc(100% - 48% * 2);
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    flex: 0 0 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  &__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__info {
+    margin-top: 1rem;
+  }
+
+  &__heading {
+    margin-bottom: .5rem;
+
+    @include font(1.6rem, var(--font-weight-bold), inherit);
+  }
+
+  &__description {
+    font-size: 1.4rem;
+  }
+}
+
+.box {
+  height: 100%;
+  padding: 1.4rem;
+  box-shadow: 0 .2rem .5rem rgba(0,0,0,.09),
+              var(--shadow-outline);
+  border-radius: 8px;
+  transition: all .2s;
+
+  &:hover {
+    box-shadow: 0 .5rem 2.5rem rgba(0,0,0,.1),
+                var(--shadow-outline);  
+    h3 {
+      text-decoration: underline var(--highlight-1) solid;
+    }
+  }
+}

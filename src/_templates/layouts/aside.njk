@@ -14,7 +14,10 @@
     <h3 class="heading-tertiary heading-tertiary--aside">About</h3>
     <div class="sidebar__about-info">
       <figure class="sidebar__photo-box">
-        <img class="sidebar__photo" src="{{ setting.avatar }}" alt="avatar photo">
+        <img srcset="/assets/img/avatar-1x.png,
+                     /assets/img/avatar-2x.png 2x,
+                     /assets/img/avatar-3x.png 3x"  
+              src="/assets/img/avatar-3x.png" class="sidebar__photo" alt="avatar photo">
       </figure>
       <p class="sidebar__para">{{ setting.personalInfo }}</p>
     </div>

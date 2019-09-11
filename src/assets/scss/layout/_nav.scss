@@ -1,0 +1,73 @@
+.nav {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--line);
+
+  @media only screen and (max-width: 56.25em) {
+    position: relative;
+    flex-direction: column;
+  }
+}
+
+.site-nav__brand {
+  margin-right: auto;
+
+  @media only screen and (max-width: 56.25em) {
+    padding-bottom: 1rem;
+  }
+}
+
+.site-nav__logo {
+  display: block; // 去除行内元素垂直布局的间隙
+  @include size(3rem, 3rem);
+  fill: var(--highlight-3);
+}
+
+.site-nav__link {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    border-bottom: var(--line-transparent);
+    font-weight: var(--font-weight-lighter);
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+
+      @media only screen and (max-width: 56.25em) {
+        margin-right: 0;
+      }
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      display: block;
+      padding: 1rem 0;
+      border-bottom: 0;
+      font-size: 1.6rem;
+    }
+  }
+
+  &:hover:not(.is-active),
+  &:active:not(.is-active) {
+    color: var(--highlight-1);
+  }
+}
+
+.site-nav__link.is-active {
+  border-bottom-color: var(--highlight-3);
+}
+
+.site-nav__items {
+  transition: all 0.2s;
+
+  @media only screen and (max-width: 56.25em) {
+    display: none;
+    width: 0;
+  }
+}
