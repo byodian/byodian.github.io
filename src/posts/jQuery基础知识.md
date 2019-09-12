@@ -1,11 +1,10 @@
 ---
-title: jQuery 基础知识
+title: jQuery 基础
 mySlug: jQuery basics
 tags:
   - JavaScript
 date: 2018-11-14T23:59:50.000Z
-description: |
-  jQuery 基础知识总结
+description: 这篇文章总结常用的 jQuery API 方法，但现在原生的 DOM API 越来越强大，已经可以取代 jQuery。
 ---
 
 
