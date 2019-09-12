@@ -3,16 +3,16 @@ title: 静态博客项目
 mySlug: static blog
 date: 2019-09-12T11:18:59.589Z
 description: 静态博客项目
-image: /assets/uploads/static-blog.png
+image: /assets/uploads/blog.png
 imageAlt: static blog
-imageUrl: /assets/uploads/static-blog.png
+imageUrl: /assets/uploads/blog.png
 ---
 
 使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立静态博客。
 
 [View Online](https://byodiandev.com) | [Source Code](https://github.com/byodian/byodian-site)
 
-![blog](/assets/uploads/static-blog.png)
+![blog](/assets/uploads/blog.png)
 
 ### 特点
 - [11ty][11ty] 静态文件生成器
