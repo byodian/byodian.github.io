@@ -10,7 +10,7 @@ CSS flexbox 布局
 
 [View Online](https://flexcss.netlify.com/) | [Source Code](https://github.com/byodian/trillo/)
 
-![trillo](https://raw.githubusercontent.com/byodian/logpic/master/trillo3.png)
+![](https://raw.githubusercontent.com/byodian/logpic/master/forkify3.png)
 
 ### 特点
 - HTML
