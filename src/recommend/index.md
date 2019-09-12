@@ -94,6 +94,9 @@ date: 2019-09-11T12:34:56.254Z
 - [TemMail][TemMail]- 虚拟邮箱
 - [SMSReceiveFree][SMSReceiveFree]临时电话号码，免费接受短信验证码
 
+### 在线应用
+- [IloveIMG][iloveimg] - 裁剪图片
+
 [listary]: https://www.listary.com/
 [wox]: http://www.wox.one/
 [WGestures]:http://www.yingdev.com/projects/wgestures
@@ -157,3 +160,4 @@ date: 2019-09-11T12:34:56.254Z
 [蚂蚁搬书]:http://book.mybanshu.win/
 [coverr]: https://coverr.co/
 [awesome]: https://github.com/sindresorhus/awesome
+[iloveimg]: https://www.iloveimg.com/zh-cn
