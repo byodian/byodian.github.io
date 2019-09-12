@@ -1,10 +1,10 @@
 ---
-title: 'DOM 树和遍历 DOM '
-mySlug: DOM tree and searching
+title: '遍历 DOM '
+mySlug: DOM searching
 tags:
   - DOM
 date: 2019-09-08T05:43:30.625Z
-description: DOM 系列篇
+description: 我们在使用 DOM 操作文档元素之前，需要先获取对应的 DOM 对象，把这个对象赋予一个变量，方便后续操作，这篇文章总结了一些获取文档元素节点的方法。
 ---
 ## 什么是 DOM API
 
@@ -14,7 +14,7 @@ description: DOM 系列篇
 
 ![JavaScript 在 web 浏览器运行的鸟瞰图](https://raw.githubusercontent.com/byodian/logpic/master/javascript%E5%9C%A8web%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9A%84%E9%B8%9F%E7%9E%B0%E5%9B%BE.png)
 
-文档对象模型由浏览器 API 提供是用来描述 HTML 和 XML 文档的一个程序接口，同时**使用对象和节点描述文档**，可以用来改变文档的结构、样式和内容。
+文档对象模型 (Document Object Model) 由浏览器 API 提供是用来描述 HTML 和 XML 文档的一个程序接口，同时**使用对象和节点描述文档**，可以用来改变文档的结构、样式和内容。
 
 ## DOM 和 JavaScript 语言的关系
 
@@ -33,7 +33,7 @@ HTML 文档是由标签嵌套而成的树形结构，因此 DOM 可以将任何 
 
 ## 遍历 DOM
 
-我们在使用 DOM 操作文档元素之前，需要先获取对应的 DOM 对象，把这个对象赋予一个变量，从而方便后续操作。
+我们在使用 DOM 操作文档元素之前，需要先获取对应的 DOM 对象，把这个对象赋予一个变量，方便后续操作。
 
 所有的 DOM 操作都是从 `document` 对象开始，这是 DOM 的主要入口，利用它可以进入任何节点。
 
