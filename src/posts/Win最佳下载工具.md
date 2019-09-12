@@ -8,19 +8,7 @@ description: |
   高速下载工具，网盘资源下载利器
 ---
 
-Internet Download Manager（IDM） 一款极速下载工具。[网盘和电子书资源搜索引擎](http://mp.weixin.qq.com/s?__biz=MzIzNTczNjc5MA==&mid=2247483767&idx=1&sn=26e4970f82d56266eedbcd0171d265eb&chksm=e8e3dacedf9453d8250e259e8ff5ae0c09e43b42893b0c5a2d81cd257da353d9a1da97c4b0bc&scene=21#wechat_redirect)，网盘和电子书的资源。
-
-## 安装
-
-[IDM 官网](https://www.internetdownloadmanager.com/download.html)
-
-![软件界面](https://raw.githubusercontent.com/byodian/logpic/master/界面.png)
-
-IDM 安装很简单。但是安装完成后，IDM 会检测电脑上的浏览器，自动为其安装 IDM 扩展程序，从而接管浏览器去执行下载任务。
-
-以 Chrome 为例，它会提示你 IDM 扩展成功安装，你必须在浏览器中启用。
-
-![自动添加浏览器功能](https://raw.githubusercontent.com/byodian/logpic/master/IDM自动添加.png)
+Internet Download Manager（IDM）windows 系统下极速下载工具。
 
 ## 特点
  
@@ -53,6 +41,18 @@ IDM 可以自动抓取网站多媒体文件，例如来自网站的所有图片�
 IDM 支持 HTTP、FTP、HTTPS 和 MMS 协议，不支持 P2P 协议，因此 IDM 不能下载 BT 和 磁力链接。
 
 但是凭借独特的下载方式，IDM 能够使得下载 HTTP/HTTPS 链接十分快，而且很稳定。
+
+## 安装
+
+[IDM 官网](https://www.internetdownloadmanager.com/download.html)
+
+![软件界面](https://raw.githubusercontent.com/byodian/logpic/master/界面.png)
+
+IDM 安装很简单。但是安装完成后，IDM 会检测电脑上的浏览器，自动为其安装 IDM 扩展程序，从而接管浏览器去执行下载任务。
+
+以 Chrome 为例，它会提示你 IDM 扩展成功安装，你必须在浏览器中启用。
+
+![自动添加浏览器功能](https://raw.githubusercontent.com/byodian/logpic/master/IDM自动添加.png)
 
 ## 应用场景
 
@@ -120,51 +120,15 @@ Tampermonkey 支持大多数主流的浏览器，像 Chrome、Mircosoft Edge、�
 
 ## 正版团购活动
 
-本次团购活动由[胡萝卜周](http://www.carrotchou.blog/)联合[艾维商城](https://www.aiviy.com)共同发起，让网友享受最优价格购买该软件。
+团购活动由[胡萝卜周](http://www.carrotchou.blog/)联合[艾维商城](https://www.aiviy.com)共同发起，让网友享受最优价格购买该软件。
+
 
 IDM 提供 30 天免费试用，终身授权版官网售价 170 元，[艾维商城](https://www.aiviy.com/)提供 129 元的优惠价。
+[试用版下载](http://internetdownloadmanager.com/download.html)
 
-### 通过胡萝卜周提供的 30 元专属优惠券，即可享受 99元/终身版。
 
-试用版下载：[http://internetdownloadmanager.com/download.html](http://internetdownloadmanager.com/download.html)
-
-艾维商城购买：[https://www.aiviy.com/item/internet-download-manager/?pid=3&campaign=IDM](https://www.aiviy.com/item/internet-download-manager/?pid=3&campaign=IDM)
+**通过胡萝卜周提供的 30 元专属优惠券，即可享受 99元/终身版。**
 
 ### 优惠券：CARROTCHOUIDM
 
 参考链接：[http://www.carrotchou.blog/13075.html](http://www.carrotchou.blog/13075.html)
-
-## IDM v6.32 Build 5 中文破解版
-
-### 工具
-
-1. 主程序 [http://mirror2.internetdownloadmanager.com/idman632build5.exe](http://mirror2.internetdownloadmanager.com/idman632build5.exe)
-
-2. 破解补丁 [https://pan.baidu.com/s/1tsD5raaOZO4H0-bGLoALBA](https://pan.baidu.com/s/1tsD5raaOZO4H0-bGLoALBA)
-
-### 破解方法
-
-1. 安装主程序，安装完成后关闭软件。
-
-2. 将破解补丁包拷贝到 IDM 安装目录下
-
-3. 打开破解补丁，点击 ”破解IDM“ 按钮进行破解。
-
-参考链接：[http://www.carrotchou.blog/59.html](http://www.carrotchou.blog/59.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
