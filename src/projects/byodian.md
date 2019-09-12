@@ -8,9 +8,7 @@ imageAlt: static blog
 imageUrl: /assets/uploads/static-blog.png
 ---
 
-### 静态博客
-
-静态博客使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立。
+使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立静态博客。
 
 ![blog](https://raw.githubusercontent.com/byodian/logpic/master/static-blog.png)
 
