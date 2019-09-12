@@ -2,24 +2,9 @@
 title: Recommend
 date: 2019-09-11T12:34:56.254Z
 ---
-效率工具推荐
-
-### 效率工具
-- [Listary][listary] 文件搜索和软件启动工具 
-- [Wox][wox] 软件快速启动 
-- [AutoHotkey][AutoHotkey] 重新映射键盘按键
-
-### Youtube 第三方客户端
- - [NewPipe][newpipe] 轻量级 Youtube 客户端，支持后台视频播放
- - [YMusic][ymusic] Youtube 音乐播放器，支持后台播放
-
-### chrome 扩展
-- [Video Speed Controller][Video Speed] 网页视频播放加速器
-- [Octotree][Octotree] github 项目目录
-- [GitHub Repository Size][gitsize] 显示 github 仓库大小
+常用工具
 
 ### GitHub 相关
-
 - [GitHub Topic][GitHub Topic] github 中优秀的项目
 - [GitHub Trend][GitHub Trend] github 每天受欢迎的项目排行
 - [awesome][awesome] Awesome lists about all kinds of interesting topics
