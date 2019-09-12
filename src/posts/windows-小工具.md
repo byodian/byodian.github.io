@@ -1,11 +1,11 @@
 ---
-title: Windows 小工具
-mySlug: windows smart tools
+title: 3 个 Windows 小工具
+mySlug: windows tools
 tags:
   - Tool
   - Windows
 date: 2018-10-02T21:01:00.000Z
-description: wox 软件快速启动器，Altdrg 软件窗口调整，QuickLook 文件快速预览。
+description: wox 软件快速启动器，Altdrag 软件窗口移动缩放调整，QuickLook 文件快速预览。
 ---
 
 ## Wox
