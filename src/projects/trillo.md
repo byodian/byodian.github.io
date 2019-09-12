@@ -4,7 +4,7 @@ mySlug: css flexbox layout
 date: 2019-09-12T09:11:25.677Z
 description: CSS Flexbox Layout
 imageAlt: projects photo
-imageUrl: /assets/uploads/trillo.png
+imageUrl: /assets/uploads/forkify.png
 ---
 CSS flexbox 布局
 
