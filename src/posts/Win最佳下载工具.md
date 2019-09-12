@@ -4,15 +4,14 @@ mySlug: download tool idm
 tags:
   - Tool
 date: 2019-01-06T17:51:37.000Z
-description: |
-  高速下载工具，网盘资源下载利器
+description: 高速下载，续传功能，高级浏览器集成功能，网站链接嗅探和抓取器，支持多种协议下载。
 ---
 
 Internet Download Manager（IDM）windows 系统下极速下载工具。
 
 ## 特点
  
-下载提速，续传功能，高级浏览器集成功能，网站链接嗅探和抓取器，支持多种协议。
+下载提速，续传功能，高级浏览器集成功能，网站链接嗅探和抓取器，支持多种协议下载。
 
 ### 下载提速
 
