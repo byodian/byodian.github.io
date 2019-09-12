@@ -3,7 +3,7 @@ title: 事实和观点
 mySlug: truth and opinion
 tags:
   - Notes
-date: 2019-09-10T10:37:19.357Z
+date: 2019-09-12T10:46:05.444Z
 description: >-
   人和人相处不是比赛，事实层面上的是一定要澄清，锱铢必较。观点层面上的，没有人可以赢别人，强迫只会令人更反感，别人可以结束讨论继续不同意，甚至鄙视你的教养，每个人的思想和人生自己负责，不到你管。学习这种界线，在正常社会叫有礼貌。  
 sourceUrl: 'https://twitter.com/sanzhao41/status/1164016303222349824'
