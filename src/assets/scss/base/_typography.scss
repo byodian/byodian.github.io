@@ -112,12 +112,11 @@ body {
   a {
     &:link,
     &:visited {
-      text-decoration: underline;
       color: var(--highlight-2);
     }
 
     &:hover {
-      text-decoration: none;
+      text-decoration: underline;
     }
   }
 
