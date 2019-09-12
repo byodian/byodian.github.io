@@ -9,9 +9,10 @@ imageUrl: /assets/uploads/static-blog.png
 ---
 
 使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立静态博客。
+
 [View Online](https://byodiandev.com) | [Source Code](https://github.com/byodian/byodian-site)
 
-![blog](https://raw.githubusercontent.com/byodian/logpic/master/static-blog.png)
+![blog](/assets/uploads/static-blog.png)
 
 ### 特点
 - [11ty][11ty] 静态文件生成器
