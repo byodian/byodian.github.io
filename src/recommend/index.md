@@ -71,6 +71,7 @@ date: 2019-09-11T12:34:56.254Z
 
 - [GitHub Topic][GitHub Topic] github 中优秀的项目
 - [GitHub Trend][GitHub Trend] github 每天受欢迎的项目排行
+- [awesome][awesome] Awesome lists about all kinds of interesting topics
 
 ### 短视频和背景音乐
 - [coverr][coverr] 短视频网站
@@ -155,3 +156,4 @@ date: 2019-09-11T12:34:56.254Z
 [鸠摩搜索]:https://www.jiumodiary.com/
 [蚂蚁搬书]:http://book.mybanshu.win/
 [coverr]: https://coverr.co/
+[awesome]: https://github.com/sindresorhus/awesome
