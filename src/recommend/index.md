@@ -20,13 +20,17 @@ date: 2019-09-11T12:34:56.254Z
 - [New Old Stock][New Old Stock]  历史照片、黑白照片
 - [StreetWill][StreetWill]  人文地理、自然风景类图片
 
-## 图标
+### 图标
 - [IconMoon](https://icomoon.io/#home)
 - [Font Awesome](https://fontawesome.com/)
 
 ### 在线应用
 - [IloveIMG][iloveimg] - 裁剪图片
 - [pdf.to](https://pdf.to/)  转换为 PDF 和从 PDF 转换
+
+### 英语写作
+- [Use simple words and phrases](https://www.plainlanguage.gov/guidelines/words/use-simple-words-phrases/)
+- []()
 
 [listary]: https://www.listary.com/
 [wox]: http://www.wox.one/
