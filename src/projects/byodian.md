@@ -12,11 +12,11 @@ imageUrl: /assets/uploads/blog.png
 
 [View Online](https://byodiandev.com) | [Source Code](https://github.com/byodian/byodian-site)
 
-线框图
+**线框图**
 
 ![](/assets/uploads/line.png)
 
-
+**最终效果**
 
 ![blog](/assets/uploads/blog.png)
 
