@@ -24,8 +24,8 @@
 
 .site-nav__logo {
   display: block; // 去除行内元素垂直布局的间隙
-  @include size(3rem, 3rem);
   fill: var(--highlight-3);
+  @include size(3rem, 3rem);
 }
 
 .site-nav__link {
