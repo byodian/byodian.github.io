@@ -3,7 +3,8 @@
 .categories {
   flex: 0 0 70%;
 
-  @media only screen and (max-width: 48em) { // 760px
+  @media only screen and (max-width: 760px) {
+    // 760px
     flex: 0 0 100%;
   }
 }

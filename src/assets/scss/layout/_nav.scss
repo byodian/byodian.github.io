@@ -8,7 +8,7 @@
   align-items: center;
   border-bottom: var(--line);
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 900px) {
     position: relative;
     flex-direction: column;
   }
@@ -17,7 +17,7 @@
 .site-nav__brand {
   margin-right: auto;
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 900px) {
     padding-bottom: 1rem;
   }
 }
@@ -40,12 +40,12 @@
     &:not(:last-child) {
       margin-right: 2rem;
 
-      @media only screen and (max-width: 56.25em) {
+      @media only screen and (max-width: 900px) {
         margin-right: 0;
       }
     }
 
-    @media only screen and (max-width: 56.25em) {
+    @media only screen and (max-width: 900px) {
       display: block;
       padding: 1rem 0;
       border-bottom: 0;
@@ -66,7 +66,7 @@
 .site-nav__items {
   transition: all 0.2s;
 
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 900px) {
     display: none;
     width: 0;
   }

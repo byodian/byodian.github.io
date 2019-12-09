@@ -1,43 +1,42 @@
-
 :root {
   // Color
-  --black-light   : #555;
-  --black-deep    : rgba(10, 10, 10, .8);
-  --grey-light    : #F0F0F0;
-  --grey          :  #999;
+  --black-light: #555;
+  --black-deep: rgba(10, 10, 10, 0.8);
+  --grey-light: #f0f0f0;
+  --grey: #999;
 
-  --highlight-1         : rgba(247, 112, 94, 0.993);
-  --highlight-2         : #0684bd;
-  --highlight-3         : #f9994b;
+  --highlight-1: rgba(247, 112, 94, 0.993);
+  --highlight-2: #0684bd;
+  --highlight-3: #f9994b;
 
-  --color-text-default  : var(--black-deep);
-  --color-code: rgba(255,229,100,.2);
+  --color-text-default: var(--black-deep);
+  --color-code: rgba(255, 229, 100, 0.2);
 
   // border
-  --line       : 1px solid var(--grey-light);
+  --line: 1px solid var(--grey-light);
   --line-transparent: 2px solid transparent;
 
   // box-shadow
   --shadow-outline: 0 0 1px var(--black-light);
 
   // gap
-  --gutter-bigger       : 4rem;
-  --gutter-big          : 2rem;
-  --gutter-middle       : 1.2rem;
-  --gutter-small        : .875rem;
-  
-  // margin
-  --margin-top          : 6rem;
-  --margin-bottom       : 4rem;
+  --gutter-bigger: 4rem;
+  --gutter-big: 2rem;
+  --gutter-middle: 1.2rem;
+  --gutter-small: 0.875rem;
 
-  --font-weight-lighter : 300;
-  --font-weight-normal  : 400;
-  --font-weight-bold    : 500;
-  --font-weight-bolder  : 700;
+  // margin
+  --margin-top: 6rem;
+  --margin-bottom: 4rem;
+
+  --font-weight-lighter: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 500;
+  --font-weight-bolder: 700;
 }
 
 // Sass Variable - Media breakpoints
-$bp-largest: 112.5em;    // 1800px = 16*112.5
-$bp-large: 75em;        // 1200px = 16*75
-$bp-medium: 56.25em;    // 900px = 16*56.25
-$bp-small: 31.25em;     // 500px = 16*31.25
+$bp-largest: 1800px;
+$bp-large: 1200px;
+$bp-medium: 900px;
+$bp-small: 500px;

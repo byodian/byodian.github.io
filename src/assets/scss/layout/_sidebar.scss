@@ -3,22 +3,23 @@
 .sidebar {
   flex: 0 0 20%;
   font-size: 1.2rem;
-  margin-top: -7rem; 
+  margin-top: -7rem;
 
-  @media only screen and (max-width: 48em) { // 760px
+  @media only screen and (max-width: 760px) {
+    // 760px
     display: none;
   }
-  
+
   &__about {
     margin-top: var(--gutter-bigger);
   }
 
   // 侧边栏作者介绍
-  &__about-info { 
-    display: flex; 
+  &__about-info {
+    display: flex;
     align-items: center;
   }
-  
+
   &__photo {
     display: block;
     margin-right: 2rem;
@@ -36,10 +37,9 @@
     &:visited {
       @include size(3.5rem, 3.5rem);
     }
-  } 
+  }
 
   svg {
     @include size(2rem, 2rem);
   }
 }
-
