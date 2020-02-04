@@ -9,34 +9,6 @@ Awesome Tools 整理众多操作系统下实用的工具和学习资源，项目
 ![App Store][app-store icon] 意旨可在**App store** 下载;\
 ![Awesome List][awesome-list icon] 意旨超链接到指定项目的 **Awesome list**;
 
-## 目录
-
-- [Windows](#windows)
-  - [效率工具](#效率工具)
-  - [系统管理](#系统管理)
-  - [资源下载](#资源下载)
-  - [截图和录制](#截图和录制)
-  - [桌面美化](#桌面美化)
-  - [未分类](#未分类)
-- [Mac](#Mac)
-- [Android](#Android)
-- [多平台应用](#多平台应用)
-  - [iOS&Android](#iOS&Android)
-  - [Mac&Windows](#Mac&Windows)
-- [Chrome](#Chrome)
-  - [扩展](#扩展)
-- [在线应用](#在线应用)
-- [资源](#资源)
-  - [GitHub](#GitHub)
-  - [短视频](#短视频)
-  - [图片](#图片)
-  - [图标](#图标)
-  - [字幕&BT](#字幕&BT)
-  - [学习类](#学习类)
-  - [电子书](#电子书)
-  - [虚拟信息](#虚拟信息)
-  - [其他](#其他)
-
 ## Windows
 
 ### 效率工具
