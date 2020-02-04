@@ -43,7 +43,7 @@ Awesome Tools 整理众多操作系统下实用的工具和学习资源，项目
 
 ### 桌面美化
 
-- [Rainmeter][rainmeter] - 卓面美化程序
+- [Rainmeter][rainmeter] - 桌面美化程序
 - [Wallpaper][wallpaper] - steam 平台美化桌面工具
 - [RocketDock][rocketdock] - Windows 桌面任务栏
 - [deviantart][deviantart] - 支持 RocketDock 和 Rainmeter 的主题
