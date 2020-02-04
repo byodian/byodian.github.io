@@ -2,40 +2,12 @@
 title: Recommend
 date: 2020-02-04T12:34:56.254Z
 ---
-Awesome Tools 整理众多操作系统下实用的工具和学习资源，项目灵感来源于 [Awesome macOS](https://github.com/iCHAIT/awesome-macOS 'Awesome macOS')、[Awesome](https://github.com/Awesome-Windows/Awesome.git)、[Windows 绝赞应用](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)。
+[Awesome Tools](https://github.com/byodian/awesometools) 整理众多操作系统下实用的工具和学习资源，项目灵感来源于 [Awesome macOS](https://github.com/iCHAIT/awesome-macOS 'Awesome macOS')、[Awesome](https://github.com/Awesome-Windows/Awesome.git)、[Windows 绝赞应用](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)。
 
 ![Open-Source Software][oss icon] 意旨**开源**, 点击可打开**开源**仓库;\
 ![Freeware][freeware icon] 意旨可**免费**使用, 或者**免费**个人授权;\
 ![App Store][app-store icon] 意旨可在**App store** 下载;\
 ![Awesome List][awesome-list icon] 意旨超链接到指定项目的 **Awesome list**;
-
-## 目录
-
-- [Windows](#windows)
-  - [效率工具](#效率工具)
-  - [系统管理](#系统管理)
-  - [资源下载](#资源下载)
-  - [截图和录制](#截图和录制)
-  - [桌面美化](#桌面美化)
-  - [未分类](#未分类)
-- [Mac](#Mac)
-- [Android](#Android)
-- [多平台应用](#多平台应用)
-  - [iOS&Android](#iOS&Android)
-  - [Mac&Windows](#Mac&Windows)
-- [Chrome](#Chrome)
-  - [扩展](#扩展)
-- [在线应用](#在线应用)
-- [资源](#资源)
-  - [GitHub](#GitHub)
-  - [短视频](#短视频)
-  - [图片](#图片)
-  - [图标](#图标)
-  - [字幕&BT](#字幕&BT)
-  - [学习类](#学习类)
-  - [电子书](#电子书)
-  - [虚拟信息](#虚拟信息)
-  - [其他](#其他)
 
 ## Windows
 
@@ -71,7 +43,7 @@ Awesome Tools 整理众多操作系统下实用的工具和学习资源，项目
 
 ### 桌面美化
 
-- [Rainmeter][rainmeter] - 卓面美化程序
+- [Rainmeter][rainmeter] - 桌面美化程序
 - [Wallpaper][wallpaper] - steam 平台美化桌面工具
 - [RocketDock][rocketdock] - Windows 桌面任务栏
 - [deviantart][deviantart] - 支持 RocketDock 和 Rainmeter 的主题
