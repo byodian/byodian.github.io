@@ -2,7 +2,7 @@
 title: Recommend
 date: 2020-02-04T12:34:56.254Z
 ---
-Awesome Tools 整理众多操作系统下实用的工具和学习资源，项目灵感来源于 [Awesome macOS](https://github.com/iCHAIT/awesome-macOS 'Awesome macOS')、[Awesome](https://github.com/Awesome-Windows/Awesome.git)、[Windows 绝赞应用](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)。
+[Awesome Tools](https://github.com/byodian/awesometools) 整理众多操作系统下实用的工具和学习资源，项目灵感来源于 [Awesome macOS](https://github.com/iCHAIT/awesome-macOS 'Awesome macOS')、[Awesome](https://github.com/Awesome-Windows/Awesome.git)、[Windows 绝赞应用](https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn)。
 
 ![Open-Source Software][oss icon] 意旨**开源**, 点击可打开**开源**仓库;\
 ![Freeware][freeware icon] 意旨可**免费**使用, 或者**免费**个人授权;\
