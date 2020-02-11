@@ -2,7 +2,7 @@
 title: Win最佳下载工具
 mySlug: download tool idm
 tags:
-  - tools
+  - apps
 date: 2019-01-06T17:51:37.000Z
 description: 高速下载，续传功能，高级浏览器集成功能，网站链接嗅探和抓取器，支持多种协议下载。
 ---

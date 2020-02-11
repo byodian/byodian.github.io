@@ -2,7 +2,7 @@
 title: 3 个 Windows 小工具
 mySlug: windows tools
 tags:
-  - tools
+  - apps
   - windows
 date: 2018-10-02T21:01:00.000Z
 description: wox 软件快速启动器，Altdrag 软件窗口移动缩放调整，QuickLook 文件快速预览。
