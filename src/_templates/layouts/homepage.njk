@@ -3,20 +3,14 @@
 {% block content %}
   <section class="info">
     <div class="site-info">
-      <img  srcset="/assets/img/avatar-1x.png,
+      <img srcset="/assets/img/avatar-1x.png,
                     /assets/img/avatar-2x.png 2x,
-                    /assets/img/avatar-3x.png 3x"
-            src="{{ setting.avatar }}" alt="info photo" class="site-info__photo">
+                    /assets/img/avatar-3x.png 3x" src="{{ setting.avatar }}" alt="info photo" class="site-info__photo">
       <h1 class="heading-primary">{{ homepage.siteName }}</h1>
       <p class="site-info__job">{{ setting.personalInfo }}</p>
-      <p class="site-info__study">正在学习
-        {% for study in homepage.studys %}
-          <a class="stress" href="{{ study.url }}">{{ study.text }}</a>
-        {% endfor %}
-      </p>
       <figure class="social-icons homepage-icons">
         {% for icon in setting.socials %}
-          <a class="social-link" href="{{ icon.url}}">
+          <a class="social-link" target="_blank" href="{{ icon.url}}">
             <svg class="social-icon">
               <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
             </svg>

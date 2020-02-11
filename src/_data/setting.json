@@ -1,16 +1,16 @@
 {
-  "title"       : "byodian - designer, developer",
+  "title": "byodian - designer, developer",
   "personalInfo": "Web 设计·开发",
-  "icon"        : "/assets/img/favicon.ico",
-  "logo"        : "/assets/img/logo.svg#icon_logo",
-  "avatar"      : "/assets/img/avatar.png",
+  "icon": "/assets/img/favicon.ico",
+  "logo": "/assets/img/logo.svg#icon_logo",
+  "avatar": "/assets/img/avatar.png",
   "socials": [
     {
       "url": "https://github.com/byodian",
       "name": "icon-github"
-    }, 
+    },
     {
-      "url":  "https://twitter.com/byodian1",
+      "url": "https://twitter.com/byodian1",
       "name": "icon-twitter"
     },
     {
@@ -20,6 +20,10 @@
     {
       "url": "https://www.instagram.com/byodian1/",
       "name": "icon-instagram"
+    },
+    {
+      "url": "https://t.me/byodian",
+      "name": "icon-telegram"
     }
   ]
 }
