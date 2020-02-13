@@ -1,5 +1,5 @@
 ---
-title: Windows 使用技巧之系统内置应用
+title: Windows 10 使用技巧之系统内置应用
 mySlug: tips for windows apps
 tags:
   - Windows
