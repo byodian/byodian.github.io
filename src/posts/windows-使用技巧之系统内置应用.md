@@ -13,8 +13,6 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 随着不断地更新，Windows 10 带来了很多新的功能和更新。关于 [windows 10 的使用技巧](https://www.microsoft.com/zh-cn/tips/home)，就让我们从系统内置的应用和功能开始说起。
 
-关于 [windows 10 的使用技巧](https://www.microsoft.com/zh-cn/tips/home)，就让我们从系统内置的应用和功能开始说起。
-
 **注意：**
 > **Windows 徽标键**（后文以 **Win** 表示）指键盘上印有 ![](https://raw.githubusercontent.com/byodian/logpic/master/windows.png) 图案的按键。
 >
