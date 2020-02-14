@@ -13,13 +13,12 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 随着不断地更新，Windows 10 带来了很多新的功能和更新。关于 [windows 10 的使用技巧](https://www.microsoft.com/zh-cn/tips/home)，就让我们从系统内置的应用和功能开始说起。
 
-**注意：**
-> **Windows 徽标键**（后文以 **Win** 表示）指键盘上印有 ![](https://raw.githubusercontent.com/byodian/logpic/master/windows.png) 图案的按键。
+> 注意：**Windows 徽标键**（后文以 **Win** 表示）指键盘上印有 <i class="fab fa-windows"></i> 图案的按键。
 >
-> `Win + 字母/标点符号` 表示键盘组合键
+> **Win + 字母/标点符号** 表示键盘组合键
 
 ## 剪贴板
-在 Windows 中复制内容时，内容会复制到剪贴板以供你粘贴。按 `Win + V` 键，可以查看剪贴板历史记录。
+在 Windows 中复制内容时，内容会复制到剪贴板以供你粘贴。按 **Win + V** 键，可以查看剪贴板历史记录。
 
 **剪贴板历史记录**让你不用来回切换软件界面一条条的复制粘贴内容，而是允许你把所有想要粘贴的内容复制下来，保存在剪贴板历史记录中。这样节省了来回切换界面的时间，提高了工作效率。
 
@@ -28,7 +27,7 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 ![剪贴板历史记录面板](https://raw.githubusercontent.com/byodian/logpic/master/%E5%89%AA%E8%B4%B4%E6%9D%BF%E9%9D%A2%E6%9D%BF.png)
 
 ### 如何打开剪贴板功能
-点击搜索按钮或按 `Win + S` 键，然后在搜索框中键入「剪贴板」以查找你需要的设置。
+点击搜索按钮或按 **Win + S** 键，然后在搜索框中键入「剪贴板」以查找你需要的设置。
 
 ![打开剪贴板设置示意图](https://raw.githubusercontent.com/byodian/logpic/master/paste.png)
 
@@ -37,7 +36,8 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 ![剪贴板设置选项](https://raw.githubusercontent.com/byodian/logpic/master/paste%20setting.png)
 
 ## 表情符号
-按 `Win + .` 键打开表情符号面板。使用表情符号面板允许添加多种表情和符号，包括 **Emoji** 表情、**颜文字**和**多种符号**（如标点和单位符号）。
+按 **Win + .** 键打开表情符号面板。
+使用表情符号面板允许添加多种表情和符号，包括 **Emoji** 表情、**颜文字**和**多种符号**（如标点和单位符号）。
 
 ![表情符号](https://raw.githubusercontent.com/byodian/logpic/master/%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E6%B7%BB%E5%8A%A0%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7.png)
 
@@ -47,7 +47,7 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 ## 截图和草图
 
-按 `Win + Shift + S` 键打开截图工具，然后将光标移动到要捕获的区域。截取的图像将保存在剪贴板。
+按 **Win + Shift + S** 键打开截图工具，然后将光标移动到要捕获的区域。截取的图像将保存在剪贴板。
 
 全新的截图工具支持矩形截图、任意形状截图、窗口截图和全屏幕截图。
 

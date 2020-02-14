@@ -1,2 +1,11 @@
 import style from '../scss/main.scss';
-document.querySelector(`.site-nav__items a[href$="${window.location.pathname}"]`).classList.add('is-active');
+
+// 给文章配图设置居中对齐样式
+function setIamgeAlign(target) {
+  if (target.closest('p')) {
+    target.parentElement.classList.add('center');
+  }
+}
+
+const images = document.querySelectorAll('img');
+[...images].forEach(image => setIamgeAlign(image));
