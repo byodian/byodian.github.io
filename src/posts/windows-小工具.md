@@ -12,31 +12,31 @@ description: wox 软件快速启动器，Altdrag 软件窗口移动缩放调整�
 
 [Wox](http://www.wox.one/) 是一款开源的快速启动器，用于快速搜索本机安装的程序和文件。也可以通过插件完成搜索网络内容、翻译单词、弹出 U 盘等操作。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/Wox1.png"/>
+![Wox搜索应用](https://i.loli.net/2020/02/14/exFdp2jTREDGOiw.png)
 
 ### Wox 最核心的功能就是快速启动程序。
 
-使用 Wox 启动程序：按住 **Alt + 空格** 调出搜索框，输入程序名称，回车打开程序。Wox 还支持拼音或者拼音首字母搜索程序。
+使用 Wox 启动程序：按住 **Alt + 空格** 调出搜索框，输入程序名称，回车打开程序。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/wox.gif" />
+![wox打开应用动图](https://i.loli.net/2020/02/14/xBmgSnEcUJ7Pb2t.gif)
 
 另一个应用场景，当你浏览网页的时候想听一首歌，平时你应该会这么做，返回桌面 > 找到音乐播放器快捷方式 > 双击打开程序 > 播放音乐 > 切回网页继续浏览。
 
 使用 Wox 完全可以避免这些来回切换的重复操作，从而提高了工作效率。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/wox2.gif"/>
+![wox使用场景实例动图](https://i.loli.net/2020/02/14/AhnHmCbQPRXlwjJ.gif)
 
 Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用程序。everything 是一款强大的本地搜索工具。 [推荐 8 个超实用的小工具 | Windows](http://t.cn/Ehw1ogg) 。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/wox3.gif"/>
+![wox搜索文件动图](https://i.loli.net/2020/02/14/XfkEhTQ3aOyoB4M.gif)
 
 安装插件可实现翻译单词，查看天气，弹出 U 盘等功能。比如我想使用有道翻译功能，首先使用 **wpm install 有道翻译** 命令安装插件。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/youdao.png"/>
+![wox安装有道翻译](https://i.loli.net/2020/02/14/PLUEkw9uTBfqXxn.png)
 
 然后使用关键词 **yd** 触发有道翻译，这时你输入 **yd + 空格 + 单词** ，就会显示该单词的中文意思。
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/yd1.png">
+![使用wox翻译单词](https://i.loli.net/2020/02/14/GaWbZCtesDhpKqU.png)
 
 插件介绍：<http://www.wox.one/plugin>
 
@@ -56,7 +56,7 @@ Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用�
 
 选中下载的插件文件，使用空格打开，点击 Install 按钮，重启 QuickLook。[下载地址](https://github.com/QL-Win/QuickLook/wiki/Available-Plugins)   
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/officepllugin.png"/>
+![quicklook插件](https://i.loli.net/2020/02/14/VG2bjypIcOehw3D.png)
 
 ## AltDrag
 
@@ -69,8 +69,8 @@ Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用�
 
 移动窗口
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/altdrag2.gif"/>
+![altdrag移动窗口](https://i.loli.net/2020/02/14/UG9zVqtBxTFJi1v.gif)
 
 调整窗口大小
 
-<img src="https://raw.githubusercontent.com/byodian/logpic/master/altdrag4.gif"/>
+![altdrag调整窗口大小](https://i.loli.net/2020/02/14/RW1rZLEIY7joFdh.gif)

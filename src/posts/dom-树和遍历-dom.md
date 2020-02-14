@@ -12,7 +12,7 @@ description: 我们在使用 DOM 操作文档元素时，首先要获取对应�
 
 *JavaScript 在 web 浏览器运行的鸟瞰图*
 
-![JavaScript 在 web 浏览器运行的鸟瞰图](https://raw.githubusercontent.com/byodian/logpic/master/javascript%E5%9C%A8web%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9A%84%E9%B8%9F%E7%9E%B0%E5%9B%BE.png)
+![javascript在web浏览器中的鸟瞰图](https://i.loli.net/2020/02/14/LzUPJpuVwvAdSog.png)
 
 文档对象模型 (Document Object Model) 由浏览器 API 提供是用来描述 HTML 和 XML 文档的一个程序接口，同时**使用对象和节点描述文档**，可以用来改变文档的结构、样式和内容。
 

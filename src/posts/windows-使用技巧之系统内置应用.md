@@ -24,22 +24,22 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 并且根据我个人使用体验，剪贴板只可以保留文本信息和截图保存的图像。
 
-![剪贴板历史记录面板](https://raw.githubusercontent.com/byodian/logpic/master/%E5%89%AA%E8%B4%B4%E6%9D%BF%E9%9D%A2%E6%9D%BF.png)
+![剪贴板面板.png](https://i.loli.net/2020/02/14/K98CMJqsvupBi1D.png)
 
 ### 如何打开剪贴板功能
 点击搜索按钮或按 **Win + S** 键，然后在搜索框中键入「剪贴板」以查找你需要的设置。
 
-![打开剪贴板设置示意图](https://raw.githubusercontent.com/byodian/logpic/master/paste.png)
+![打开剪贴板设置.png](https://i.loli.net/2020/02/14/Qg3osODf4SNwjLI.png)
 
 在设置中可以看到剪贴板历史记录、跨设备同步和清除剪贴板数据三个操作选项。
 
-![剪贴板设置选项](https://raw.githubusercontent.com/byodian/logpic/master/paste%20setting.png)
+![剪贴板设置.png](https://i.loli.net/2020/02/14/VXdF15oPDsCGkvb.png)
 
 ## 表情符号
 按 **Win + .** 键打开表情符号面板。
 使用表情符号面板允许添加多种表情和符号，包括 **Emoji** 表情、**颜文字**和**多种符号**（如标点和单位符号）。
 
-![表情符号](https://raw.githubusercontent.com/byodian/logpic/master/%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E6%B7%BB%E5%8A%A0%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7.png)
+![使用键盘添加表情符号.png](https://i.loli.net/2020/02/14/8kOHWwRNeFxczXq.png)
 
 > 注意: 要使用表情符号选取器，必须使用 Windows 版本 1809 或更高版本。
 >
@@ -57,9 +57,9 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 还可以更改便笺的颜色。在便笺中选择「菜单」，然后选择你喜欢的颜色。
 
-![便笺工具](https://raw.githubusercontent.com/byodian/logpic/master/%E4%BE%BF%E7%AC%BA.gif)
+![更改便笺颜色.gif](https://i.loli.net/2020/02/14/cdIrKSwVJgDxYiU.gif)
 
-使用便笺工具可以记录稍纵即逝的灵感，或者保存内容供稍后使用。
+**使用便笺工具可以记录稍纵即逝的灵感，或者保存内容供稍后使用。**
 
 ## 邮件和日历
 
@@ -67,16 +67,14 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 支持 Office 365、Exchange、Outlook、Gmail、Yahoo! 和其他常用帐户。在邮件应用中选择「账户」>「管理账户」> 「添加账户」可添加你的邮箱信息。
 
-![添加邮箱账户](https://raw.githubusercontent.com/byodian/logpic/master/%E9%82%AE%E4%BB%B6%E6%B7%BB%E5%8A%A0%E8%B4%A6%E6%88%B7.png)
-
 日历提供实用、强大的日程表视图，如天、周、月和年。通过日历规划你每天的日程，可以在日历中添加**节假日、生日和体育比赛**（比如 NBA）等具体事件。
 
 在日历应用中，选择「添加日历」，在弹出的面板中选择你喜欢的体育项目或者球队。
 
-![我的日历面板](https://raw.githubusercontent.com/byodian/logpic/master/%E6%97%A5%E5%8E%86%E9%9D%A2%E6%9D%BF.png)
+![我的日历面板.png](https://i.loli.net/2020/02/14/VjSHCUTekwqA1Xv.png)
 
 也可以在任务栏的日期和时间上，快速查看每天的事件，另外可以直接向日历中添加 「事件或提醒」。
 
-![快速查看日历和添加事件](https://raw.githubusercontent.com/byodian/logpic/master/date.png)
+![快速查看日历和当天事件.png](https://i.loli.net/2020/02/14/pLNMXvHfzEaRqkD.png)
 
 便笺、截图和草图以及邮件和日历都是 Windows 内置的应用，如果在你的电脑上没有找到，可以去**微软应用商店**下载。
