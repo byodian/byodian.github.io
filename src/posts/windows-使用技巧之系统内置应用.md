@@ -77,4 +77,4 @@ Windows 发布至今已经推出了九个版本，最新的更新日期是 2019 
 
 ![快速查看日历和当天事件.png](https://i.loli.net/2020/02/14/pLNMXvHfzEaRqkD.png)
 
-便笺、截图和草图以及邮件和日历都是 Windows 内置的应用，如果在你的电脑上没有找到，可以去**微软应用商店**下载。
+便笺、截图和草图以及邮件和日历都是 Windows 内置的应用，如果在你的电脑上没有找到，可以去[微软应用商店](https://www.microsoft.com/zh-cn/store/)下载。
