@@ -16,8 +16,8 @@ body {
 .heading-secondary,
 .heading-tertiary {
   margin-bottom: var(--gutter-bigger);
-  padding-bottom: var(--gutter-middle);
-  border-bottom: var(--line);
+  // padding-bottom: var(--gutter-middle);
+  // border-bottom: var(--line);
 }
 
 .heading-secondary {
@@ -35,19 +35,8 @@ body {
 // 文章样式
 
 .post {
-  padding: 0 12rem;
   word-spacing: 0.2rem;
   @include font(1.64rem, var(--font-weight-normal), 1.8);
-
-  @media only screen and (max-width: 1200px) {
-    // 1200px
-    padding: 0 6rem;
-  }
-
-  @media only screen and (max-width: 900px) {
-    // 900px
-    padding: 0 4rem;
-  }
 
   @media only screen and (max-width: 900px) {
     // 600px

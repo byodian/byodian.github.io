@@ -1,37 +1,13 @@
 {% extends "layouts/base.njk" %}
 {% block pageHeader %}{% endblock pageHeader %}
 {% block content %}
-  <section class="info">
-    <div class="site-info">
-      <img srcset="/assets/img/avatar-1x.png,
-                    /assets/img/avatar-2x.png 2x,
-                    /assets/img/avatar-3x.png 3x" src="{{ setting.avatar }}" alt="info photo" class="site-info__photo">
-      <h1 class="heading-primary">{{ homepage.siteName }}</h1>
-      <p class="site-info__job">{{ setting.personalInfo }}</p>
-      <figure class="social-icons homepage-icons">
-        {% for icon in setting.socials %}
-          <a class="social-link" target="_blank" href="{{ icon.url}}">
-            <svg class="social-icon">
-              <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
-            </svg>
-          </a>
-        {% endfor %}
-      </figure>
-    </div>
-  </section>
   <section class="homepage-articles">
-    <section class="section-info">
-      <h2 class="heading-secondary ">最近文章</h2>
-    </section>
     <section class="articles">
       {% set postslist = collections.posts | arrFilter %}
       {% include "layouts/postslist.njk" %}
     </section>
   </section>
   <section class="homepage-projects">
-    <section class="section-info">
-      <h2 class="heading-secondary">最近项目</h2>
-    </section>
     <div class="columns">
       {% set columns = collections.projects | arrFilter %}
       {% include 'layouts/column.njk' %}

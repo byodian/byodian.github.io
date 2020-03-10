@@ -13,11 +13,11 @@
     <div class="container">
       <nav class="nav">
         <div class="site-nav">
-          <a href="/" class="site-nav__brand">
+          {# <a href="/" class="site-nav__brand">
             <svg class="site-nav__logo">
               <use xlink:href="{{ setting.logo }}"></use>
             </svg>
-          </a>
+          </a> #}
           <input type="checkbox" id="btn-menu" class="btn-menu">
           <label for="btn-menu" class="btn-label">
             <span class="btn-span"></span>
@@ -44,6 +44,17 @@
       </main>
       {% block pageFooter %}
         <footer class="footer">
+          <div class="site-info">
+            <figure class="social-icons homepage-icons">
+              {% for icon in setting.socials %}
+                <a class="social-link" target="_blank" href="{{ icon.url}}">
+                  <svg class="social-icon">
+                    <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
+                  </svg>
+                </a>
+              {% endfor %}
+            </figure>
+          </div>
           <p>&copy; 2019 - 2020 byodian | build with
             <a class="stress" href="https://www.11ty.io/">11ty</a>
             and

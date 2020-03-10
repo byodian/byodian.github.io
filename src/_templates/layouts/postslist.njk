@@ -9,8 +9,8 @@
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl }}" class="stress stress--tag">{{ tag }}</a>
       {% endfor %}
+      <a class="bookmarks__ref" href="{{ post.data.sourceUrl }}">{{ post.data.sourceName }}</a>
     </div>
     <p class="article__overview">{{ post.data.description }}</p>
-    <a class="bookmarks__ref" href="{{ post.data.sourceUrl }}">{{ post.data.sourceName }}</a>
   </article>
 {% endfor %}

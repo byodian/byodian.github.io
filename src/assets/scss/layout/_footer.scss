@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem 0;
+  flex-direction: column;
+  padding-bottom: 2rem;
   @include font(1.6rem, var(--font-weight-normal), inherit);
 }
