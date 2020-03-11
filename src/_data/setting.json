@@ -1,5 +1,5 @@
 {
-  "title": "byodian - designer, developer",
+  "title": "byodian's blog - 效率工具|办公技巧|互联网自动化",
   "personalInfo": "Web 设计·开发",
   "icon": "/assets/img/favicon.ico",
   "logo": "/assets/img/logo.svg#icon_logo",
@@ -22,7 +22,7 @@
       "name": "icon-instagram"
     },
     {
-      "url": "https://t.me/byodian",
+      "url": "https://t.me/awesometools",
       "name": "icon-telegram"
     }
   ]
