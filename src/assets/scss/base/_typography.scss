@@ -134,7 +134,7 @@ body {
 }
 
 .post__title {
-  @include font(3.375rem, var(--font-weight-bold), 1.15);
+  @include font(2.75rem, var(--font-weight-bold), 1.15);
 }
 
 .post__date {
