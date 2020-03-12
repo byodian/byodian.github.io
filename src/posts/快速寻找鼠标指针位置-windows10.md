@@ -3,6 +3,7 @@ title: 快速寻找鼠标指针位置 | windows10
 mySlug: getting the mouse pointer position
 tags:
   - 技巧
+  - video
 date: 2020-02-18T02:57:52.502Z
 description: 按住 Ctrl 键快速寻找鼠标指针位置
 ---
