@@ -2,8 +2,7 @@
 title: windows 10 使用技巧之玩转系统设置
 mySlug: tips for windows settings
 tags:
-  - Windows
-  - apps
+  - windows
 date: 2020-02-15T16:36:02.708Z
 description: 让你的 Windows 更好用的技巧。
 ---
