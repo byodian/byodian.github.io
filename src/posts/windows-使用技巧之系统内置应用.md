@@ -2,8 +2,7 @@
 title: Windows 10 使用技巧之系统内置应用
 mySlug: tips for windows apps
 tags:
-  - Windows
-  - apps
+  - windows
 date: 2020-02-13T14:50:29.547Z
 description: 关于剪贴板，表情符号选择器，便笺，邮件和日历以及截图和草图的使用
 ---
