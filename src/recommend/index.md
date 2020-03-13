@@ -97,7 +97,7 @@ date: 2020-02-04T12:34:56.254Z
 - [Bionic Reading](https://bionic-reading.com/en/) - A higher dimension of reading.
 - [Markdown Here](https://markdown-here.com/) - 转换 Markdown 格式的文本。
 - [Extension Manager](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco) - 扩展管理器。
-- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn?utm_source=chrome-ntp-icon) - 扩展右键菜单，超过 300 种功能，方便的选择、组合或自定义页面、划词、图片菜单，并有生成、解析二维码和短网址功能。
+- [右键搜](https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn?utm_source=chrome-ntp-icon) - 扩展右键菜单，方便的选择、组合或自定义页面、划词、图片菜单，并有生成、解析二维码和短网址功能。
 - [Imagus](https://tiny.cc/Imagus) - 鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。
 - [Infinity 新标签页](https://www.infinitynewtab.com/) - Infinity 新标签页。
 - [Momentum](https://momentumdash.com/) - 简洁标签页。
@@ -105,23 +105,32 @@ date: 2020-02-04T12:34:56.254Z
 - [为什么你们就是不能加个空格呢？](https://github.com/vinta/pangu.js) - 自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。
 - [Mate Translate](https://gikken.co/mate-translate/) - 翻译器、词典 一站式翻译您的网页、标记的文字段落和 Netflix 影集字幕。快速翻译和学习多达 103 种语言。
 - [网盘直链下载助手](https://www.baiduyun.wiki/) - 油猴脚本 一个免费脚本搞定网盘下载。
-- [Vimium][vimium] 根据 Vim 编辑器的操作习惯，提供导航和控制的键盘快捷键
+- [Vimium][vimium] - 根据  Vim  编辑器的操作习惯导航和控制的键盘快捷键
 - [Video Speed Controller][video speed] - 网页视频加速调节工具，还可以快进广告。
-- [clippings.io](https://www.clippings.io/) 管理 Kindle 设备上的摘抄和笔记
+- [clippings.io](https://www.clippings.io/) - 管理 Kindle 设备上的摘抄和笔记。
+- [uAutoPagerize](https://chrome.google.com/webstore/detail/uautopagerize/kdplapeciagkkjoignnkfpbfkebcfbpb?utm_source=chrome-ntp-icon) - 自动加载搜索结果的分页内容。
+- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en) - 冻结长时间不用的网页，释放系统资源。
+- [沙拉查词](https://saladict.crimx.com/) - 聚合多种词典，可划词翻译。
+- [Push to Kindle](https://chrome.google.com/webstore/detail/push-to-kindle/pnaiinchjaonopoejhknmgjingcnaloc) - Push to Kindle 是一项推送网页文章到 kiddle 的免费服务。该插件提供了一种快捷的方式，只需点击扩展按钮即可将文章发送到 Kindle 或者其他电子阅读器上。
+- [uAutoPagerize](https://chrome.google.com/webstore/detail/uautopagerize/kdplapeciagkkjoignnkfpbfkebcfbpb) - 自动加载网页搜索结果的分页内容。
 
 #### 开发相关
 
 - [GitZip for github][gitzip] - 下载 github 单个文件扩展
+- 
 - [Octotree][octotree] - github 项目目录
 - [GitHub Repository Size][gitsize] - 显示 github 仓库大小
 - [Web Developer](https://chrispederick.com/work/web-developer/) - Web 开发。
 - [Site Palette](http://palette.site/) - 拾取网页颜色。
 - [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme) - 定位页面任何元素的宽高和位置。
 - [keyframes.app](https://keyframes.app/) - Keyframes gives you a visual timeline to help you create, view, and run animations without having to go back and forth between your browser and editor.
+- [Isometric Contributions](https://github.com/jasonlong/isometric-contributions) - 将 github 提交信息切换成更直观的 3D 柱状图。
 
 ## 在线应用
 
+- [photopea](https://www.photopea.com/) - 免费的图像处理工具，操作习惯和外观与 photoshop 相似。
 - [pdf.to](https://pdf.to/) - PDF 格式转换
+- [convertio](https://convertio.co/zh/) - 支持超过 300 种不同的文件格式，超过 25600 种不同的转换方式。
 - [ilovepdf](https://www.ilovepdf.com/zh-cn) pdf 格式转换
 - [YouTube to MP4 & MP3 Converter](https://www.clipconverter.cc/)
 - [transform](https://transform.tools/) - 多种 web 语言转换器
@@ -137,6 +146,8 @@ date: 2020-02-04T12:34:56.254Z
 - [TDEE Calculator](https://tdeecalculator.net/) - 计算每天燃烧的卡路里。它首先提供基础的代谢消耗，然后这个值乘以活动因子，得出你在不同锻炼频率下的卡路里消耗值。
 - [Crx][crx] - 下载 Chrome 扩展离线安装包
 - [Chrome Extension Downloader][chrome extension downloader] - 下载 Chrome 扩展离线安装包
+- [ProcessOn](https://www.processon.com/) - 在线作图、实时协作，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等。
+- [draw](https://app.diagrams.net/) - 
 
 ## 资源
 
@@ -146,6 +157,8 @@ date: 2020-02-04T12:34:56.254Z
 - [GitHub Trend][github trend] - github 每天受欢迎的项目排行
 - [chromeapp][chromeapp] - Chrome 插件推荐
 - [shields](https://shields.io/) - Quality metadata badges for open source projects
+- [HELLOGITHUB](https://hellogithub.com/) - 分享 GitHub 上有趣、入门级的开源项目
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) - 学习命令行技巧，提高作为工程师的灵活性和生产力
 
 ### 短视频
 
@@ -176,9 +189,18 @@ date: 2020-02-04T12:34:56.254Z
 
 - [prototypr][prototypr] - 设计相关的新闻和工具
 - [Class Cental](https://www.classcentral.com) - 免费的网络和公开课搜索引擎，赶紧安排学习起来。
+- [Coursera](https://www.coursera.org/) - Coursera 的在线课程由世界上顶尖大学和公司的讲师提供教学。
+- [Udemy](https://www.udemy.com/) - Udemy 课程种类丰富，什么课程都有，类似于淘宝的在线教育平台。
+- [Khan Academy](https://zh.khanacademy.org/) - 可汗学院提供练习习题, 教学视频和个性化的学习界面，让学习者能够在课堂内外按照自己的进度学习。
+- [code.org](https://code.org/) - Code.org® 是一个非营利组织。它致力于为学校、妇女和少数族裔提供学习计算机科学的机会。 
+- [wikiHow](https://zh.wikihow.com/) - wikiHow 以「如何做某事」的提问方式，提供了很多实用的百科指南。
+- [DevTube](https://dev.tube/) -  The best developer videos in one place.
 - [i18ns](https://i18ns.com/zh/index.html) - App&Web 国际化翻译搜索。
 - [数学乐](https://www.shuxuele.com/) - 有趣及易懂的方法来演示数学，本网站旨在覆盖整个幼儿园到高中的数学课程。
+- [Structure and Interpretation of Computer Programs](https://sicp.comp.nus.edu.sg/) - 计算机结构和编译电子书资源，javascript 版。
+- [explainshell](https://explainshell.com/) - write down a command-line to see the help text that matches each argument.
 - [AutoHotkey 学习指南](https://www.autohotkey.com/boards/viewtopic.php?f=29&t=1099) - AutoHotkey 中文学习指南。
+- [标准网](https://www.biaozhun.org/) - 免费的标准下载分享的平台。
 
 ### 电子书
 
@@ -186,6 +208,8 @@ date: 2020-02-04T12:34:56.254Z
 - [鸠摩搜索][鸠摩搜索] - 电子书资源搜索引擎
 - [书伴][书伴] - 不支持下载、阅读，只提供 Kindle 图书资源推荐
 - [亚马逊免费电子书][亚马逊免费电子书] - 亚马逊官方网站免费电子书资源
+- [PDF Drive](https://www.pdfdrive.com/) - PDF Drive 是一个免费的搜索引擎，允许你搜索，预览和下载无限制的 PDF 文件到你设备上。
+- [ZLibrary](https://b-ok.cc/) - The world's largest ebook library.
 
 ### 虚拟信息
 
@@ -198,14 +222,20 @@ date: 2020-02-04T12:34:56.254Z
 - [Web design Museum](https://www.webdesignmuseum.org/) 各大网站网页设计发展历程
 - [Version Museum](https://www.versionmuseum.com/) - 展示众多流行网站、操作系统、应用程序和游戏的视觉设计历史演变，英文网站。
 - [PanSou][pansou] - 百度网盘搜索引擎
+- [大力盘](https://www.dalipan.com/) - 网盘搜索
 - [showeet](https://www.showeet.com/) - 具有创造力的免费 PPT 模板，英文网站。
 - [Get emoji](https://getemoji.com/) - 表情资源，可复制粘贴使用。
 - [public-apis](https://public-apis.xyz/) - 公共免费的 API 集合。
+- [prism-break](https://prism-break.org/zh-CN/) - 隐私/安全 全套软件。
+- [techurls](http://techurls.com/) - 科技频道
+- [devurls](http://devurls.com/ ) - 程序员频道
+- [sciurls](http://sciurls.com/) - 科学频道
+- [finurls](https://finurls.com/) - 财经频道
 
-[oss icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg 'Open Source Software'
-[freeware icon]: https://jaywcjlove.github.io/sb/ico/min-free.svg 'Freeware'
-[app-store icon]: https://jaywcjlove.github.io/sb/ico/min-app-store.svg 'App Store Software'
-[awesome-list icon]: https://jaywcjlove.github.io/sb/ico/min-awesome.svg 'Awesome List'
+[oss icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg "Open Source Software"
+[freeware icon]: https://jaywcjlove.github.io/sb/ico/min-free.svg "Freeware"
+[app-store icon]: https://jaywcjlove.github.io/sb/ico/min-app-store.svg "App Store Software"
+[awesome-list icon]: https://jaywcjlove.github.io/sb/ico/min-awesome.svg "Awesome List"
 [listary]: https://www.listary.com/
 [wox]: http://www.wox.one/
 [wgestures]: http://www.yingdev.com/projects/wgestures
