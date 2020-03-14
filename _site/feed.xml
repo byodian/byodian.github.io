@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>byodiandev&#39;s blog</title>
+  <subtitle>效率工具 | 办公技巧 | 互联网自动化</subtitle>
+  <link href="https://byodiandev.com/feed.xml" rel="self"/>
+  <link href="https://byodiandev.com/"/>
+  <updated>2018-10-03T05:01:00+08:00</updated>
+  <id>https://byodiandev.com/</id>
+  <author>
+    <name>byodian</name>
+    <email></email>
+  </author>
+  
+  <entry>
+    <title>文章排版指南</title>
+    <link href="https://byodiandev.com/the-format-of-article-writing/"/>
+    <updated>2020-03-11T09:52:29.545+08:00</updated>
+    <id>https://byodiandev.com/the-format-of-article-writing/</id>
+    <content type="html">&lt;h2&gt;字体&lt;/h2&gt;
+&lt;p&gt;根据个人喜好设置字号和字体颜色。
+正文字体颜色尽量不要超过3种。&lt;/p&gt;
+&lt;h3&gt;字体颜色&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;正文，标题 #545454&lt;/li&gt;
+&lt;li&gt;图片脚注 #b4b4b4&lt;/li&gt;
+&lt;li&gt;参考文献 #b9b9b9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;字号&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;标题 18px&lt;/li&gt;
+&lt;li&gt;正文 15px&lt;/li&gt;
+&lt;li&gt;图片脚注 10px&lt;/li&gt;
+&lt;li&gt;参考连接 10px&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;段落设置&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;对齐选择两端对齐&lt;/li&gt;
+&lt;li&gt;行间距 1.5 (1.5*16px=24px
+)&lt;/li&gt;
+&lt;li&gt;两端缩进 8px/16px，全文设置。我一般设置 16px，看个人情况，这样可以确保整体排版保持一致。&lt;/li&gt;
+&lt;li&gt;段后间距 20px。段前和段后，只设置一个就可以，因为 &lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing&quot;&gt;外边距会重叠&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;关于强调&lt;/h3&gt;
+&lt;p&gt;强调文字有多种方式，比如增大字号、加粗、改变颜色或者其他格式化方法。建议只选择一种方式作为强调，不要多种混在一起使用，容易造成视觉干扰。&lt;/p&gt;
+&lt;p&gt;强调的内容也不要过多，让读者自己去把握。建议把最重要的或者需要提醒的内容做强调即可。&lt;/p&gt;
+&lt;p&gt;下面列举了一些强调内容的方式：&lt;/p&gt;
+&lt;p&gt;1.添加背景色&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/dzFVg3s4vr2C7bA.png&quot; alt=&quot;背景色&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.加粗&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/TPh1O8QimoFXJ2n.png&quot; alt=&quot;加粗&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;加空格&lt;/h3&gt;
+&lt;p&gt;中英文、中文与数字之间加一个空格，但是英文和数字之间一般不加空格。举例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;这是 happy 的一天。&lt;/li&gt;
+&lt;li&gt;今天 3 月 11 号。&lt;/li&gt;
+&lt;li&gt;10px、20kg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;链接格式&lt;/h3&gt;
+&lt;p&gt;微信不能加外链，可以在链接上加引用，并在文末添加参考链接。&lt;/p&gt;
+&lt;p&gt;引用样式举例：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/6v2UyE8ZNtTXY4w.png&quot; alt=&quot;引用2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/zfksnRjMK125NTm.png&quot; alt=&quot;引用1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;参考链接样式举例：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/5OTJ8hYQP6GEarW.png&quot; alt=&quot;参考链接&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;工具&lt;/h2&gt;
+&lt;p&gt;建议分析一些排版比较好的公众号文章，最后分析得出自己的排版规则。使用 &lt;a href=&quot;https://www.google.com/chrome/&quot;&gt;chrome&lt;/a&gt; 浏览器打开微信文章，借助谷歌扩展 &lt;a href=&quot;https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce&quot;&gt;CSSViewer&lt;/a&gt; ，可以直观地查看文章的排版样式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/13/uQtdOfA3FBU7LrE.png&quot; alt=&quot;CSSview.png&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>网页端免费图片处理工具 photopea</title>
+    <link href="https://byodiandev.com/how-to-use-photopea/"/>
+    <updated>2020-03-10T15:36:49.974+08:00</updated>
+    <id>https://byodiandev.com/how-to-use-photopea/</id>
+    <content type="html">&lt;h2&gt;介绍 &lt;a href=&quot;https://www.photopea.com/&quot;&gt;photopea&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;photopea 是运行在浏览器的图片处理工具，&lt;strong&gt;无需安装&lt;/strong&gt;，原则上可以在任何设备上运行，为了更好的体验建议在大屏幕上使用。其操作习惯和界面与 photoshop 基本相似，而且 &lt;strong&gt;完全免费&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/or51eETMCfalYXy.png&quot; alt=&quot;photopea软件界面&quot;&gt;&lt;/p&gt;
+&lt;p&gt;photopea 的主要功能：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;图像尺寸调节&lt;/li&gt;
+&lt;li&gt;图层&lt;/li&gt;
+&lt;li&gt;滤镜&lt;/li&gt;
+&lt;li&gt;选择工具&lt;/li&gt;
+&lt;li&gt;笔刷工具&lt;/li&gt;
+&lt;li&gt;文本样式&lt;/li&gt;
+&lt;li&gt;矢量图形&lt;/li&gt;
+&lt;li&gt;其他，比如动作，参考线和切片等&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用它既能处理简单的任务，像调整图片大小，又能完成很多复杂的工作，比如网页设计，创建矢量图形和处理照片等等。&lt;/p&gt;
+&lt;p&gt;photopea 在新建项目时提供了 &lt;strong&gt;多种画布尺寸选择&lt;/strong&gt;，像 Social、打印、照片、屏幕、移动设备以及广告设计等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/bkIJDNcQstgf89R.jpg&quot; alt=&quot;画布尺寸&quot;&gt;&lt;/p&gt;
+&lt;p&gt;photopea 可打开 &lt;strong&gt;psd&lt;/strong&gt;、&lt;strong&gt;sketch&lt;/strong&gt;、xd、Figma、&lt;strong&gt;pdf&lt;/strong&gt; 以及 RAW、NEF 和 CR2 等多种格式的文件。所以也可以把它当作一个 &lt;strong&gt;格式转换工具&lt;/strong&gt;。比如将 sketch 转换为 psd 文件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/FZaNJGhwMyLg8qT.jpg&quot; alt=&quot;支持的格式&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;适合人群&lt;/h2&gt;
+&lt;p&gt;我觉得它适合所有人。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初学者，使用它可以做简单的图片处理工作；&lt;/li&gt;
+&lt;li&gt;设计师，作为备用可以在紧急的情况下使用，比如 PS 软件坏掉打不开，sketch 转换为 psd 文件等等；&lt;/li&gt;
+&lt;li&gt;运营、策划等与设计师对接的人，无需下载 photoshop，可随时简单修改或查看设计文件；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;软件设置&lt;/h2&gt;
+&lt;p&gt;1.切换中文语言&lt;/p&gt;
+&lt;p&gt;打开 photopea 网址，鼠标左键依次点击「More」&amp;gt;「Language」&amp;gt;「简体字中文」&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/pcLnMDVwUYr1fio.png&quot; alt=&quot;切换语言&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.安装网站快捷图标到桌面&lt;/p&gt;
+&lt;p&gt;便于快速使用。打开 photopea 网址，鼠标点击浏览器地址栏的 &lt;strong&gt;加号按钮&lt;/strong&gt; 开始安装。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/OCj2SbrYqQK6xMs.gif&quot; alt=&quot;安装图标&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装后在桌面会生成一个 photopea 快捷图标，这种网页叫做 &lt;strong&gt;渐进式网页应用 (PWA)&lt;/strong&gt;。使用体验更接近于客户端应用，但本质上还是一个网页应用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/cvkIRhb5nuiEotg.png&quot; alt=&quot;photopea桌面图标&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我使用的是 Chrome 浏览器，其他浏览器不确定是否可以。如果你没有安装 Chrome，可以在公众号聊天界面回复「chrome」获取安装包。&lt;/p&gt;
+&lt;p&gt;3.加载本地字体&lt;/p&gt;
+&lt;p&gt;photopea 网页应用，加载字体可能需要花费较长的时间，这取决于你具体的网络环境。但可以将本地字体加载到 photopea 中, 这样可以节省加载字体时间，提高工作效率。&lt;/p&gt;
+&lt;p&gt;鼠标左键依次点击「字体工具」&amp;gt;「字体类型」&amp;gt;「加载字体」然后选择下载的字体即可。在「查找」搜索框中输入加载字体的名称，即可找到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/UpKDLxPm1FhfalR.gif&quot; alt=&quot;加载字体&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在菜单栏「编辑」&amp;gt;「本地存储」中可以找到安装的字体。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/KFV8RWpf2Pzklri.png&quot; alt=&quot;本地储存&quot;&gt;&lt;/p&gt;
+&lt;p&gt;4.加载笔刷&lt;/p&gt;
+&lt;p&gt;鼠标依次点击「笔刷工具」&amp;gt; 顶部「笔刷工具 ▼」&amp;gt; ▼ &amp;gt;「加载.ABR」然后选择下载好的笔刷文件即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/YOdfn4LjMsxmoT9.png&quot; alt=&quot;加载笔刷&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;总结&lt;/h2&gt;
+&lt;p&gt;经过个人的使用体验，photopea 打开设计文件快，可满足基本的设计需求。功能上除了用来做 &lt;strong&gt;图像处理&lt;/strong&gt;，还可以执行 &lt;strong&gt;格式转换&lt;/strong&gt; 以及 &lt;strong&gt;编辑 PDF 文件&lt;/strong&gt;。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>学习类网站分享</title>
+    <link href="https://byodiandev.com/learning-websites/"/>
+    <updated>2020-03-09T09:04:26.919+08:00</updated>
+    <id>https://byodiandev.com/learning-websites/</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&quot;https://www.coursera.org/&quot;&gt;Coursera&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Coursera 的在线课程由世界上顶尖大学和公司的讲师提供教学。Coursera 上既有免费课程也有付费课程，可以结合具体的需求去寻找课程。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/3ikAKEdxnSolgFZ.png&quot; alt=&quot;Coursera 部分课程&quot;&gt;&lt;/p&gt;
+&lt;p&gt;还可以在 App Store 和 安卓平台下载到 Coursera，因此你可以随时随地的学习课程。&lt;/p&gt;
+&lt;p&gt;推荐 Coursera 上一门免费课《Learning How To Learn》，目前是世界上参与人数最多的一门 MOOC 课程，可以帮助你更有力的掌握某一课目。英文课程，你可以选择中文字幕。&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.udemy.com/&quot;&gt;Udemy&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Udemy 课程种类丰富，什么课程都有，类似于淘宝的在线教育平台。在这里你可以学习到商务、办公室效率、设计、摄影、健康运动和音乐等领域的知识。&lt;/p&gt;
+&lt;p&gt;Udemy 每月都有促销，最低 9.9 美元就可以买到一门课程。使用信用卡或者 paypal 支付。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/3gJ9T6IFsqcQfhU.png&quot; alt=&quot;udemy 课程分类&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://zh.khanacademy.org/&quot;&gt;Khan Academy&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;可汗学院提供练习习题, 教学视频和个性化的学习界面，让学习者能够在课堂内外按照自己的进度学习。&lt;/p&gt;
+&lt;p&gt;内容涉及数学，科学，计算机编程，历史，艺术史，经济学等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/Drt7eukvYqofA1a.png&quot; alt=&quot;kehan&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.classcentral.com/&quot;&gt;Class Central&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;免费网络课程搜索引擎，这些课程大多来自于世界上顶级的大学，像麻省理工学院、斯坦福大学和哈佛大学等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/MLBzngP5bKOF71h.png&quot; alt=&quot;部分课程分类&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://zh.wikihow.com/&quot;&gt;wikiHow&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;wikiHow 以&lt;strong&gt;如何做某事&lt;/strong&gt;的提问方式，提供了很多实用的百科指南。在这里你可以找到很多关于生活、工作和学习的实用指南。比如&lt;strong&gt;如何移除树桩&lt;/strong&gt;，&lt;strong&gt;如何关闭 Chrome 浏览器的浏览历史&lt;/strong&gt;，&lt;strong&gt;如何修复手机电池&lt;/strong&gt;等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/09/zisH4mTRhvlIxBP.png&quot; alt=&quot;wikiHow.png&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>10个值得收藏的在线应用和资源网站</title>
+    <link href="https://byodiandev.com/10-valuable-sites/"/>
+    <updated>2020-03-08T15:03:15.699+08:00</updated>
+    <id>https://byodiandev.com/10-valuable-sites/</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&quot;https://pdf.to/&quot;&gt;pdf.to&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;PDF 格式免费转换工具，可将 PDF 与其他文件类型相互转换，其他文件类型可自行查看。网站还提供常用的 PDF 工具，包括压缩、修复、拆分和解锁 PDF。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/SMmH6OizkcadCof.png&quot; alt=&quot;pdf.to.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.ilovepdf.com/zh-cn&quot;&gt;ilovepdf&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;完全免费。与 pdf.to 的区别是它支持转换的文件类型少，但 PDF 工具丰富。&lt;/p&gt;
+&lt;p&gt;新增的全新功能可将网页转换为 PDF，复制并粘贴所需要的 URL 地址，然后一键将其转换为 PDF。&lt;/p&gt;
+&lt;p&gt;PDF 工具包括：合并、拆分和压缩 PDF，添加页面和水印，PDF 加密和解密以及排列和旋转 PDF。&lt;/p&gt;
+&lt;p&gt;iLovePDF 桌面客户端融合了 &lt;strong&gt;免费的 PDF 阅读器&lt;/strong&gt; 与全套的 PDF 工具。支持 Windows 和 MacOS。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/BRbEt7GVwzrgH84.png&quot; alt=&quot;iLovePDF.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.remove.bg/zh&quot;&gt;removebg&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;消除图片背景，全自动且完全免费。这个网站之前只可以抠除人像背景，现在已经支持抠除&lt;strong&gt;产品&lt;/strong&gt;、&lt;strong&gt;动物&lt;/strong&gt;和&lt;strong&gt;汽车&lt;/strong&gt;背景了。&lt;/p&gt;
+&lt;p&gt;removebg 提供可选择的插件和工具，可以将它集成在你的设计程序比如 photoshop 或者 Figma 中。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/nheB49yplSOvVIC.png&quot; alt=&quot;removebg.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://getavataaars.com/&quot;&gt;getavataaars&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;社交媒体账号头像生成器。如果不知道选择何种图像作为账号头像，可以试试它。通过调节五官类型，皮肤颜色和装饰物自动获取不同的头像。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/9uzITdhO3nFpGtm.gif&quot; alt=&quot;avaraaas.gif&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.versionmuseum.com/&quot;&gt;Version Museum&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Version Museum 展示了影响我们生活的流行网站，操作系统，应用程序和游戏的视觉历史。&lt;/p&gt;
+&lt;p&gt;这是 Word 图标的演变。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/07/RfjJASbmyNkgQCr.png&quot; alt=&quot;ms-word-logo-history.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;感受一下 Word 89 年的风采，还有很多产品的视觉历史的演变，赶紧去看看吧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/7PHEVKYTxFI4lyp.png&quot; alt=&quot;1989^wordediting.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.classcentral.com/&quot;&gt;Class Central&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;免费网络课程搜索引擎，这些课程大多来自于世界上顶级的大学，像麻省理工学院、斯坦福大学和哈佛大学等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/MLBzngP5bKOF71h.png&quot; alt=&quot;subjects.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.pirateproxy.space/&quot;&gt;the pirate bay&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;种子资源网站&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.opensubtitles.org/zh&quot;&gt;opensubtitles&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;最大的多语言电影和剧集字幕库，可搜索多国语言。&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://coverr.co/&quot;&gt;coverr&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;短视频分享网站，可免费下载。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/pBR6hN5gOqUovcm.png&quot; alt=&quot;coverr.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.producthunt.com/&quot;&gt;Product Hunt&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Product Hunt 每天都会发布最好的新产品。在这里，产品爱好者可以分享和了解最新的移动应用程序，网站，硬件项目和技术创新。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/uG9lHYkfbZrSUeO.png&quot; alt=&quot;producthunt.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://earth.nullschool.net/zh-cn/&quot;&gt;earth&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;风、气象、海洋状况的全球地图，通过超级计算机的预告，可以在这个交互的动画地图上查看现在的风，天气，海洋和污染状况。每三个小时更新一次。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/08/ki3XcnKJgDvePqh.png&quot; alt=&quot;earth.png&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>你必须知道的 Win10 操作小技巧</title>
+    <link href="https://byodiandev.com/windows10-tips-and-tricks-you-must-try/"/>
+    <updated>2020-02-21T10:36:18.676+08:00</updated>
+    <id>https://byodiandev.com/windows10-tips-and-tricks-you-must-try/</id>
+    <content type="html">&lt;p&gt;从快捷键、鼠标操作和触摸板手势三个方面，来介绍提高 Windows 10 操作效率的方法。&lt;/p&gt;
+&lt;p&gt;记太多的快捷键其实是没有必要的，因为使用率低的话会很快忘记，建议记一些常遇到的操作快捷键，一些不太常用的快捷键可以随用随查。&lt;/p&gt;
+&lt;p&gt;下面贴三个微软官网的链接，从官网可以找到很多这方面的技巧。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/zh-cn/help/12445/windows-keyboard-shortcuts&quot;&gt;Windows 中的键盘快捷方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/zh-cn/help/4027871/windows-10-touchpad-gestures&quot;&gt;适用于 Windows 10 的触摸板手势&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/zh-cn/tips/home&quot;&gt;欢迎使用 Microsoft 使用技巧！&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;就我个人的亲身体验，提高电脑操作效率这件事一定得结合使用场景，然后再具体到使用哪一种方式或者是多种操作相结合的方式。比如，关于打开&lt;strong&gt;文件资源管理器&lt;/strong&gt;的使用场景：&lt;/p&gt;
+&lt;p&gt;当双手都在键盘上时，使用快捷键打开比较快；当一只手握着鼠标，另一只手不在键盘上时，使用鼠标点击打开比较快。&lt;/p&gt;
+&lt;p&gt;当然首先要知道打开文件资源管理器的快捷键是 &lt;strong&gt;Win + E&lt;/strong&gt;，并且电脑桌面或者任务栏上有文件夹的快捷图标，这样用很少的鼠标点击次数就能打开它。&lt;/p&gt;
+&lt;p&gt;接下来我会列出一些平时常遇到的操作，并给出对应打开方法。&lt;/p&gt;
+&lt;h2&gt;打开文件资源管理器&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;Win + E&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/pov5Qqc27UbnOCt.gif&quot; alt=&quot;win+e.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;鼠标操作：首先固定&lt;strong&gt;文件资源管理器&lt;/strong&gt;到任务栏。打开系统搜索功能，在输入框中输入「文件资源管理器」，鼠标右键点击搜索结果「文件资源管理器」，选择「固定到任务栏」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/TW5URVfmysj4Hgc.gif&quot; alt=&quot;任务栏.gif&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;显示和隐藏桌面桌面&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;Win + D&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/Pkmg1Nyx26YDCrI.gif&quot; alt=&quot;win+d.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;鼠标操作：将鼠标指针移动到屏幕右下角，点击鼠标左键。&lt;/p&gt;
+&lt;p&gt;触摸板：在触摸板上同时用三个手指向下轻扫显示桌面，然后向上轻扫查看所有已经打开的窗口。&lt;/p&gt;
+&lt;h2&gt;打开表情符号面板&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;Win + .&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/V6YQNMu9RIzFl5D.gif&quot; alt=&quot;win+..gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;鼠标操作：首先鼠标右键点击任务栏设置「显示触摸键盘按钮」，然后点击虚拟键盘图标就会出现表情符号的按钮。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/5EFdJbZnLH1rPgw.gif&quot; alt=&quot;触摸板.gif&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;快速切换窗口&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;Alt + Tab&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/lk1P2Y5tVMrnpAH.gif&quot; alt=&quot;win+tab.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;鼠标操作：首先鼠标右键点击任务栏设置「显示任务视图按钮」，然后点击图标。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/QOmj9n3XwiaokcT.png&quot; alt=&quot;任务栏图标.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;触摸板手势：在触摸板上同时用三个手指向左或右轻扫。&lt;/p&gt;
+&lt;h2&gt;打开系统搜索&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;Win + S&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/JG3dYQBCW8PI4vO.gif&quot; alt=&quot;win+S.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;鼠标操作：首先鼠标右键点击任务栏设置「显示搜索图标」，然后点击搜索图标打开。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/XsYS2CwMTK5vtq7.png&quot; alt=&quot;搜索.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;锁定电脑&lt;/h2&gt;
+&lt;p&gt;快捷键：&lt;strong&gt;win + L&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在你工作要离开电脑时，可快速锁定电脑保护你的隐私。&lt;/p&gt;
+&lt;h2&gt;文件资源管理器键盘快捷方式&lt;/h2&gt;
+&lt;p&gt;这三个快捷键同样也适用浏览器。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打开新窗口：&lt;strong&gt;Ctrl + W&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;打开新窗口：&lt;strong&gt;Ctrl + N&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;选择地址栏：&lt;strong&gt;Alt + D&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这两个快捷键，感兴趣可以记一下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看上一个文件夹：&lt;strong&gt;Backspace&lt;/strong&gt;/&lt;strong&gt;Alt + 向左键&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;查看下一个文件夹：&lt;strong&gt;Alt + 向右键&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>空格键快速预览电脑文件</title>
+    <link href="https://byodiandev.com/quicklook-app/"/>
+    <updated>2020-02-19T10:46:58.518+08:00</updated>
+    <id>https://byodiandev.com/quicklook-app/</id>
+    <content type="html">&lt;div class=&quot;iframe-wrapper&quot;&gt;
+&lt;iframe src=&quot;https://player.bilibili.com/player.html?aid=89916676&amp;cid=153572009&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>快速寻找鼠标指针位置</title>
+    <link href="https://byodiandev.com/getting-the-mouse-pointer-position/"/>
+    <updated>2020-02-18T10:57:52.502+08:00</updated>
+    <id>https://byodiandev.com/getting-the-mouse-pointer-position/</id>
+    <content type="html">&lt;div class=&quot;iframe-wrapper&quot;&gt;
+&lt;iframe src=&quot;https://player.bilibili.com/player.html?aid=89916019&amp;cid=153571379&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;按住 Ctrl 键快速寻找鼠标指针位置。打开「设置」&amp;gt; 「设备」&amp;gt; 「鼠标」&amp;gt; 「其他鼠标选项」&amp;gt; 「指针选项」, 选择 「当按 Ctrl 键时显示指针位置」&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>居中显示 windows10 任务栏图标</title>
+    <link href="https://byodiandev.com/center-align-taskbar-icons/"/>
+    <updated>2020-02-17T11:03:30.620+08:00</updated>
+    <id>https://byodiandev.com/center-align-taskbar-icons/</id>
+    <content type="html">&lt;div class=&quot;iframe-wrapper&quot;&gt;&lt;iframe src=&quot;https://player.bilibili.com/player.html?aid=89675895&amp;cid=153163931&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;居中显示任务栏图标，瞬间美化桌面。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>windows 10 使用技巧之玩转系统设置</title>
+    <link href="https://byodiandev.com/tips-for-windows-settings/"/>
+    <updated>2020-02-16T00:36:02.708+08:00</updated>
+    <id>https://byodiandev.com/tips-for-windows-settings/</id>
+    <content type="html">&lt;p&gt;Windows 10 使用技巧之玩转系统设置，让你的电脑更好用。首先介绍两种&lt;strong&gt;快速查找设置&lt;/strong&gt;的方法，以供后续使用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按 &lt;strong&gt;Win + S&lt;/strong&gt; 快捷键打开搜索，然后在搜索框中键入关键字以查找你需要的设置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/lLxjBMSbRZe4Y8s.gif&quot; alt=&quot;快速打开相关设置&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按 &lt;strong&gt;Win + X&lt;/strong&gt; 快捷键选择「设置」，然后在搜索框中键入关键字以查找你需要的设置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/6NrIDolmjuexAiw.png&quot; alt=&quot;在设置中搜索&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;深色模式&lt;/h2&gt;
+&lt;p&gt;通过切换深色或浅色模式，为你的应用显示全新的外观。使用深色模式，电脑用久了眼睛也不会太难受。你可以通过快速查找设置的方式，打开「颜色」设置，然后&lt;strong&gt;选择颜色&lt;/strong&gt;为深色。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/Ko4qWV2xAX9jCi5.gif&quot; alt=&quot;切换到深色模式&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;夜间模式&lt;/h2&gt;
+&lt;p&gt;通过打开夜间模式，为你眼睛再加一层保护设置。当然保护眼睛最好的方式就是及时休息，不让眼睛有疲劳感。&lt;/p&gt;
+&lt;p&gt;在任务栏上选择「操作中心」，然后再弹出的列表中点击「夜间模式」可以快速打开夜间模式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/CfmRlWLBrhbk429.png&quot; alt=&quot;快速打开夜间模式&quot;&gt;&lt;/p&gt;
+&lt;p&gt;可以搜索「夜间模式设置」&amp;gt;「强度」，然后选择一个合适的夜间模式颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/cfWRjm4YZ3MVhNE.gif&quot; alt=&quot;选择夜间模式强度&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;隐藏/显示桌面图标&lt;/h2&gt;
+&lt;p&gt;隐藏电脑桌面上摆放的图标，瞬间美化桌面。在电脑桌面空白处，点击鼠标右键，选择「查看」，然后取消「显示桌面图标」。若要重新查看它们，请选择「显示桌面图标」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/Naj8GW2t6J1cle7.gif&quot; alt=&quot;隐藏桌面图标&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;放大屏幕上的内容&lt;/h2&gt;
+&lt;p&gt;让你的内容更加醒目。如果只放大屏幕上显示的文本，请搜索「显示」设置，然后调整「放大文本」下面的滑块。如果要放大所有内容，请从「让内容更醒目」下面的下拉菜单中选择一个选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/OwLQkfdbzVpGyAD.png&quot; alt=&quot;放大屏幕上的内容&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;更改指针大小和颜色&lt;/h2&gt;
+&lt;p&gt;让你的指针在屏幕上更容易被发现。搜索「轻松使用」设置，然后在「光标和指针」设置里选择一个喜欢的样式。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/Kw1RIHnC8jPhWBO.png&quot; alt=&quot;更改指针大小和颜色&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;虚拟桌面&lt;/h2&gt;
+&lt;p&gt;虚拟桌面功能允许创建多个桌面，可以根据需求在不同的桌面创建不同的环境。比如，可以在桌面 1 做与工作相关的事情，桌面 2 做与生活相关的事情。这样可以节省切换不同软件页面的时间，提高效率。&lt;/p&gt;
+&lt;p&gt;选择任务栏的「任务视图」按钮或者按 &lt;strong&gt;Win + Tab&lt;/strong&gt; 键，可以打开虚拟桌面。&lt;/p&gt;
+&lt;p&gt;虚拟桌面功还能显示所有已经打开的程序，允许在不同的程序任务之间切换。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/cpOfT8uwFDmaiPG.png&quot; alt=&quot;新建虚拟桌面和任务视图&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Windows 安全中心&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;使用 Windows 安全中心帮助你的电脑免受病毒威胁&lt;/strong&gt;。搜索「Windows 安全中心」选择「病毒和威胁防护」，然后选择「快速扫描」，通过扫描你的电脑来查明是否存在异常情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/15/np8d9Uy7QO2vK6X.png&quot; alt=&quot;病毒和威胁防护&quot;&gt;&lt;/p&gt;
+&lt;p&gt;使用 Windows 安全中心可以做到病毒和威胁以及勒索软件的防护，并且会定期更新病毒威胁防护，所以&lt;strong&gt;使用它足够保护电脑的安全，不必再下载其他第三方的杀毒软件。&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Windows 10 使用技巧之系统内置应用</title>
+    <link href="https://byodiandev.com/tips-for-windows-apps/"/>
+    <updated>2020-02-13T22:50:29.547+08:00</updated>
+    <id>https://byodiandev.com/tips-for-windows-apps/</id>
+    <content type="html">&lt;p&gt;Windows 10 作为最后一个版本的 Windows，会不间断地带来新的创新和更新，并以服务的形式发布出来。&lt;/p&gt;
+&lt;p&gt;而 Windows 10 发布至今已经推出了九个版本，最新的更新日期是 2019 年十一月，版本号 1909。&lt;/p&gt;
+&lt;p&gt;随着不断地更新，Windows 10 带来了很多新的功能和更新。关于 &lt;a href=&quot;https://www.microsoft.com/zh-cn/tips/home&quot;&gt;windows 10 的使用技巧&lt;/a&gt;，现在就让我们从系统内置的应用和功能开始说起。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Windows 徽标键&lt;/strong&gt;（后文以 &lt;strong&gt;Win&lt;/strong&gt; 表示）指键盘上印有 &lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/windows.png&quot; alt=&quot;&quot;&gt; 图案的按键。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Win + 字母/标点符号&lt;/code&gt; 表示键盘组合键&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;剪贴板&lt;/h2&gt;
+&lt;p&gt;在 Windows 中复制内容时，内容会复制到剪贴板以供你粘贴。按 &lt;code&gt;Win + V&lt;/code&gt; 键，可以查看剪贴板历史记录。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;剪贴板历史记录&lt;/strong&gt;让你不用来回切换软件界面一条条的复制粘贴内容，而是允许你把所有想要粘贴的内容复制下来，保存在剪贴板历史记录中。这样节省了来回切换界面的时间，提高了工作效率。&lt;/p&gt;
+&lt;p&gt;并且根据我个人使用体验，剪贴板只可以保留文本信息和截图保存的图像。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/%E5%89%AA%E8%B4%B4%E6%9D%BF%E9%9D%A2%E6%9D%BF.png&quot; alt=&quot;剪贴板历史记录面板&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;如何打开剪贴板功能&lt;/h3&gt;
+&lt;p&gt;点击搜索按钮或按 &lt;code&gt;Win + S&lt;/code&gt; 键，然后在搜索框中键入「剪贴板」以查找你需要的设置。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/paste.png&quot; alt=&quot;打开剪贴板设置示意图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在设置中可以看到剪贴板历史记录、跨设备同步和清除剪贴板数据三个操作选项。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/paste%20setting.png&quot; alt=&quot;剪贴板设置选项&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;表情符号&lt;/h2&gt;
+&lt;p&gt;按 &lt;code&gt;Win + .&lt;/code&gt; 键打开表情符号面板。
+使用表情符号面板允许添加多种表情和符号，包括 &lt;strong&gt;Emoji&lt;/strong&gt; 表情、&lt;strong&gt;颜文字&lt;/strong&gt;和&lt;strong&gt;多种符号&lt;/strong&gt;（如标点和单位符号）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E6%B7%BB%E5%8A%A0%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7.png&quot; alt=&quot;表情符号&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意: 要使用表情符号选取器，必须使用 Windows 版本 1809 或更高版本。&lt;/p&gt;
+&lt;p&gt;查看系统版本号：选择 「开始」菜单 &amp;gt;「设置」&amp;gt;「系统」&amp;gt;「关于」&amp;gt;「Windows 规格」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;截图和草图&lt;/h2&gt;
+&lt;p&gt;按 &lt;code&gt;Win + Shift + S&lt;/code&gt; 键打开截图工具，然后将光标移动到要捕获的区域。截取的图像将保存在剪贴板。&lt;/p&gt;
+&lt;p&gt;全新的截图工具支持矩形截图、任意形状截图、窗口截图和全屏幕截图。&lt;/p&gt;
+&lt;h2&gt;便笺&lt;/h2&gt;
+&lt;p&gt;借助便笺应用创建笔记，可添加文本信息和图片，将信息粘贴在桌面上，还能随意的移动信息。&lt;/p&gt;
+&lt;p&gt;还可以更改便笺的颜色。在便笺中选择「菜单」，然后选择你喜欢的颜色。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/%E4%BE%BF%E7%AC%BA.gif&quot; alt=&quot;便笺工具&quot;&gt;&lt;/p&gt;
+&lt;p&gt;使用便笺工具可以记录稍纵即逝的灵感，或者保存内容供稍后使用。&lt;/p&gt;
+&lt;h2&gt;邮件和日历&lt;/h2&gt;
+&lt;p&gt;邮件应用帮助你随时把握电子邮件最新动向，且&lt;strong&gt;使用 Word 熟悉和丰富的格式功能草拟电子邮件&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;支持 Office 365、Exchange、Outlook、Gmail、Yahoo! 和其他常用帐户。在邮件应用中选择「账户」&amp;gt;「管理账户」&amp;gt; 「添加账户」可添加你的邮箱信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/%E9%82%AE%E4%BB%B6%E6%B7%BB%E5%8A%A0%E8%B4%A6%E6%88%B7.png&quot; alt=&quot;添加邮箱账户&quot;&gt;&lt;/p&gt;
+&lt;p&gt;日历提供实用、强大的日程表视图，如天、周、月和年。通过日历规划你每天的日程，可以在日历中添加&lt;strong&gt;节假日、生日和体育比赛&lt;/strong&gt;（比如 NBA）等具体事件。&lt;/p&gt;
+&lt;p&gt;在日历应用中，选择「添加日历」，在弹出的面板中选择你喜欢的体育项目或者球队。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/%E6%97%A5%E5%8E%86%E9%9D%A2%E6%9D%BF.png&quot; alt=&quot;我的日历面板&quot;&gt;&lt;/p&gt;
+&lt;p&gt;也可以在任务栏的日期和时间上，快速查看每天的事件，另外可以直接向日历中添加 「事件或提醒」。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/byodian/logpic/master/date.png&quot; alt=&quot;快速查看日历和添加事件&quot;&gt;&lt;/p&gt;
+&lt;p&gt;便笺、截图和草图以及邮件和日历都是 Windows 内置的应用，如果在你的电脑上没有找到，可以去&lt;strong&gt;微软应用商店&lt;/strong&gt;下载。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>软件工具和学习资源集合</title>
+    <link href="https://byodiandev.com/applications-and-learning-sources/"/>
+    <updated>2020-02-04T20:34:56.254+08:00</updated>
+    <id>https://byodiandev.com/applications-and-learning-sources/</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/byodian/awesometools&quot;&gt;Awesome Tools&lt;/a&gt; 整理众多操作系统下实用的软件工具和学习资源，项目灵感来源于 &lt;a href=&quot;https://github.com/iCHAIT/awesome-macOS&quot; title=&quot;Awesome macOS&quot;&gt;Awesome macOS&lt;/a&gt;、&lt;a href=&quot;https://github.com/Awesome-Windows/Awesome.git&quot;&gt;Awesome&lt;/a&gt;、&lt;a href=&quot;https://amazing-apps.gitbook.io/windows-apps-that-amaze-us/zh-cn&quot;&gt;Windows 绝赞应用&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;Windows&lt;/h2&gt;
+&lt;h3&gt;效率工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.listary.com/&quot;&gt;Listary&lt;/a&gt; - 搜索文件和快速启动软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.wox.one/&quot;&gt;Wox&lt;/a&gt; - 快速启动软件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.yingdev.com/projects/wgestures&quot;&gt;WGestures&lt;/a&gt; - 鼠标手势操作电脑&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.autohotkey.com/&quot;&gt;AutoHotkey&lt;/a&gt; - 重新映射键盘按键&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pooi.moe/QuickLook/?utm_source=www.appinn.com&quot;&gt;QuickLook&lt;/a&gt; - 快速预览文件&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getquicker.net/&quot;&gt;Quicker&lt;/a&gt; - 为常用操作建立捷径，让效率触手可及&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.autohotkey.com/&quot;&gt;AutoHotKey&lt;/a&gt; - The ultimate automation scripting language for Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;系统管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.crystalidea.com/uninstall-tool&quot;&gt;Uninstall Tool&lt;/a&gt; - 卸载软件工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ccleaner.com/&quot;&gt;CCleaner&lt;/a&gt; - 清理工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.uderzo.it/main_products/space_sniffer/index.html&quot;&gt;SpaceSniffer&lt;/a&gt; - 可视化电脑硬盘空间管理&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mactype.net/&quot;&gt;MacType&lt;/a&gt; 渲染 Windows 字体, 使其更好显示。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://v0v.bid/&quot;&gt;Windows 系统&lt;/a&gt; - 一句命令激活&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;资源下载&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.speedpan.com/&quot;&gt;速盘&lt;/a&gt; - 百度网盘资源下载器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pandownload.com/&quot;&gt;PanDownload&lt;/a&gt; - 百度网盘资源快速下载器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;截图和录制&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.snipaste.com/&quot;&gt;Snipaste&lt;/a&gt; - 截图 + 贴图工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://picpick.app/zh/&quot;&gt;Picpick&lt;/a&gt; - 图像编辑器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code52.org/carnac/&quot;&gt;Carnac&lt;/a&gt; - 录制按键操作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.screentogif.com/?l=zh_cn&quot;&gt;ScreenToGif&lt;/a&gt; - 视频、动图录制和编辑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;桌面美化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rainmeter.net/&quot;&gt;Rainmeter&lt;/a&gt; - 桌面美化程序&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/431960/Wallpaper_Engine/&quot;&gt;Wallpaper&lt;/a&gt; - steam 平台美化桌面工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rocketdock.en.softonic.com/&quot;&gt;RocketDock&lt;/a&gt; - Windows 桌面任务栏&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.deviantart.com/&quot;&gt;deviantart&lt;/a&gt; - 支持 RocketDock 和 Rainmeter 的主题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;未分类&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://justgetflux.com/&quot;&gt;f.lux&lt;/a&gt; - 护眼模式工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.typora.io/&quot;&gt;Typora&lt;/a&gt; - markdown 编辑器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://otp.landian.la/zh-cn/&quot;&gt;Office Tool Plus&lt;/a&gt; - Office Tool 是一个用于管理、下载、安装、激活 Office、Visio、Project 的小工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://potplayer.daum.net/?lang=zh_CN&quot;&gt;potplayer&lt;/a&gt; - 视频播放器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://knotesapp.cn/&quot;&gt;Knotes&lt;/a&gt; - kindle 标注笔记导出工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://calibre-ebook.com/&quot;&gt;Calibre&lt;/a&gt; - 电子图书管理，格式转换&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sodaplayer.com/&quot;&gt;sodaplayer&lt;/a&gt; 种子播放器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mac&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.getjustfocus.com/&quot;&gt;JustFocus&lt;/a&gt; - 简洁易用的休息提醒工具。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mediaatelier.com/GrandTotal6/?lang=en&quot;&gt;CheatSheet&lt;/a&gt; - 一键查询系统，应用程序的快捷键&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pasteapp.me/&quot;&gt;Paste&lt;/a&gt; - 剪贴板工具，&lt;strong&gt;付费&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://culturedcode.com/things/&quot;&gt;Things&lt;/a&gt; - 任务管理，&lt;strong&gt;付费&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.alfredapp.com/&quot;&gt;Alfred&lt;/a&gt; - 快速启动 Mac 文件和软件。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://matthewpalmer.net/rocket/&quot;&gt;Rocket&lt;/a&gt; - 使用简单容易的方式快速打出表情&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://elpass.app/&quot;&gt;elpass&lt;/a&gt; - 密码管理，&lt;strong&gt;app 内购买&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Android&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://labs.xda-developers.com/&quot;&gt;XDA labs&lt;/a&gt; - 自由分发和推广应用程序的平台&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://f-droid.org/en/&quot;&gt;F-Droid&lt;/a&gt; - 免费开源的安卓应用市场&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://f-droid.org/en/packages/org.schabi.newpipe/&quot;&gt;NewPipe&lt;/a&gt; - 轻量级第三方 Youtube 客户端，支持后台视频播放&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ymusic.io/&quot;&gt;YMusic&lt;/a&gt;- 第三方 Youtube 音乐播放器，支持后台播放&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;多平台应用&lt;/h2&gt;
+&lt;h3&gt;iOS&amp;amp;Android&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stoopinbox.com/&quot;&gt;stoop&lt;/a&gt; - A newsletter app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mac&amp;amp;Windows&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://anydesk.com/zhs&quot;&gt;Anydesk&lt;/a&gt; 远程协作&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://textexpander.com/&quot;&gt;textexpander&lt;/a&gt; - 文本替换工具，提高打字效率。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://trankynam.com/atext/&quot;&gt;aText&lt;/a&gt; - 使用缩略语快速替换你自定义频繁使用的短语&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.fancynode.com.cn/pxcook&quot;&gt;PxCook&lt;/a&gt; - 效易用的自动标注工具, 生成前端代码, 设计研发协作利器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hyper.is/&quot;&gt;Hyper&lt;/a&gt; - 一个漂亮并且可拓展的命令行终端。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Chrome&lt;/h2&gt;
+&lt;h3&gt;扩展&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://getfireshot.com/&quot;&gt;Fireshot&lt;/a&gt; - 捕捉网页截图，编辑并将它们保存为 PDF，JPEG，GIF，PNG 或 BMP。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.awesomescreenshot.com/&quot;&gt;网页截图:注释&amp;amp;录屏&lt;/a&gt; - 网页截图:注释&amp;amp;录屏。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://yousub.info/&quot;&gt;Youtube Subscription Manager&lt;/a&gt; - 使用文件夹管理订阅的 YouTube 频道。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://addoncrop.com/&quot;&gt;Youtube 视频下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dualsub.netlify.com/zh-cn/&quot;&gt;Dualsub&lt;/a&gt; - Youtube 双语字幕。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/goodtwitter/jbanhionoclikdjnjlcmefiofgjimgca&quot;&gt;GoodTwitter&lt;/a&gt; 强制浏览器使用旧版 twitter。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bionic-reading.com/en/&quot;&gt;Bionic Reading&lt;/a&gt; - A higher dimension of reading.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://markdown-here.com/&quot;&gt;Markdown Here&lt;/a&gt; - 转换 Markdown 格式的文本。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco&quot;&gt;Extension Manager&lt;/a&gt; - 扩展管理器。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/context-menus/phlfmkfpmphogkomddckmggcfpmfchpn?utm_source=chrome-ntp-icon&quot;&gt;右键搜&lt;/a&gt; - 扩展右键菜单，超过 300 种功能，方便的选择、组合或自定义页面、划词、图片菜单，并有生成、解析二维码和短网址功能。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tiny.cc/Imagus&quot;&gt;Imagus&lt;/a&gt; - 鼠标指针悬停在链接或缩略图上时直接在当前页面的弹出视图上显示这些图片、HTML5 视频/音频和内容专辑。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.infinitynewtab.com/&quot;&gt;Infinity 新标签页&lt;/a&gt; - Infinity 新标签页。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://momentumdash.com/&quot;&gt;Momentum&lt;/a&gt; - 简洁标签页。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj&quot;&gt;Google 文档、表格及幻灯片的 Office 编辑扩展程序&lt;/a&gt; 离线可用，用 Chrome 直接查看和编辑 Word、Excel、PPT 文档。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vinta/pangu.js&quot;&gt;为什么你们就是不能加个空格呢？&lt;/a&gt; - 自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gikken.co/mate-translate/&quot;&gt;Mate Translate&lt;/a&gt; - 翻译器、词典 一站式翻译您的网页、标记的文字段落和 Netflix 影集字幕。快速翻译和学习多达 103 种语言。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.baiduyun.wiki/&quot;&gt;网盘直链下载助手&lt;/a&gt; - 油猴脚本 一个免费脚本搞定网盘下载。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://vimium.github.io/&quot;&gt;Vimium&lt;/a&gt; 根据 Vim 编辑器的操作习惯，提供导航和控制的键盘快捷键&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/igrigorik/videospeed&quot;&gt;Video Speed Controller&lt;/a&gt; - 网页视频加速调节工具，还可以快进广告。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.clippings.io/&quot;&gt;clippings.io&lt;/a&gt; 管理 Kindle 设备上的摘抄和笔记&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;开发相关&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn?hl=zh-CN&quot;&gt;GitZip for github&lt;/a&gt; - 下载 github 单个文件扩展&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc/related?hl=zh-CN&quot;&gt;Octotree&lt;/a&gt; - github 项目目录&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/github-repository-size/apnjnioapinblneaedefcnopcjepgkci?hl=zh-CN&quot;&gt;GitHub Repository Size&lt;/a&gt; - 显示 github 仓库大小&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrispederick.com/work/web-developer/&quot;&gt;Web Developer&lt;/a&gt; - Web 开发。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://palette.site/&quot;&gt;Site Palette&lt;/a&gt; - 拾取网页颜色。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme&quot;&gt;Page Ruler&lt;/a&gt; - 定位页面任何元素的宽高和位置。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://keyframes.app/&quot;&gt;keyframes.app&lt;/a&gt; - Keyframes gives you a visual timeline to help you create, view, and run animations without having to go back and forth between your browser and editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;在线应用&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pdf.to/&quot;&gt;pdf.to&lt;/a&gt; - PDF 格式转换&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ilovepdf.com/zh-cn&quot;&gt;ilovepdf&lt;/a&gt; pdf 格式转换&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.clipconverter.cc/&quot;&gt;YouTube to MP4 &amp;amp; MP3 Converter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://transform.tools/&quot;&gt;transform&lt;/a&gt; - 多种 web 语言转换器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.remove.bg/zh&quot;&gt;removebg&lt;/a&gt; - 去除人像图片背景，自动抠图。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getavataaars.com/&quot;&gt;getavataaars&lt;/a&gt; - 卡通图像生成器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sp.linci.co/&quot;&gt;双拼输入法&lt;/a&gt; - 在线练习应用&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://excalidraw.com/&quot;&gt;excalidraw&lt;/a&gt; - 画草图的简易白板工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://colorleap.app/home&quot;&gt;Color Leap&lt;/a&gt; - 读取历史照片颜色&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bulletjournal.app/&quot;&gt;bulletjournal&lt;/a&gt; - 子弹笔记&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zws.im/&quot;&gt;Zero Width Shortener&lt;/a&gt; - 短网址生成器&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://2zimu.com/&quot;&gt;突字幕&lt;/a&gt; - 上传视频，得字幕。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://learngitbranching.js.org/&quot;&gt;Learning Git Branching&lt;/a&gt; - 关卡挑战，逐步深入的学习 Git 的功能。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tdeecalculator.net/&quot;&gt;TDEE Calculator&lt;/a&gt; - 计算每天燃烧的卡路里。它首先提供基础的代谢消耗，然后这个值乘以活动因子，得出你在不同锻炼频率下的卡路里消耗值。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yurl.sinaapp.com/crx.php&quot;&gt;Crx&lt;/a&gt; - 下载 Chrome 扩展离线安装包&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome-extension-downloader.com/&quot;&gt;Chrome Extension Downloader&lt;/a&gt; - 下载 Chrome 扩展离线安装包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;资源&lt;/h2&gt;
+&lt;h3&gt;GitHub&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/topics&quot;&gt;GitHub Topic&lt;/a&gt; - github 中优秀的项目&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/trending&quot;&gt;GitHub Trend&lt;/a&gt; - github 每天受欢迎的项目排行&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zhaoolee/ChromeAppHeroes&quot;&gt;chromeapp&lt;/a&gt; - Chrome 插件推荐&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shields.io/&quot;&gt;shields&lt;/a&gt; - Quality metadata badges for open source projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;短视频&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://coverr.co/&quot;&gt;coverr&lt;/a&gt; - 短视频网站&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mazwai.com/#/&quot;&gt;Mazwai&lt;/a&gt; - 短视频网站&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;图片&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.pexels.com/&quot;&gt;pexels&lt;/a&gt; - 支持关键词、颜色搜索&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt; - 摄影师社区推动平台、高清壁纸分享&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://imgbin.com/&quot;&gt;imgbin&lt;/a&gt; - 透明 PNG 图片下载&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nos.twnsnd.co/&quot;&gt;New Old Stock&lt;/a&gt; - 历史照片、黑白照片&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://streetwill.co/&quot;&gt;StreetWill&lt;/a&gt; - 人文地理、自然风景类图片&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;图标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://icomoon.io/#home&quot;&gt;IconMoon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;字幕资源&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://subhd.tv/&quot;&gt;Sub HD 字幕站&lt;/a&gt; 字幕下载站&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.opensubtitles.org/en/search/subs&quot;&gt;Opensubtitles&lt;/a&gt; - 字幕站。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://subscene.com/&quot;&gt;subscene&lt;/a&gt; - 字幕站。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.thepiratebay.org/&quot;&gt;the pirate bay&lt;/a&gt; 种子资源网&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;学习类&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.prototypr.io/home/&quot;&gt;prototypr&lt;/a&gt; - 设计相关的新闻和工具&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.classcentral.com/&quot;&gt;Class Cental&lt;/a&gt; - 免费的网络和公开课搜索引擎，赶紧安排学习起来。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://i18ns.com/zh/index.html&quot;&gt;i18ns&lt;/a&gt; - App&amp;amp;Web 国际化翻译搜索。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.shuxuele.com/&quot;&gt;数学乐&lt;/a&gt; - 有趣及易懂的方法来演示数学，本网站旨在覆盖整个幼儿园到高中的数学课程。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.autohotkey.com/boards/viewtopic.php?f=29&amp;amp;t=1099&quot;&gt;AutoHotkey 学习指南&lt;/a&gt; - AutoHotkey 中文学习指南。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;电子书&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://book.mybanshu.win/&quot;&gt;蚂蚁搬书&lt;/a&gt; - IT 书籍为主&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jiumodiary.com/&quot;&gt;鸠摩搜索&lt;/a&gt; - 电子书资源搜索引擎&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bookfere.com/ebook&quot;&gt;书伴&lt;/a&gt; - 不支持下载、阅读，只提供 Kindle 图书资源推荐&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://t.cn/RkPrzFb&quot;&gt;亚马逊免费电子书&lt;/a&gt; - 亚马逊官方网站免费电子书资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;虚拟信息&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://temp-mail.org/&quot;&gt;TemMail&lt;/a&gt;- 虚拟邮箱&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://smsreceivefree.com/&quot;&gt;SMSReceiveFree&lt;/a&gt; -临时电话号码，免费接受短信验证码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;其他&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.staticgen.com/&quot;&gt;StaticGen&lt;/a&gt; 开源静态博客生成器热度排行&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.webdesignmuseum.org/&quot;&gt;Web design Museum&lt;/a&gt; 各大网站网页设计发展历程&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.versionmuseum.com/&quot;&gt;Version Museum&lt;/a&gt; - 展示众多流行网站、操作系统、应用程序和游戏的视觉设计历史演变，英文网站。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pansou.com/&quot;&gt;PanSou&lt;/a&gt; - 百度网盘搜索引擎&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.showeet.com/&quot;&gt;showeet&lt;/a&gt; - 具有创造力的免费 PPT 模板，英文网站。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getemoji.com/&quot;&gt;Get emoji&lt;/a&gt; - 表情资源，可复制粘贴使用。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://public-apis.xyz/&quot;&gt;public-apis&lt;/a&gt; - 公共免费的 API 集合。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>10 个扩展让你的 chrome 浏览器更好用</title>
+    <link href="https://byodiandev.com/10-chrome-extensions/"/>
+    <updated>2019-03-15T10:43:10.080+08:00</updated>
+    <id>https://byodiandev.com/10-chrome-extensions/</id>
+    <content type="html">&lt;p&gt;Chrome 浏览器凭借流畅的访问体验、简洁的用户界面和众多好用的扩展程序得到了很多用户的喜爱。&lt;/p&gt;
+&lt;p&gt;推荐能够让 chrome 浏览器更好用 12 个扩展程序。扩展程序可在 &lt;a href=&quot;https://chrome.google.com/webstore/category/extensions?h1=zh&quot;&gt;chrome应用市场&lt;/a&gt; 搜索安装，如果你不能访问，可在第三方应用市场下载安装，这里推荐 &lt;a href=&quot;https://extfans.com/&quot;&gt;扩展迷&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?utm_source=chrome-ntp-icon&quot;&gt;Video speed controller&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/nffaoalbilbmmfgbnbgppjihopabppdk&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;视频播放速度控制器，支持加速/减速，快进/快退操作，最快可加速至 16 倍，那感觉自己去体会一下。&lt;strong&gt;最重要的是它可以快进播放广告&lt;/strong&gt;，借助快捷键可轻松跳过广告。&lt;/p&gt;
+&lt;p&gt;默认控制按钮会出现在视频左上角，且按钮可拖动。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/bxKvVlR9mJQcGI4.png&quot; alt=&quot;video speed conrtoller&quot;&gt;&lt;/p&gt;
+&lt;p&gt;默认快捷键（可自定义修改，不区分大小写）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加速：D&lt;/li&gt;
+&lt;li&gt;减速：S&lt;/li&gt;
+&lt;li&gt;快进：X&lt;/li&gt;
+&lt;li&gt;快退：Z&lt;/li&gt;
+&lt;li&gt;重置：R&lt;/li&gt;
+&lt;li&gt;常用倍速：G&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/uqMVOcK7kP9X3WT.png&quot; alt=&quot;controller shortcuts.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg&quot;&gt;AdGuard 广告拦截器&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/bgnkhhnnamicmpeenaelnjfhikgbkllg&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这个扩展可拦截网页上所有类型的广告。对于视频网站的广告，测试了一下该扩展可以跳过爱奇艺和乐视视频的广告，不支持跳过腾讯和优酷视频广告。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/lBwo743fsuRVxDZ.png&quot; alt=&quot;aguard&quot;&gt;&lt;/p&gt;
+&lt;p&gt;针对不能跳过广告的网站，我建议在该网站关闭拦截程序，并借助 &lt;strong&gt;Video speed controller&lt;/strong&gt; 来快进广告。&lt;/p&gt;
+&lt;p&gt;其他有名的广告拦截软件还有 Adblock 和 AdBlock Plus。&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/%E7%99%BE%E5%BA%A6%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD/bdkobfnbgkbemcfgopfollaikdlknlkm?utm_source=chrome-ntp-icon&quot;&gt;百度广告拦截&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/bdkobfnbgkbemcfgopfollaikdlknlkm&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;如果你用百度搜索引擎的话，这个扩展程序是必须要安装的。它可屏蔽百度线上产品页面广告，百度右侧热门搜索，可以让你不被热门搜索带跑偏。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/EvgqxycXKQhUwst.png&quot; alt=&quot;百度广告拦截效果&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ghostery-%E2%80%93-privacy-ad-blo/mlomiejdfkolichcflejclcbmpeaniij?utm_source=chrome-ntp-icon&quot;&gt;Ghostery&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/mlomiejdfkolichcflejclcbmpeaniij&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;你是否有过这样的经历，在淘宝上搜索一些商品后，下次打开其他网站，就会被推送有关这些商品的广告，这说明你的隐私被泄露了。&lt;/p&gt;
+&lt;p&gt;利用 Ghostery 你可以查看和拦截所浏览的网站上的追踪器，控制收集您数据的跟踪器，进而保护你的隐私。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/AB6cGILeKgUwk89.png&quot; alt=&quot;ghostery.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?utm_source=chrome-ntp-icon&quot;&gt;Dark reader&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/eimadpbcbfnmbkopoojfekhnkhdbieeh&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这是一个护眼扩展程序，通过实时生成黑色主题，为每一个网站启用夜间模式。另外你可以自定义调整亮度，对比度，设置字体和忽略的网站列表等等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/5INHURDyF1O6nop.png&quot; alt=&quot;dark reader.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?utm_source=chrome-ntp-icon&quot;&gt;OneTab&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/chphlpgkkbolifaimnlloiipkdnihall&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chrome 浏览器非常占用系统内存，并且标签越多，越吃内存。当你发现自己有太多的标签页时，单击 OneTab 图标可以将所有标签页转换成一个列表。&lt;/p&gt;
+&lt;p&gt;使用 OneTab 的好处：节省内存、减轻标签页混乱现象和方便下次浏览网页。&lt;/p&gt;
+&lt;p&gt;我经常使用 OneTab 的一个场景是：在吃饭前，点击 OneTab 将访问的网页保存成一个列表，之后点击该列表链接，恢复访问。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/gzxDYiR6LOc5uen.jpg&quot; alt=&quot;onetab&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?utm_source=chrome-ntp-icon&quot;&gt;Nimbus&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/bpconcjcammlapcogcnnelfmaeghhagj&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网页截图工具，支持滚动截图，截取部分、延迟截屏和编辑截图等，高级版可录制视频。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/VGKpXdUMEL3Ycnj.png&quot; alt=&quot;Nimbus.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh?utm_source=chrome-ntp-icon&quot;&gt;书签侧边栏&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/jdbnofccmhefkmjbkkdkfiicjkgofkdh&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;该扩展可让书签栏在左边显示，通过点击浏览器边缘打开侧边栏。chrome 浏览器书签栏默认在顶部显示，当收藏网址过多时，书签栏会显得比较乱，并且难以管理。使用该扩展，我建议隐藏顶部书签栏，这样会让浏览器显示更多内容。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/2aq76Vfn3IzQi41.gif&quot; alt=&quot;bookmark&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/infinity-new-tab-pro/nnnkddnnlpamobajfibfdgfnbcnkgngh?utm_source=chrome-ntp-icon&quot;&gt;Infinity 新标签页(Pro)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/nnnkddnnlpamobajfibfdgfnbcnkgngh&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;chrome 浏览器上很受欢迎的新标签页，自由添加网站图标可实现快速拨号，精选高清壁纸，定制搜索引擎，还有天气、书签、历史记录等小挂件帮助提高生产力。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/FAkbToKz4tY6Nc2.png&quot; alt=&quot;infinity&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco&quot;&gt;Extension Manager&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://extfans.com/extension/gjldcdngmdknpinoemndlidpcabkggco&quot;&gt;备用下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;扩展管理器，可快速开启或关闭扩展程序，通过分组管理扩展状态，可适配不同场景，比如家、公司。标签开启太多会消耗内存，扩展程序开启过多同样也会消耗内存。该扩展可让你快速关闭不常使用的扩展程序，从而减少消耗内存。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/12/G8OAfs5dPV21u7k.png&quot; alt=&quot;extension&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Win最佳下载工具</title>
+    <link href="https://byodiandev.com/download-tool-idm/"/>
+    <updated>2019-01-07T01:51:37+08:00</updated>
+    <id>https://byodiandev.com/download-tool-idm/</id>
+    <content type="html">&lt;p&gt;Internet Download Manager（IDM）windows 系统下极速下载工具。&lt;/p&gt;
+&lt;h2&gt;特点&lt;/h2&gt;
+&lt;p&gt;下载提速，续传功能，高级浏览器集成功能，网站链接嗅探和抓取器，支持多种协议下载。&lt;/p&gt;
+&lt;h3&gt;下载提速&lt;/h3&gt;
+&lt;p&gt;IDM 采用智能动态文件分段技术，可以将下载速度提高多达 5 倍。&lt;/p&gt;
+&lt;p&gt;以下是我使用浏览器和 IDM 下载同一文件的速度比较，浏览器下载速度维持在 1MB/s 左右，而IDM 下载速度基本可以维持在 5MB/s 左右。很明显可以看出 IDM的下载速度提升了 5倍之多。当然，具体下载速度还取决于你的宽带大小。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/H8fFUigkTEpd7Oc.gif&quot; alt=&quot;单线程下载速度.gif&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/fxomBn5Z1eRsr3E.gif&quot; alt=&quot;多线程下载速度.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;续传功能&lt;/h3&gt;
+&lt;p&gt;IDM 可以从断线、网络异常、连接丢失等问题中恢复未完成的下载，而不是重新连接从头下载。&lt;/p&gt;
+&lt;h3&gt;高级浏览器集成功能&lt;/h3&gt;
+&lt;p&gt;IDM 支持所有主流浏览器，包括 IE、谷歌浏览器、火狐、opera，Safari 等主流浏览器，通过给浏览器自动添加 IDM 扩展程序来接管浏览器。&lt;/p&gt;
+&lt;h3&gt;网站链接嗅探和抓取器&lt;/h3&gt;
+&lt;p&gt;IDM 可以自动抓取网站多媒体文件，例如来自网站的所有图片、视频和音频等。&lt;/p&gt;
+&lt;h3&gt;支持的协议&lt;/h3&gt;
+&lt;p&gt;IDM 支持 HTTP、FTP、HTTPS 和 MMS 协议，不支持 P2P 协议，因此 IDM 不能下载 BT 和 磁力链接。&lt;/p&gt;
+&lt;p&gt;但是凭借独特的下载方式，IDM 能够使得下载 HTTP/HTTPS 链接十分快，而且很稳定。&lt;/p&gt;
+&lt;h2&gt;安装&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.internetdownloadmanager.com/download.html&quot;&gt;IDM 官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/WzCVJyPaQbiAHE1.png&quot; alt=&quot;IDM界面.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;IDM 安装很简单。但是安装完成后，IDM 会检测电脑上的浏览器，自动为其安装 IDM 扩展程序，从而接管浏览器去执行下载任务。&lt;/p&gt;
+&lt;p&gt;以 Chrome 为例，它会提示你 IDM 扩展成功安装，你必须在浏览器中启用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/IFLlcXOb6J5PH9v.png&quot; alt=&quot;IDM自动添加.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;应用场景&lt;/h2&gt;
+&lt;p&gt;IDM 接管浏览器，可执行下载任务，从而极大的提高了下载速度。&lt;/p&gt;
+&lt;h3&gt;下载主流视频网站内容&lt;/h3&gt;
+&lt;p&gt;IDM 的自动嗅探和抓取技术，可以下载网站视频和音频等多媒体文件。IDM 支持下载大多数视频网站内容。&lt;/p&gt;
+&lt;p&gt;以 Youtube 视频网站为例，当你打开一个视频时，IDM 会在该播放器上显示一个下载浮动条，点击此浮动条，会出现不同分辨率的视频文件，点击即可下载。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/pCDZJgWR4zNqKvi.png&quot; alt=&quot;下载视频浮条.png&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;高速下载度盘资源&lt;/h3&gt;
+&lt;p&gt;解决方法：通过浏览器扩展程序 Tampermonkey ，安装百度网盘直接下载助手脚本，就可以在浏览器中直接提取百度网盘资源下载链接，从而借助 IDM 实现高速下载度盘资源。&lt;/p&gt;
+&lt;p&gt;使用工具：&lt;a href=&quot;https://tampermonkey.net/&quot;&gt;Tampermonkey &lt;/a&gt;、&lt;a href=&quot;https://greasyfork.org/zh-CN/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88&quot;&gt;百度网盘直接下载助手脚本&lt;/a&gt;、IDM 。&lt;/p&gt;
+&lt;p&gt;Tampermonkey  是一个用户脚本管理器，通过安装脚本，可自动为用户访问的网站添加功能。其最为人广之的名字叫油猴，最初在火狐浏览器发布，名字为 Greasemonkey。&lt;/p&gt;
+&lt;p&gt;Tampermonkey 支持大多数主流的浏览器，像 Chrome、Mircosoft Edge、火狐浏览器、Opera 等。所以你可以在这些不同的浏览器应用市场中下载到此脚本管理器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/NwZl1eET6LXFra9.png&quot; alt=&quot;油猴.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以 Chrome 浏览器为例，介绍使用 IDM 下载度盘资源的方法。&lt;/p&gt;
+&lt;p&gt;第一步：安装 Tampermonkey。如果你可以访问&lt;a href=&quot;https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=chrome-ntp-icon&quot;&gt;谷歌应用市场&lt;/a&gt;，你可以在那里搜索安装。或者关注微信公众号：工具速递，回复 005 获取。&lt;/p&gt;
+&lt;p&gt;将下载的 .crx 文件拖入扩展程序页面安装即可。&lt;/p&gt;
+&lt;p&gt;扩展程序页面打开方式：浏览器输入 chrome://extensions 或者找到浏览器菜单 &amp;gt; 更多工具 &amp;gt; 扩展程序。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/pZ1wm8EyKeD7BaJ.png&quot; alt=&quot;扩展程序打开方法.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第二步：安装百度网盘直接下载助手脚本。可以在 &lt;a href=&quot;https://greasyfork.org/zh-CN/scripts&quot;&gt;Greasy Fork&lt;/a&gt; 脚本网站下载&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;第三步：开始下载。打开百度网盘网页端，选中文件后会，网页端出现下载助手的功能。然后点击下载助手 &amp;gt; API 下载 &amp;gt; 显示链接 &amp;gt; 右击某一个链接 &amp;gt; 使用 IDM 下载&lt;/s&gt;（失效）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/o8unXvmhjZJ3UL5.png&quot; alt=&quot;下载助手.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/K6y2ClvmtPezZ4c.png&quot; alt=&quot;显示下载链接.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;基本设置&lt;/h2&gt;
+&lt;h3&gt;添加浏览器&lt;/h3&gt;
+&lt;p&gt;如果你的浏览器没有被 IDM 捕获下载行为，你可以在选项 &amp;gt; 常规设置中将其添加进去。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/BtU73vVWLjXgScN.png&quot; alt=&quot;设置浏览器.png&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;文件类型&lt;/h3&gt;
+&lt;p&gt;如果你不想 IDM 下载某种类型的文件，比如 MP3 ，你可以在选项 &amp;gt; 文件类型设置中将 MP3 字段删除。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/BHljvwORZgYiLqS.png&quot; alt=&quot;设置IDM下载的文件类型.png&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;设置代理服务器&lt;/h3&gt;
+&lt;p&gt;如果你想下载 YouTube 视频，而且在你可以科学上网的情况下，你需要设置 IDM 代理服务器地址。打开选项 &amp;gt; 代理服务器设置 &amp;gt; 选择使用自动配置脚本 &amp;gt; 从 IE 获取。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/1SijO28s9wl6gcx.png&quot; alt=&quot;设置代理服务器.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;正版团购活动&lt;/h2&gt;
+&lt;p&gt;团购活动由&lt;a href=&quot;http://www.carrotchou.blog/&quot;&gt;胡萝卜周&lt;/a&gt;联合&lt;a href=&quot;https://www.aiviy.com/&quot;&gt;艾维商城&lt;/a&gt;共同发起，让网友享受最优价格购买该软件。&lt;/p&gt;
+&lt;p&gt;IDM 提供 30 天免费试用，终身授权版官网售价 170 元，&lt;a href=&quot;https://www.aiviy.com/&quot;&gt;艾维商城&lt;/a&gt;提供 129 元的优惠价。
+&lt;a href=&quot;http://internetdownloadmanager.com/download.html&quot;&gt;试用版下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通过胡萝卜周提供的 30 元专属优惠券，即可享受 99元/终身版。&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;优惠券：CARROTCHOUIDM&lt;/h3&gt;
+&lt;p&gt;参考链接：&lt;a href=&quot;http://www.carrotchou.blog/13075.html&quot;&gt;http://www.carrotchou.blog/13075.html&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>搬瓦工 VPS 服务</title>
+    <link href="https://byodiandev.com/bandwagonhost-vps/"/>
+    <updated>2018-10-30T05:44:02+08:00</updated>
+    <id>https://byodiandev.com/bandwagonhost-vps/</id>
+    <content type="html">&lt;p&gt;VPS 服务器的用途：建站，搭建个人云空间、小型游戏服务器，搭建云笔记工具、密码管理工具。&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;搬瓦工 (BandwagonHost VPS)，美国的一家 VPS 服务商。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%99%9A%E6%8B%9F%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8&quot;&gt;VPS 维基百科 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bandwagonhost.com/&quot;&gt;官网&lt;/a&gt; &lt;a href=&quot;https://bwh8.net/&quot;&gt;中国镜像站&lt;/a&gt; &lt;a href=&quot;https://www.bwgyhw.com/&quot;&gt;搬瓦工优惠网&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;挑选套餐&lt;/h2&gt;
+&lt;p&gt;以 19.9 刀/年为例&lt;/p&gt;
+&lt;p&gt;第一步：点击 &lt;code&gt;Order KVM or OpenVZ&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA&quot;&gt;KVM 维基百科&lt;/a&gt;  &lt;a href=&quot;https://zh.wikipedia.org/zh-hans/OpenVZ&quot;&gt;OpenVZ 维基百科&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/4sGH83qyAbIcztL.png&quot; alt=&quot;搬瓦工套餐面板.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第二步：选择 &lt;code&gt;Order KVM&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/Vnpgq1H2MAOoual.png&quot; alt=&quot;选择KVM.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第三步：选择付款方式和机房地址&lt;/p&gt;
+&lt;p&gt;付款方式可根据个人情况而定，建议年付，便宜。机房址选择洛杉矶主机（Los Angeles DC2 QNET）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/fK1JOIe3nGaPmkS.png&quot; alt=&quot;套餐详情页.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第四步：输入优惠码。&lt;a href=&quot;https://www.bwgyhw.com/bandwagonhost-lastest-promo/&quot;&gt;最新可用搬瓦工优惠码，实时更新&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/jiFfJPQ7NyIUu5G.png&quot; alt=&quot;输入优惠码.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第五步：点击 &lt;code&gt;Validate Code&lt;/code&gt;，验证优惠码是否可用，之后即可进入结账页面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/JoPDm7ZLdwk58CK.png&quot; alt=&quot;优惠码有效提示.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第六步：填写相关信息，选择 &lt;code&gt;Aipay&lt;/code&gt; 支付。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/GvjYCBqJPhUKLuz.png&quot; alt=&quot;填写个人信息.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第七步：完成支付。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/72BmwFYXjEunJyQ.png&quot; alt=&quot;选择支付宝支付.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;后台管理面板&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://kiwivm.64clouds.com/main.php&quot;&gt;KiwiVM Control Panel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一步：登陆搬瓦工官网，依次点击菜单栏 &lt;code&gt;Services&lt;/code&gt;&amp;gt; &lt;code&gt;My Services&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/lMH18YmFPgUVWxX.png&quot; alt=&quot;我的服务入口.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;第二步：在显示已购服务器的页面中，点击 &lt;code&gt;KiViVM Control Panel&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/mRTf29P7ZoytOMA.png&quot; alt=&quot;进入控制面板按钮.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;下面就是打开后的后台管理面板。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/wWsAyVHvKUx2kIj.png&quot; alt=&quot;VPS服务器后台.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;参考资料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/44994221&quot;&gt;你可能不知道的 VPS 潜力有多大&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Kickball/awesome-selfhosted&quot;&gt;awesome-selfhosted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome&quot;&gt;Curated list of awesome lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/cn/what-is-cloud-computing/&quot;&gt;什么是云计算？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.sina.com.cn/s/blog_18954e5b90102xjnz.html&quot;&gt;搬瓦工没有s-s选项了怎么办？三种方法搭建S-S教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kiwivm.64clouds.com/preloader.php?load=/main-exec.php?mode=extras_shadowsocks&quot;&gt;s-s-网址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wistbean.com/banwagong-vpn.html&quot;&gt;使用搬瓦工快速搭建个人服务器&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bwgyhw.com/bandwagonhost-all-guides/&quot;&gt;搬瓦工/BandwagonHost教程整理页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kiwivm.64clouds.com/main-exec.php?mode=blacklistcheck&quot;&gt;Block list check&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>3 个 Windows 小工具</title>
+    <link href="https://byodiandev.com/windows-tools/"/>
+    <updated>2018-10-03T05:01:00+08:00</updated>
+    <id>https://byodiandev.com/windows-tools/</id>
+    <content type="html">&lt;h2&gt;Wox&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wox.one/&quot;&gt;Wox&lt;/a&gt; 是一款开源的快速启动器，用于快速搜索本机安装的程序和文件。也可以通过插件完成搜索网络内容、翻译单词、弹出 U 盘等操作。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/exFdp2jTREDGOiw.png&quot; alt=&quot;Wox搜索应用&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Wox 最核心的功能就是快速启动程序。&lt;/h3&gt;
+&lt;p&gt;使用 Wox 启动程序：按住 &lt;strong&gt;Alt + 空格&lt;/strong&gt; 调出搜索框，输入程序名称，回车打开程序。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/xBmgSnEcUJ7Pb2t.gif&quot; alt=&quot;wox打开应用动图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;另一个应用场景，当你浏览网页的时候想听一首歌，平时你应该会这么做，返回桌面 &amp;gt; 找到音乐播放器快捷方式 &amp;gt; 双击打开程序 &amp;gt; 播放音乐 &amp;gt; 切回网页继续浏览。&lt;/p&gt;
+&lt;p&gt;使用 Wox 完全可以避免这些来回切换的重复操作，从而提高了工作效率。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/AhnHmCbQPRXlwjJ.gif&quot; alt=&quot;wox使用场景实例动图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Wox 支持搜索文件、文件夹。这个功能需要搭配 everything 应用程序。everything 是一款强大的本地搜索工具。 &lt;a href=&quot;http://t.cn/Ehw1ogg&quot;&gt;推荐 8 个超实用的小工具 | Windows&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/XfkEhTQ3aOyoB4M.gif&quot; alt=&quot;wox搜索文件动图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;安装插件可实现翻译单词，查看天气，弹出 U 盘等功能。比如我想使用有道翻译功能，首先使用 &lt;strong&gt;wpm install 有道翻译&lt;/strong&gt; 命令安装插件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/PLUEkw9uTBfqXxn.png&quot; alt=&quot;wox安装有道翻译&quot;&gt;&lt;/p&gt;
+&lt;p&gt;然后使用关键词 &lt;strong&gt;yd&lt;/strong&gt; 触发有道翻译，这时你输入 &lt;strong&gt;yd + 空格 + 单词&lt;/strong&gt; ，就会显示该单词的中文意思。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/GaWbZCtesDhpKqU.png&quot; alt=&quot;使用wox翻译单词&quot;&gt;&lt;/p&gt;
+&lt;p&gt;插件介绍：&lt;a href=&quot;http://www.wox.one/plugin&quot;&gt;http://www.wox.one/plugin&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;QuickLook&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://pooi.moe/QuickLook/?utm_source=www.appinn.com&quot;&gt;QuickLook&lt;/a&gt; 是一款文件预览工具，允许在不运行关联程序的情况下，通过敲击空格来快速预览。它支持大部分的文件格式，比如图片、音乐、视频、PDF、PSD 等。&lt;/p&gt;
+&lt;h3&gt;操作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;空格键：预览/关闭预览&lt;/li&gt;
+&lt;li&gt;回车：运行程序并关闭预览&lt;/li&gt;
+&lt;li&gt;Ctrl + 鼠标滚轮：缩放图片/文档&lt;/li&gt;
+&lt;li&gt;鼠标滚轮：调节音量&lt;/li&gt;
+&lt;li&gt;预览 Word、Excel、PPT 文件，事先要安装 OfficeViewer 插件。通过插件无需安装 office 也可以浏览文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;安装&lt;/h3&gt;
+&lt;p&gt;选中下载的插件文件，使用空格打开，点击 Install 按钮，重启 QuickLook。&lt;a href=&quot;https://github.com/QL-Win/QuickLook/wiki/Available-Plugins&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/VG2bjypIcOehw3D.png&quot; alt=&quot;quicklook插件&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;AltDrag&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://stefansundin.github.io/altdrag/&quot;&gt;AltDrag&lt;/a&gt; 是一款移动和调整软件窗口的工具。&lt;/p&gt;
+&lt;h3&gt;操作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;移动窗口：Alt + 鼠标左键&lt;/li&gt;
+&lt;li&gt;调整大小：Alt + 鼠标右键&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;移动窗口&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/UG9zVqtBxTFJi1v.gif&quot; alt=&quot;altdrag移动窗口&quot;&gt;&lt;/p&gt;
+&lt;p&gt;调整窗口大小&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/02/14/RW1rZLEIY7joFdh.gif&quot; alt=&quot;altdrag调整窗口大小&quot;&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>

@@ -1,4 +1,5 @@
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require("html-minifier");
 const moment = require('moment');
 moment.locale('en');
@@ -20,8 +21,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('projects', 'layouts/projects.njk');
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
-  // syntaxhightlight
+  // plugin
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(pluginRss);
 
   /****************************
    * Filter 
