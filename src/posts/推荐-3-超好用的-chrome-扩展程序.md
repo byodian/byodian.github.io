@@ -55,6 +55,10 @@ description: vimium，The Greate Suspender 和 Push to Kindle
 
 可以看看我录制的一段使用 vimium 导航网页的视频。
 
+<div class="iframe-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJtL0STNgLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## [Push to Kindle](https://chrome.google.com/webstore/detail/push-to-kindle/pnaiinchjaonopoejhknmgjingcnaloc)
 
 Push to kindle 是一个发送网页文章到 Kindle 阅读器的免费服务，通过安装它的浏览器扩展可实现一键发送。
