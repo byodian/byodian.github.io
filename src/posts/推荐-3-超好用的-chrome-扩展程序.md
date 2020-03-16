@@ -1,5 +1,5 @@
 ---
-title: 推荐 3 超好用的 chrome 扩展程序
+title: 推荐 3 个超好用的 chrome 扩展程序
 mySlug: the 3 best chrome extensions
 tags:
   - chrome
@@ -10,7 +10,7 @@ description: vimium，The Greate Suspender 和 Push to Kindle
 
 同时打开太多的网页会极大的消耗电脑系统资源。The Great Suspender 会把长时间不用的网页冻结，从而释放被这些网页占据的内存和 CPU。
 
-扩展安装完成后，会自动进入跳出界面。你可以设置「多久后自动冻结标签」，建议选择一个比较短的时间。
+扩展安装完成后，会自动跳出设置界面。你可以设置在「多久后自动冻结标签」，建议选择一个比较短的时间。
 
 ![The Great Suspender 设置界面](https://i.loli.net/2020/03/15/iZ8wxqdtM7KjGNm.png)
 
@@ -20,9 +20,9 @@ description: vimium，The Greate Suspender 和 Push to Kindle
 
 ## [vimium](http://vimium.github.io/)
 
-使用键盘快捷键导航网页，这简直是键盘党的福利。如果你是程序员，一定知道 vim 编辑器，这个扩展以 vim 的操作习惯为灵感，使用键盘快捷键导航网页。如果你不是程序员也没有关系，只需要记住几个快捷键就可以轻松的操控网页。
+如果你是程序员，一定知道 vim 编辑器，这个扩展以 vim 的操作习惯为灵感，使用键盘快捷键导航网页。如果你不是程序员也没有关系，只需要记住几个快捷键就可以轻松的操控网页。
 
-列出一些比较常用的操作快捷键，可以使用快捷键 **?** 获取更多详细操作。
+列出一些比较常用的操作，可以使用快捷键 **?** 获取更多详细操作。
 
 **浏览页面**
 
@@ -54,6 +54,10 @@ description: vimium，The Greate Suspender 和 Push to Kindle
 - `n` 或者 `N` 在匹配的搜索结果中跳转
 
 可以看看我录制的一段使用 vimium 导航网页的视频。
+
+<div class="iframe-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJtL0STNgLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## [Push to Kindle](https://chrome.google.com/webstore/detail/push-to-kindle/pnaiinchjaonopoejhknmgjingcnaloc)
 
