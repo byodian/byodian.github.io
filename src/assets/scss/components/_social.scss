@@ -33,3 +33,35 @@
     transition: all 0.2s;
   }
 }
+
+// homepage social icons
+.homepage-icons {
+  align-items: center;
+
+  a {
+    &:link,
+    &:visited {
+      @include size(3rem, 3rem);
+    }
+  }
+
+  svg {
+    @include size(1.5rem, 1.5rem);
+  }
+}
+
+// sidebar social icons
+.sidebar__social {
+  margin-top: 2rem;
+
+  a {
+    &:link,
+    &:visited {
+      @include size(3.5rem, 3.5rem);
+    }
+  }
+
+  svg {
+    @include size(2rem, 2rem);
+  }
+}

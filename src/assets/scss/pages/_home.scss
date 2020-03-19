@@ -42,24 +42,3 @@
   // 按钮定位祖先元素
   position: relative;
 }
-
-// Social icon 组件在 sass/components/_social.scss
-
-.homepage-icons {
-  align-items: center;
-
-  a {
-    &:link,
-    &:visited {
-      @include size(3rem, 3rem);
-    }
-  }
-
-  svg {
-    @include size(3rem, 3rem);
-
-    @media only screen and (max-width: 600px) {
-      @include size(2.5rem, 2.5rem);
-    }
-  }
-}

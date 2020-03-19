@@ -32,7 +32,6 @@ body {
 }
 
 // 文章样式
-
 .post {
   word-spacing: 0.2rem;
   @include font(1.64rem, var(--font-weight-normal), 1.8);
