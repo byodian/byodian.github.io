@@ -13,4 +13,6 @@ Trim 为 Netflix 电视剧和影片添加 [IMDB](https://zh.wikipedia.org/zh-tw/
 
 ![netflix评分.png](https://i.loli.net/2020/03/19/V3msJyA4KIiwoP2.png)
 
+
+
 [官网下载](https://chrome.google.com/webstore/detail/trim-imdb-ratings-on-netf/lpgajkhkagnpdjklmpgjeplmgffnhhjj)
