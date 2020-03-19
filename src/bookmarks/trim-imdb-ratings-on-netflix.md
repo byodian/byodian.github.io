@@ -13,6 +13,8 @@ Trim 为 Netflix 电视剧和影片添加 [IMDB](https://zh.wikipedia.org/zh-tw/
 
 ![netflix评分.png](https://i.loli.net/2020/03/19/V3msJyA4KIiwoP2.png)
 
+点击工具栏 Trim 扩展按钮，可设置 IMBD 评分筛选。比如设置 IMDB 评分为 8.5，它就会将 8.5 评分以下的影视剧封面做暗淡处理，将 8.5 以上的评分突出显示。
 
+![设置 IMBD 评分筛选](https://i.loli.net/2020/03/19/8VT9mWclfhdwHNi.png)
 
 [官网下载](https://chrome.google.com/webstore/detail/trim-imdb-ratings-on-netf/lpgajkhkagnpdjklmpgjeplmgffnhhjj)
