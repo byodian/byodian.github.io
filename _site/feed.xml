@@ -12,6 +12,80 @@
   </author>
   
   <entry>
+    <title>推荐 3 个超好用的 chrome 扩展程序</title>
+    <link href="https://byodiandev.com/the-3-best-chrome-extensions/"/>
+    <updated>2020-03-15T23:40:22.107+08:00</updated>
+    <id>https://byodiandev.com/the-3-best-chrome-extensions/</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en&quot;&gt;The Great Suspender&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;同时打开太多的网页会极大的消耗电脑系统资源。The Great Suspender 会把长时间不用的网页冻结，从而释放被这些网页占据的内存和 CPU。&lt;/p&gt;
+&lt;p&gt;扩展安装完成后，会自动跳出设置界面。你可以设置在「多久后自动冻结标签」，建议选择一个比较短的时间。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/iZ8wxqdtM7KjGNm.png&quot; alt=&quot;The Great Suspender 设置界面&quot;&gt;&lt;/p&gt;
+&lt;p&gt;进入 The Great Suspender 设置选项的方法：鼠标左键点击工具栏上该扩展按钮，点击「设置」选项即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/weyhN29suYt51xb.png&quot; alt=&quot;进入 The Great Suspender 设置界面的方法&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;http://vimium.github.io/&quot;&gt;vimium&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;如果你是程序员，一定知道 vim 编辑器，这个扩展以 vim 的操作习惯为灵感，使用键盘快捷键导航网页。如果你不是程序员也没有关系，只需要记住几个快捷键就可以轻松的操控网页。&lt;/p&gt;
+&lt;p&gt;列出一些比较常用的操作，可以使用快捷键 &lt;strong&gt;?&lt;/strong&gt; 获取更多详细操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;浏览页面&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;j&lt;/code&gt; 向下滚动&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;k&lt;/code&gt; 向上滚动&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;d&lt;/code&gt; (down) 向下滚动半页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;u&lt;/code&gt; (up) 向上滚动半页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt; 回到页面顶部&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;G&lt;/code&gt; 滚动到页面底部&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;r&lt;/code&gt; 刷新网页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;f&lt;/code&gt; 在当前网页打开链接&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;?&lt;/code&gt; 打开快捷键列表&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;yy&lt;/code&gt; 复制当前网页地址到剪贴板&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;p&lt;/code&gt; 在当前页面打开剪贴板的地址&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;P&lt;/code&gt; 在新的标签页打开剪贴板的地址&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ge&lt;/code&gt; 编辑当前网页地址&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gE&lt;/code&gt; 编辑当前网页地址并在新的标签页中打开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;管理标签&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;t&lt;/code&gt; 新建标签页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt; 关闭当前页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;X&lt;/code&gt; 恢复被关闭的页面&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;W&lt;/code&gt; 移动当前标签页到新窗口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;使用搜索&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; 进入搜索模式，可搜索当前网页内容&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;n&lt;/code&gt; 或者 &lt;code&gt;N&lt;/code&gt; 在匹配的搜索结果中跳转&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可以看看我录制的一段使用 vimium 导航网页的视频。&lt;/p&gt;
+&lt;div class=&quot;iframe-wrapper&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ZJtL0STNgLM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/push-to-kindle/pnaiinchjaonopoejhknmgjingcnaloc&quot;&gt;Push to Kindle&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Push to kindle 是一个发送网页文章到 Kindle 阅读器的免费服务，通过安装它的浏览器扩展可实现一键发送。&lt;/p&gt;
+&lt;p&gt;安装完成后，你会在工具栏发现一个 Push to Kindle 的按钮。点击该按钮，它会将你喜欢的文章重新排版，这样做是为了在 Kindle 上有一个好的阅读体验，然后点击「Send」等待片刻就会发送成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/xoGy5DTtWsClO2R.gif&quot; alt=&quot;Push to Kindle&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这是网页文章在 Kindle 电子阅读器上的呈现效果图。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/vVgqzc5FKmndXyO.png&quot; alt=&quot;Kindle 文章截图&quot;&gt;&lt;/p&gt;
+&lt;p&gt;使用前需要进行以下设置：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/dcZMFAgK3HOXNEn.png&quot; alt=&quot;Push to Kindle 设置&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;添加你的 Kindle 设备电子邮件地址到「Send to」字段&lt;/li&gt;
+&lt;li&gt;增加「Send from」地址到亚马逊官网发件人电子邮箱列表。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;如何查找 Kindle 设备电子邮件地址&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;登录亚马逊官网。鼠标左键依次点击「我的账号」&amp;gt;「管理我的内容和设备」&amp;gt;「设备」，在打开的页面中将会看到你的 Kindle 设备电子邮件地址。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/JHr7cP2pSukxRI4.png&quot; alt=&quot;Kindle 设备电子邮件&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如何将「Send from」地址添加到到发件人电子邮箱列表。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;登录亚马逊官网。鼠标左键依次点击「我的账号」&amp;gt;「管理我的内容和设备」&amp;gt;「首选项」&amp;gt;「个人文档设置」&amp;gt;「添加认可的电子邮箱」，然后将「Send from」地址 kindle@fivefilters.org 添加进去即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/QHRSLVmbtqa1Wxw.png&quot; alt=&quot;添加认可发件人电子邮件&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;离线安装 chrome 扩展程序的方法&lt;/h2&gt;
+&lt;p&gt;在 chrome 浏览器地址栏输入 &lt;strong&gt;chrome://extensions/&lt;/strong&gt; 打开扩展程序页面，开启「开发者模式」，然后将下载好的 crx 扩展程序拖进该页面安装即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/3kXE4NaMvS2ztHY.png&quot; alt=&quot;拖放安装&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果安装不成功，并提示 &lt;strong&gt;程序包无效: CRX_HEADER_INVALID&amp;quot;&lt;/strong&gt;，则需要将扩展程序文件 xxx.crx 命名为 xxx.zip，并解压到 xxx 文件夹中, 然后在扩展程序页面点击「加载已解压的扩展程序」将刚刚解压的文件加载进去即可安装成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/03/15/6ZFh9G2MquRP1Nx.gif&quot; alt=&quot;加载已解压的扩展程序&quot;&gt;&lt;/p&gt;
+&lt;p&gt;以上所有的扩展程序可以在公众号后台回复 &lt;strong&gt;007&lt;/strong&gt; 获取。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>文章排版指南</title>
     <link href="https://byodiandev.com/the-format-of-article-writing/"/>
     <updated>2020-03-11T09:52:29.545+08:00</updated>

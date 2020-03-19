@@ -1,5 +1,5 @@
 <aside class="sidebar">
-  <section class="tags">
+  <section class="siderbar__tags mg-top">
     <h3 class="heading-tertiary heading-tertiary--aside">标签</h3>
     <ul class="tags__items">
       {% for tag in collections.tagList %}
@@ -10,7 +10,16 @@
       {% endfor %}
     </ul>
   </section>
-  <section class="sidebar__about">
+  <section class="siderbar__articles mg-top">
+    <h3 class="heading-tertiary heading-tertiary--aside">最近文章</h3>
+      {% set postslist = collections.posts | arrFilter %}
+      {% for post in postslist %}
+      <p>
+        <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
+      </p>
+      {% endfor %}
+  </section>
+  <section class="sidebar__about mg-top">
     <h3 class="heading-tertiary heading-tertiary--aside">About</h3>
     <div class="sidebar__about-info">
       <figure class="sidebar__photo-box">

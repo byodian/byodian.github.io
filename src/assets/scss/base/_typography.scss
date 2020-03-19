@@ -5,27 +5,26 @@ body {
 }
 
 .page-heading {
-  margin-bottom: var(--gutter-bigger);
+  margin-bottom: var(--gutter-big);
 }
 
 .heading-primary {
-  @include font(3rem, var(--font-weight-bold), 1.25);
-  margin: var(--gutter-middle) 0;
+  @include font(2.5rem, var(--font-weight-normal), 1.25);
 }
 
 .heading-secondary,
 .heading-tertiary {
-  margin-bottom: var(--gutter-bigger);
+  margin-bottom: var(--gutter-big);
   // padding-bottom: var(--gutter-middle);
   // border-bottom: var(--line);
 }
 
 .heading-secondary {
-  @include font(2.75rem, var(--font-weight-bold), 1.25);
+  @include font(2.75rem, var(--font-weight-normal), 1.25);
 }
 
 .heading-tertiary {
-  @include font(1.6rem, var(--font-weight-bold), 1.25);
+  @include font(1.6rem, var(--font-weight-normal), 1.25);
 }
 
 .heading__info {
@@ -177,4 +176,18 @@ blockquote {
 
 .center {
   text-align: center;
+}
+
+.mg-top {
+  margin-top: var(--gutter-big);
+}
+
+/* Button */
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
 }

@@ -16,7 +16,6 @@
 @import "pages/base";
 @import "pages/home";
 @import "pages/bookmarks";
-@import "pages/articles";
 
 @import "components/social";
 @import "components/article";
@@ -24,6 +23,6 @@
 @import "components/stress-link";
 @import "components/btn";
 @import "components/tags";
-@import "components/menu";
+@import "components/dropdown.scss";
 
 @import "../prism.css";

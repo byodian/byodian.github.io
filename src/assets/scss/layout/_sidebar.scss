@@ -4,13 +4,9 @@
   flex: 0 0 20%;
   font-size: 1.2rem;
 
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 790px) {
     // 760px
     display: none;
-  }
-
-  &__about {
-    margin-top: var(--gutter-bigger);
   }
 
   // 侧边栏作者介绍

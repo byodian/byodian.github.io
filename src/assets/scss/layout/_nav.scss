@@ -1,19 +1,23 @@
 .nav {
+  display: flex;
+  height: 58px;
   font-size: 1.8rem;
 
-  @media only screen and (max-width: 900px) {
-    margin: 3.5rem 0;
+  @media only screen and (max-width: 580px) {
+    height: fit-content;
   }
 }
 
 .site-nav {
+  width: 100%;
   display: flex;
   align-items: center;
   // border-bottom: var(--line);
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 580px) {
     position: relative;
     flex-direction: column;
+    margin-top: 15px;
   }
 }
 
@@ -22,7 +26,7 @@
 
   @media only screen and (max-width: 900px) {
     padding-bottom: 1rem;
-    margin-right: auto;
+    // margin-right: auto;
   }
 }
 
@@ -30,6 +34,12 @@
   display: block; // 去除行内元素垂直布局的间隙
   fill: var(--highlight-3);
   @include size(3rem, 3rem);
+
+  @media only screen and (max-width: 580px) {
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 1rem;
+  }
 }
 
 .site-nav__link {
@@ -38,7 +48,6 @@
     display: inline-block;
     padding: 1.5rem 1rem;
     border-bottom: var(--line-transparent);
-    font-weight: var(--font-weight-bolder);
     text-decoration: none;
 
     &:not(:last-child) {
@@ -78,4 +87,79 @@
     display: none;
     width: 0;
   }
+}
+
+.mobile-site-nav__info {
+  display: none;
+  @media only screen and (max-width: 580px) {
+    display: inline-block;
+  }
+}
+
+.navbar__menu,
+.nav__list, 
+.nav__item {
+  height: 100%;
+  @media only screen and (max-width: 580px) {
+    height: 38px;
+  }
+}
+
+/* Navbar list styles*/
+.nav__list {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.nav__item {
+  padding: .25rem 0;
+  font-size: 1.6rem;
+  overflow: hidden;
+}
+
+.nav__item:hover {
+  overflow: visible;
+}
+
+.nav__item:hover .dropdown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.nav__item:hover button svg {
+  transform: rotate(180deg);
+}
+
+.nav__item > a {
+  position: relative;
+}
+
+.nav__item > a::after {
+  content: "";
+  position: absolute;
+  /* top: 100%; */
+  bottom: .5rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  height: 1px;
+  background-color: var(--highlight-1);
+  transform: scaleX(0);
+  transition: .2s ease-in-out;
+}
+
+.nav__item > a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav__link,
+.nav__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 1.25rem;
+}
+
+.nav__item button svg {
+  transition: .2s cubic-bezier(0.4, 0, 1, 1);
 }
