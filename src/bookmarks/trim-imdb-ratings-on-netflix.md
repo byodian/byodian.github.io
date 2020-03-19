@@ -4,7 +4,7 @@ mySlug: chrome extension IMDB Ratings on Netflix
 tags:
   - chrome
 date: 2020-03-17T06:03:19.943Z
-description: 为 Netflix 电视剧和影片添加 IMDB 评分和烂番茄的 chrome 浏览器扩展程序。
+description: chrome 浏览器扩展程序。为 Netflix 电视剧和影片添加 IMDB 评分和烂番茄。
 sourceUrl: >-
   https://chrome.google.com/webstore/detail/trim-imdb-ratings-on-netf/lpgajkhkagnpdjklmpgjeplmgffnhhjj
 sourceName: chrome apps store
