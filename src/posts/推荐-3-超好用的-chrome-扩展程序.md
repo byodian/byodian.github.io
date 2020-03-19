@@ -65,7 +65,7 @@ Push to kindle 是一个发送网页文章到 Kindle 阅读器的免费服务，
 
 安装完成后，你会在工具栏发现一个 Push to Kindle 的按钮。点击该按钮，它会将你喜欢的文章重新排版，这样做是为了在 Kindle 上有一个好的阅读体验，然后点击「Send」等待片刻就会发送成功。
 
-![Push to Kindle](https://i.loli.net/2020/03/15/xoGy5DTtWsClO2R.gif)
+![Push to kindle.png](https://i.loli.net/2020/03/19/4TpsngJ1hYMmalu.png)
 
 这是网页文章在 Kindle 电子阅读器上的呈现效果图。
 
