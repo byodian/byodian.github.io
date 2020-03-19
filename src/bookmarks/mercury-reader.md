@@ -2,7 +2,7 @@
 title: Mercury Reader
 mySlug: chrome extension Mercury Reader
 tags:
-  - news
+  - chrome
 date: 2020-03-19T05:48:43.001Z
 description: 开启网页文章阅读模式，支持将排版后的文章推送到  Kindle 设备。
 sourceUrl: >-
