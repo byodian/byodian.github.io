@@ -9,3 +9,23 @@ function setIamgeAlign(target) {
 
 const images = document.querySelectorAll('img');
 [...images].forEach(image => setIamgeAlign(image));
+
+// Get dropdown item
+const dropdownList = document.querySelector('.dropdown-container');
+
+function showDropdown() {
+  dropdownList.classList.add('open');
+}
+
+function hideDropdown() {
+  dropdownList.classList.remove('open');
+}
+
+function toggleDropdown() {
+  console.log(123);
+  dropdownList.classList.toggle('open');
+}
+
+dropdownList.addEventListener('mouseover', showDropdown);
+dropdownList.addEventListener('mouseleave', hideDropdown);
+

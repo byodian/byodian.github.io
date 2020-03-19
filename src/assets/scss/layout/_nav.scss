@@ -117,16 +117,16 @@
   overflow: hidden;
 }
 
-.nav__item:hover {
+.open.nav__item {
   overflow: visible;
 }
 
-.nav__item:hover .dropdown {
+.open.nav__item .dropdown {
   opacity: 1;
   transform: translateY(0);
 }
 
-.nav__item:hover button svg {
+.open.nav__item .dropdown button svg{
   transform: rotate(180deg);
 }
 
