@@ -108,7 +108,6 @@ date: 2020-02-04T12:34:56.254Z
 - [Vimium][vimium] - 根据  Vim  编辑器的操作习惯导航和控制的键盘快捷键
 - [Video Speed Controller][video speed] - 网页视频加速调节工具，还可以快进广告。
 - [clippings.io](https://www.clippings.io/) - 管理 Kindle 设备上的摘抄和笔记。
-- [uAutoPagerize](https://chrome.google.com/webstore/detail/uautopagerize/kdplapeciagkkjoignnkfpbfkebcfbpb?utm_source=chrome-ntp-icon) - 自动加载搜索结果的分页内容。
 - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en) - 冻结长时间不用的网页，释放系统资源。
 - [沙拉查词](https://saladict.crimx.com/) - 聚合多种词典，可划词翻译。
 - [Push to Kindle](https://chrome.google.com/webstore/detail/push-to-kindle/pnaiinchjaonopoejhknmgjingcnaloc) - Push to Kindle 是一项推送网页文章到 kiddle 的免费服务。该插件提供了一种快捷的方式，只需点击扩展按钮即可将文章发送到 Kindle 或者其他电子阅读器上。
