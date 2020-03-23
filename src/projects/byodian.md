@@ -5,7 +5,7 @@ date: 2019-09-12T11:18:59.589Z
 description: 静态博客项目
 image: /assets/uploads/line.png
 imageAlt: static blog
-imageUrl: /assets/uploads/blog.png
+imageUrl: https://sm.ms/image/Odn8Va92CxkJ5U1
 ---
 
 使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立静态博客。
@@ -14,11 +14,11 @@ imageUrl: /assets/uploads/blog.png
 
 **线框图**
 
-![](/assets/uploads/line.png)
+![线框图](https://i.loli.net/2020/03/23/unUjlNW9tG5hJRO.png)
 
 **最终效果**
 
-![blog](/assets/uploads/blog.png)
+![blog](https://i.loli.net/2020/03/23/Odn8Va92CxkJ5U1.png)
 
 ### 特点
 - [11ty][11ty] 静态文件生成器

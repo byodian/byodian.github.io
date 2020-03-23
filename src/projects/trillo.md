@@ -5,13 +5,13 @@ date: 2019-09-12T09:11:25.677Z
 description: CSS Flexbox Layout
 image: /assets/uploads/trillo.png
 imageAlt: projects photo
-imageUrl: /assets/uploads/trillo1.png
+imageUrl: https://sm.ms/image/75DYqKtmXW8HCOB
 ---
 CSS flexbox 布局
 
 [View Online](https://flexcss.netlify.com/) | [Source Code](https://github.com/byodian/trillo/)
 
-![](/assets/uploads/trillo.png)
+![trillo](https://i.loli.net/2020/03/23/ngPwKx1i7eLZzbd.png)
 
 ### 特点
 - HTML
