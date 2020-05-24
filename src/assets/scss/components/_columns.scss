@@ -40,7 +40,7 @@
   &__heading {
     margin-bottom: 0.5rem;
 
-    @include font(1.333rem, var(--font-weight-bold), inherit);
+    @include font(1.563rem, var(--font-weight-bold), inherit);
   }
 
   &__description {
