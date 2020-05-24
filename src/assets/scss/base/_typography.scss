@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans SC", sans-serif;
   color: var(--color-text-default);
+  background-color: #fcfcfc;
   @include font(inherit, var(--font-weight-normal), 1.5);
 }
 
