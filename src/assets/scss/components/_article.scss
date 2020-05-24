@@ -12,11 +12,11 @@
 
   &__heading {
     margin-bottom: var(--gutter-small);
-    @include font(2rem, var(--font-weight-normal), 0.785);
+    @include font(1.953rem, var(--font-weight-bolder), 0.785);
 
     @media only screen and (max-width: 600px) {
       // 600px
-      font-size: 1.8rem;
+      font-size: 1.563rem;
     }
   }
 
@@ -28,18 +28,24 @@
 
   &__info {
     margin-bottom: var(--gutter-middle);
-    font-size: 1.4rem;
   }
 
   &__time {
     margin-right: var(--gutter-small);
+    font-size: 1.25rem;
+    color: var(--grey);
+    @media only screen and (max-width: 600px) {
+      // 600px
+      font-size: 1rem;
+    }
   }
 
   &__overview {
-    @include font(1.6rem, var(--font-weight-normal), inherit);
+    color: var(--black-light);
+    @include font(1.563rem, var(--font-weight-normal), inherit);
     @media only screen and (max-width: 600px) {
       // 600px
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
 }

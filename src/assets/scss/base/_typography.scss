@@ -9,7 +9,7 @@ body {
 }
 
 .heading-primary {
-  @include font(2.5rem, var(--font-weight-normal), 1.25);
+  @include font(2.441rem, var(--font-weight-bolder), 1.25);
 }
 
 .heading-secondary,
@@ -24,7 +24,7 @@ body {
 }
 
 .heading-tertiary {
-  @include font(1.6rem, var(--font-weight-normal), 1.25);
+  @include font(1.953rem, var(--font-weight-normal), 1.25);
 }
 
 .heading__info {

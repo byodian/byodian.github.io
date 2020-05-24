@@ -40,23 +40,24 @@
   &__heading {
     margin-bottom: 0.5rem;
 
-    @include font(1.6rem, var(--font-weight-bold), inherit);
+    @include font(1.333rem, var(--font-weight-bold), inherit);
   }
 
   &__description {
-    font-size: 1.4rem;
+    font-size: 1rem;
+    color: var(--grey);
   }
 }
 
 .box {
   height: 100%;
   padding: 1.2rem;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.09), var(--shadow-outline);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.09);
   border-radius: 4px;
   transition: all 0.2s;
 
   &:hover {
-    box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.1), var(--shadow-outline);
+    box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.1);
     h3 {
       text-decoration: underline var(--highlight-1) solid;
     }

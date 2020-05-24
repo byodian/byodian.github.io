@@ -9,6 +9,14 @@
     display: none;
   }
 
+  &__article__link {
+    font-size: 1.563rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   // 侧边栏作者介绍
   &__about-info {
     display: flex;
@@ -20,5 +28,9 @@
     margin-right: 2rem;
     border-radius: 50%;
     @include size(5rem, 5rem);
+  }
+
+  &__para {
+    font-size: 1.563rem;
   }
 }

@@ -1,5 +1,5 @@
 <aside class="sidebar">
-  <section class="siderbar__tags mg-top">
+  <section class="sidebar__tags">
     <h3 class="heading-tertiary heading-tertiary--aside">标签</h3>
     <ul class="tags__items">
       {% for tag in collections.tagList %}
@@ -10,23 +10,22 @@
       {% endfor %}
     </ul>
   </section>
-  <section class="siderbar__articles mg-top">
+  <section class="sidebar__articles mg-top">
     <h3 class="heading-tertiary heading-tertiary--aside">最近文章</h3>
-      {% set postslist = collections.posts | arrFilter %}
-      {% for post in postslist %}
+    {% set postslist = collections.posts | arrFilter %}
+    {% for post in postslist %}
       <p>
-        <a class="article__link" href="{{ post.url }}">{{ post.data.title }}</a>
+        <a class="sidebar__article__link" href="{{ post.url }}">{{ post.data.title }}</a>
       </p>
-      {% endfor %}
+    {% endfor %}
   </section>
   <section class="sidebar__about mg-top">
-    <h3 class="heading-tertiary heading-tertiary--aside">About</h3>
+    <h3 class="heading-tertiary heading-tertiary--aside">关于我</h3>
     <div class="sidebar__about-info">
       <figure class="sidebar__photo-box">
         <img srcset="/assets/img/avatar-1x.png,
                      /assets/img/avatar-2x.png 2x,
-                     /assets/img/avatar-3x.png 3x"  
-              src="/assets/img/avatar-3x.png" class="sidebar__photo" alt="avatar photo">
+                     /assets/img/avatar-3x.png 3x" src="/assets/img/avatar-3x.png" class="sidebar__photo" alt="avatar photo">
       </figure>
       <p class="sidebar__para">{{ setting.personalInfo }}</p>
     </div>
