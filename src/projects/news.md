@@ -4,7 +4,7 @@ mySlug: news collections
 date: 2020-05-24T13:20:59.589Z
 description: 5 个信息聚合频道推荐
 imageAlt: news
-imageUrl: https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+imageUrl: https://i.loli.net/2020/05/24/GXwx1jkrLTMsiR4.png
 ---
 [devurls]( http://devurls.com/ ) 程序员频道
 

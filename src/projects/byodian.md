@@ -5,7 +5,7 @@ date: 2019-09-12T11:18:59.589Z
 description: 静态博客项目
 image: /assets/uploads/line.png
 imageAlt: static blog
-imageUrl: https://i.loli.net/2020/03/23/Odn8Va92CxkJ5U1.png
+imageUrl: https://i.loli.net/2020/05/24/IrqUxtOhBLk34gp.png
 ---
 
 使用 [11ty Static Site Generator][11ty] 和 [Netlify][netlify] 建立静态博客。

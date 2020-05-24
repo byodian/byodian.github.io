@@ -4,7 +4,7 @@ mySlug: mind map apps
 date: 2020-05-24T13:18:59.589Z
 description: 4 个图表工具推荐
 imageAlt: mind map
-imageUrl: https://i.loli.net/2020/05/24/cj5kEQDgP1XYes4.jpg
+imageUrl: https://i.loli.net/2020/05/24/iyHchto3KzG4aOg.png
 ---
 
 [processon](https://www.processon.com/)
