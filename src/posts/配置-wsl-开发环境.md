@@ -18,7 +18,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ### 1. 开启 WSL
 
-打开「**控制面板**」> 「**程序**」 >「**启用或关闭 Windows 功能 **」，然后在「**适用于 Linux 的 Windows 子系统**」 选项前面打勾。
+打开「**控制面板**」> 「**程序**」 >「**启用或关闭 Windows 功能**」，然后在「**适用于 Linux 的 Windows 子系统**」 选项前面打勾。
 
 ![](https://i.loli.net/2020/06/15/IyZQHcswn9NEgDp.png)
 
@@ -30,7 +30,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ![](https://i.loli.net/2020/06/15/5FkfX7I1eaJNHhS.png)
 
-**安装之前，需要确认设备是否满足安装要求。**以 [Ubuntu](https://www.microsoft.com/zh-cn/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) 为例：在微软商店搜索 Ubuntu，进入产品的安装界面，然后点击 「**系统要求**」，查看设备是否满足产品的系统要求。如果你的设备符合要求，就会显示 **此产品应该可以在此设备上运行** 的字眼。
+**安装之前，需要确认设备是否满足安装要求**。以 [Ubuntu](https://www.microsoft.com/zh-cn/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) 为例：在微软商店搜索 Ubuntu，进入产品的安装界面，然后点击 「**系统要求**」，查看设备是否满足产品的系统要求。如果你的设备符合要求，就会显示 **此产品应该可以在此设备上运行** 的字眼。
 
 ![](https://i.loli.net/2020/06/15/k3KxVfO7LCla1YH.png)
 
@@ -54,7 +54,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 在 [**微软商店**](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab) 安装 Windows 终端，同样需要查看产品的系统要求，在 **安装 Ubuntu** 小节中已经介绍过，这里不再赘述。
 
-安装完成打开终端后，会默认打开 PowerShell。 而当 Ubuntu 安装成功后，Windows 终端会自动添加 Ubuntu 配置信息，你可以在 **Windows 终端的下拉菜单**中看到 Ubuntu选项。
+安装完成打开终端后，会默认打开 PowerShell。 而当 Ubuntu 安装成功后，Windows 终端会自动添加 Ubuntu 配置信息，你可以在 **Windows 终端的下拉菜单** 中看到 Ubuntu选项。
 
 ![](https://i.loli.net/2020/06/15/pJ2hNrlEXde7ATV.png)
 
@@ -62,13 +62,13 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 我们可以在 Windows 终端上做很多的自定义设置，比如修改全局设置、配色方案、快捷键绑定和字体等。这些自定义设置，都可以在配置文件 `setting.json` 中修改。
 
-通过点击 Windows 终端的下拉菜单「**∨**」>「**设置** 」或者直接使用快捷键 `ctrl+逗号` ，就可以打开终端的配置文件 `setting.json`。
+通过点击 Windows 终端的下拉菜单「**∨**」>「**设置**」或者直接使用快捷键 `ctrl+逗号` ，就可以打开终端的配置文件 `setting.json`。
 
 你还可以在官方 [设置文档](https://docs.microsoft.com/zh-cn/windows/terminal/get-started) ，了解更多相关的信息。
 
 ### 修改配色方案
 
-#### 使用内置的配色方案
+**1. 使用内置的配色方案**
 
 设置 Ubuntu 命令行的配色方案，请添加 `colorScheme` 属性，并将配色方案的 `name` 作为值。
 
@@ -102,7 +102,7 @@ Windows 终端内置了 Campbell、Campbell Powershell、Vintage、One Half Dark
 
 ![](https://i.loli.net/2020/06/15/Vb3ruT2CSozQWAl.png)
 
-#### 自定义配色方案
+**2. 自定义配色方案**
 
 ### 字体
 
