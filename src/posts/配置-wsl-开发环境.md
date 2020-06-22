@@ -30,7 +30,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ![](https://i.loli.net/2020/06/15/5FkfX7I1eaJNHhS.png)
 
-**安装之前，需要确认设备是否满足安装要求。**以 [Ubuntu](https://www.microsoft.com/zh-cn/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) 为例：在微软商店搜索 Ubuntu，进入产品的安装界面，然后点击 「**系统要求**」，查看设备是否满足产品的系统要求。如果你的设备符合要求，就会显示 **此产品应该可以在此设备上运行** 的字眼。
+**安装之前，需要确认设备是否满足安装要求**。以 [Ubuntu](https://www.microsoft.com/zh-cn/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab) 为例：在微软商店搜索 Ubuntu，进入产品的安装界面，然后点击 「**系统要求**」，查看设备是否满足产品的系统要求。如果你的设备符合要求，就会显示 **此产品应该可以在此设备上运行** 的字眼。
 
 ![](https://i.loli.net/2020/06/15/k3KxVfO7LCla1YH.png)
 
@@ -60,7 +60,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ## 配置 Windows 终端
 
-通过点击 Windows 终端的下拉菜单「**∨**」>「**设置** 」或者直接使用快捷键 `ctrl+逗号` ，可以在默认的文本编辑器中打开配置文件 `setting.json` 。
+通过点击 Windows 终端的下拉菜单「**∨**」>「**设置**」或者直接使用快捷键 `ctrl+逗号` ，可以在默认的文本编辑器中打开配置文件 `setting.json` 。
 
 我们可以通过修改配置文件在 Windows 终端上做很多的自定义设置。下面我们将进行全局设置、配色方案、快捷键绑定以及字体的修改。
 
