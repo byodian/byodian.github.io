@@ -35,7 +35,7 @@ body {
 // 文章样式
 .post {
   word-spacing: 0.2rem;
-  @include font(1.64rem, var(--font-weight-normal), 1.8);
+  @include font(1.5rem, var(--font-weight-normal), 1.8);
 
   @media only screen and (max-width: 900px) {
     // 600px
@@ -53,7 +53,7 @@ body {
   }
 
   & > h2 {
-    font-size: 1.953rem;
+    font-size: 2.369rem;
     border-left-width: 5px;
     border-left-color: #f9994b;
     border-left-style: solid;
@@ -61,11 +61,11 @@ body {
   }
 
   & > h3 {
-    font-size: 1.563rem;
+    font-size: 1.777rem;
   }
 
   & > h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   & > p,
