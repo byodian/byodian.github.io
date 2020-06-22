@@ -154,7 +154,7 @@ Windows 终端内置了 Campbell、Campbell Powershell、Vintage、One Half Dark
 
 **快速开始**
 
-1. 在 [nord-dircolors](https://github.com/arcticicestudio/nord-dircolors) Github 仓库主页下载 `src` 的 `dir_colors` 文件，重命名为 `.dir_colors` ，并将它移动到 `~`（使用 `cd` 命令改变当前目录为根目录）。
+1. 在 [nord-dircolors](https://github.com/arcticicestudio/nord-dircolors) Github 仓库主页下载 [dir_colors](https://github.com/arcticicestudio/nord-dircolors/blob/develop/src/dir_colors) 文件，重命名为 `.dir_colors` ，并将它移动到 `~`（使用 `cd` 命令改变当前目录为根目录）。
 
 2. 为了让 `dircolors` 命令读取到 `~/.die_colors` 文件，还需要将以下内容添加到 `~/.bashrc` 文件中。
 
