@@ -12,7 +12,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 当然如果你想体验 Linux 发行版的图形界面，WSL 是不支持的，这个时候还只有使用虚拟机或者安装 Linux 在本地磁盘两种方法了。
 
-接下来我们就开始配置 WSL 。
+接下来我们就开始配置 Windows 终端 & WSL 开发环境。
 
 ## 设置 WSL
 
