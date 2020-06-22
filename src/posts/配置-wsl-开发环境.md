@@ -148,7 +148,7 @@ Windows 终端内置了 Campbell、Campbell Powershell、Vintage、One Half Dark
 
 `dircolors` 命令设置 `ls` 、`tree` 命令在显示目录或文件时所用的色彩。`dircolors` 还可根据色彩配置文件来设置 `LS_COLORS` 环境变量。
 
-设置 dircolors 主题为 [Nord dircolors](https://www.nordtheme.com/ports/dircolors) 。Nord dircolors 是一个开源的 dircolors 主题，以冷色系颜色为主调，使用它会让你的终端看起来更加的优雅和整洁。以配置 Ubuntu 命令行 `dircolor` 主题为例：
+设置 [dircolors](https://www.gnu.org/software/coreutils/manual/html_node/dircolors-invocation.html#dircolors-invocation) 主题为 [Nord dircolors](https://www.nordtheme.com/ports/dircolors) 。Nord dircolors 是一个开源的 dircolors 主题，以冷色系颜色为主调，使用它会让你的终端看起来更加的优雅和整洁。以配置 Ubuntu 命令行 `dircolor` 主题为例：
 
 ![Nord dircolors 主题](https://i.loli.net/2020/06/21/mWN51JTaVfpSwiK.png)
 
