@@ -6,7 +6,7 @@ tags:
 date: 2020-06-15T11:13:04.430Z
 description: WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows 子系统。
 ---
-## 介绍 WSL 
+## 介绍 WSL
 
 WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows 子系统。WSL 功能推出之前，在 Windows 上运行 Linux 需要将 Linux 发行版安装在虚拟机（比如 VMware、VirtualBox），使用此方法过程比较繁琐，容易出错，而且使用虚拟机运行 Llinux 个人觉得比较占用系统资源。现在使用 WSL ，只需要在微软商店安装相应的 Linux 发行版，就可以在本地环境中体验到 Linux 的所有功能。
 
@@ -18,7 +18,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ### 开启 WSL
 
-打开「**控制面板**」>「**程序**」>「**启用或关闭 Windows 功能 **」，然后在「**适用于 Linux 的 Windows 子系统**」选项前面打勾。
+打开「**控制面板**」>「**程序**」>「**启用或关闭 Windows 功能** 」，然后在「**适用于 Linux 的 Windows 子系统**」选项前面打勾。
 
 小技巧：使用快捷键  `Win+s` 打开搜索功能，在搜索框中输入关键字 **Windows 功能**，可以快速打开「**启用或关闭 Windows 功能**」。
 
@@ -46,13 +46,13 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 无论你想要什么，都可以参考 Ubuntu 的安装文档进行下载安装，比如 Ruby、NodeJs、Docker 或者 Python 等工具。现在还需要一个 Windows 终端，因为默认的 Ubuntu 终端界面有点粗糙，我推荐使用微软开发的 [Windows 终端](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab)，下面是 [Microsoft 文档](https://docs.microsoft.com/zh-cn/windows/terminal/) 关于它的解释。
 
->Windows 终端是一个面向命令行工具和 shell（如命令提示符、PowerShell 和适用于 Linux 的 Windows 子系统 (WSL)）用户的新式终端应用程序。 它的主要功能包括多个选项卡、窗格、Unicode 和 UTF-8 字符支持、GPU 加速文本呈现引擎，还可以用于创建你自己的主题并自定义文本、颜色、背景和快捷键绑定。  
+> Windows 终端是一个面向命令行工具和 shell（如命令提示符、PowerShell 和适用于 Linux 的 Windows 子系统 (WSL)）用户的新式终端应用程序。 它的主要功能包括多个选项卡、窗格、Unicode 和 UTF-8 字符支持、GPU 加速文本呈现引擎，还可以用于创建你自己的主题并自定义文本、颜色、背景和快捷键绑定。  
 >
->[控制台、终端和 shell 之间的区别？](https://www.hanselman.com/blog/WhatsTheDifferenceBetweenAConsoleATerminalAndAShell.aspx)
+> [控制台、终端和 shell 之间的区别？](https://www.hanselman.com/blog/WhatsTheDifferenceBetweenAConsoleATerminalAndAShell.aspx)
 
 ## 安装 Windows 终端
 
-在 [**微软商店**](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab) 安装 Windows 终端，同样需要查看产品的系统要求，在 **安装 Ubuntu** 小节中已经介绍过，这里不再赘述。
+在 **[微软商店](https://www.microsoft.com/zh-cn/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab)** 安装 Windows 终端，同样需要查看产品的系统要求，在 **安装 Ubuntu** 小节中已经介绍过，这里不再赘述。
 
 当 Ubuntu 安装成功后，Windows 终端将自动为你创建 Ubuntu 配置文件，并且可以在 **Windows 终端的下拉菜单** 中看到 Ubuntu 选项了。
 
@@ -69,6 +69,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 ![terminal](https://i.loli.net/2020/06/22/TAYxb5aKUfDrWHw.png)
 
 ### 全局设置
+
 `setting.json` 配置文件根目录下的属性将影响整个终端窗口，像  `defaultProfile`、`theme` 、`initialRows`、`initialCols`、`initialPosition`。
 
 #### 默认配置文件
@@ -155,13 +156,11 @@ Windows 终端内置了 Campbell、Campbell Powershell、Vintage、One Half Dark
 **快速开始**
 
 1. 在 [nord-dircolors](https://github.com/arcticicestudio/nord-dircolors) Github 仓库主页下载 [dir_colors](https://github.com/arcticicestudio/nord-dircolors/blob/develop/src/dir_colors) 文件，重命名为 `.dir_colors` ，并将它移动到 `~`（使用 `cd` 命令改变当前目录为根目录）。
-
 2. 为了让 `dircolors` 命令读取到 `~/.die_colors` 文件，还需要将以下内容添加到 `~/.bashrc` 文件中。
 
    ```bash
    eval "$(dircolors ~/.dir_colors)"
    ```
-
 3. 在终端运行以下命令即可生效：
 
    ```bash
@@ -169,7 +168,7 @@ Windows 终端内置了 Campbell、Campbell Powershell、Vintage、One Half Dark
    ```
 
    Nord dircolors 主题实际效果：
-   
+
    ![dircolors](https://i.loli.net/2020/06/22/5hliIakPVL9nzqJ.png)
 
 ### 字体
@@ -218,7 +217,7 @@ Windows 终端提供五种光标形状，分别是：`"bar"` ( ┃ )、`"vintage
 
 #### 终端起始目录
 
-Windows 终端中的 WSL 默认的起始目录在 `/mnt/c/Users/用户名`。如果你想修改 Linux 的起始目录为主目录， 可以添加属性 `startingDirectory `，属性值设置为你的 WSL 主目录的网络路径。下面是我的配置文件修改：
+Windows 终端中的 WSL 默认的起始目录在 `/mnt/c/Users/用户名`。如果你想修改 Linux 的起始目录为主目录， 可以添加属性 `startingDirectory`，属性值设置为你的 WSL 主目录的网络路径。下面是我的配置文件修改：
 
 ```json
 // WSL 为 Ubuntu
@@ -246,10 +245,10 @@ Windows 终端中的 WSL 默认的起始目录在 `/mnt/c/Users/用户名`。如
 
 终端的提示符通过环境变量 `PS1`（Prompt String 1）设置。有许多的转移字符可以插入终端的提示符，比如：
 
-- `\u` ：用户名
-- `\h`：短的主机名
-- `\W`：当前工作目录的名字
-- `\w`：当前工作目录的路径
+* `\u` ：用户名
+* `\h`：短的主机名
+* `\W`：当前工作目录的名字
+* `\w`：当前工作目录的路径
 
 更多详细介绍请参考 [Bash Prompt Escape Sequences](https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html) 。
 
@@ -320,27 +319,37 @@ export PS1="\u@ubuntu:\[\033[1;34m\]\w\[\033[0m\]\`parse_git_branch\`$ "
 
 Windows 终端默认的快捷键配置在 `defaults.json` 文件中，可按住 `alt` 键并点击设置按钮来访问该文件。
 
-- `Ctrl+,` ：打开设置文件
-
-- `Ctrl+shift+space` ：打开下拉菜单
-- `alt+enter`：切换全屏
-- `ctrl+shift+f`：查找内容
-- `ctrl+shift+w`：关闭窗口
-- `ctrl+shift+t`：新建选项卡
-- `ctrl+tab`：切换选项卡
-- `alt+shift+-`：垂直拆分窗格
-- `alt+shift++`：水平拆分窗格
-- `alt+方向键`：移动窗格焦点
-- `alt+shift+方向键`：调整窗格大小
-- `ctrl+shift+c`：复制内容到剪贴板
-- `ctrl+shift+v`：粘贴剪贴板上复制的内容
+* `Ctrl+,` ：打开设置文件
+* `Ctrl+shift+space` ：打开下拉菜单
+* `alt+enter`：切换全屏
+* `ctrl+shift+f`：查找内容
+* `ctrl+shift+w`：关闭窗口
+* `ctrl+shift+t`：新建选项卡
+* `ctrl+tab`：切换选项卡
+* `alt+shift+-`：垂直拆分窗格
+* `alt+shift++`：水平拆分窗格
+* `alt+方向键`：移动窗格焦点
+* `alt+shift+方向键`：调整窗格大小
+* `ctrl+shift+c`：复制内容到剪贴板
+* `ctrl+shift+v`：粘贴剪贴板上复制的内容
 
 更多快捷键介绍请参考 [Windows 终端中的自定义键绑定](https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/key-bindings)。
 
-## 参考
+## 其他
+在 Windows 文件管理器查看 WSL 网络路径。
+1. 使用 `cd` 命令进入 `~` 目录
+2. 在终端运行以下命令
+```bash
+explorer.exe .
+```
 
-- [How to Change / Set up bash custom prompt (PS1) in Linux](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
-- [How To Set Windows Terminal Starting Directory for WSL](https://wespeter.com/posts/how-to-set-windows-terminal-starting-directory/)
-- [Bash prompt tips and tricks](https://opensource.com/article/17/7/bash-prompt-tips-and-tricks)
-- [Bash Prompt Escape Sequences](https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html)
-- [Windows 终端文档](https://docs.microsoft.com/zh-cn/windows/terminal/)
+## 资源
+
+* [How to Change / Set up bash custom prompt (PS1) in Linux](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
+* [How To Set Windows Terminal Starting Directory for WSL](https://wespeter.com/posts/how-to-set-windows-terminal-starting-directory/)
+* [Bash prompt tips and tricks](https://opensource.com/article/17/7/bash-prompt-tips-and-tricks)
+* [Bash Prompt Escape Sequences](https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html)
+* [Windows 终端文档](https://docs.microsoft.com/zh-cn/windows/terminal/)
+* [Bash Prompt HOWTO](http://tldp.org/HOWTO/Bash-Prompt-HOWTO/index.html)
+* [How to make a pretty prompt in Windows Terminal with Powerline, Nerd Fonts, Cascadia Code, WSL, and oh-my-posh](https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx)
+* [适用于 Linux 的 Windows 子系统文档](https://docs.microsoft.com/zh-cn/windows/wsl/)
