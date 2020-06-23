@@ -18,7 +18,7 @@ WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows
 
 ### 开启 WSL
 
-打开「**控制面板**」>「**程序**」>「**启用或关闭 Windows 功能** 」，然后在「**适用于 Linux 的 Windows 子系统**」选项前面打勾。
+打开「**控制面板**」>「**程序**」>「**启用或关闭 Windows 功能**」，然后在「**适用于 Linux 的 Windows 子系统**」选项前面打勾。
 
 小技巧：使用快捷键  `Win+s` 打开搜索功能，在搜索框中输入关键字 **Windows 功能**，可以快速打开「**启用或关闭 Windows 功能**」。
 
