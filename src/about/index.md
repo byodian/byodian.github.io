@@ -39,12 +39,6 @@ date: 2019-09-06T11:06:02.946Z
 
 ![https://i.loli.net/2020/03/20/y8FSaNmlpYQRhcX.png](https://i.loli.net/2020/03/20/y8FSaNmlpYQRhcX.png)
 
-## 技能
-
-1. 掌握基础的设计原则（亲密性, 对齐, 重复和对比）
-2. 熟练使用 PS、PR
-3. 掌握基本的 HTML/CSS/JavaScript 编程语言
-
 
 
 
