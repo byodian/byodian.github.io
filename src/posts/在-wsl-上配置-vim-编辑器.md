@@ -179,7 +179,15 @@ vim 编辑器中执行 git 命令
 2. 开始菜单中启动 **XLaunch**
 3. 使用默认选项，一路点击 **下一步** ，确保选择 **Clipboard** 选项
 4. 安装结束 **XLaunch** 时，保存配置文件 **config.xlaunch**，并且启动。
-5. 在 WSL 系统的 `~/.bashrc` 文件中添加 `DISPLAY=localhost:0.0`，并且在终端运行 `source ~/.bashrc`
+5. 在 WSL 系统的 `~/.bashrc` 文件中添加下面的代码，并且在终端运行 `source ~/.bashrc`。
+
+   ```shell
+   export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+   ```
+6. Running the following command, it is possible to see that the $DISPLAY environment variable now has the Windows Host’s IP set:
+   ```shell
+   echo $DISPLAY
+   ```
 6. 确保 Vim 有剪贴板的支持。终端运行 `vim --version |grep clipboard` ，结果应该是  **+clipboard** ，如而不是 **-clipboard**。或者在 vim 编辑器中运行命令 `:echo has("clipboard")` ，若结果是 `0` ，表示 vim 没有剪贴板的支持。
 7. 如果没有剪贴版支持，你需要安装剪贴板支持，在终端运行 `sudo apt install vim-gtk`
 8. 现在你就可以使用 `*p`、`*y` 命令进入 Windows 系统的剪贴板了。或者通过添加 `set clipboard=unnamed` 到 **~/.vimrc** 文件中，设置为默认。
@@ -190,3 +198,4 @@ vim 编辑器中执行 git 命令
 - [linux下安装cmake](https://www.jianshu.com/p/3703b1e0925e) 
 - [适用于 Linux 的 Windows 子系统文档](https://docs.microsoft.com/zh-cn/windows/wsl/) 了解更多 WSL2 特点。
 - [适用于 Linux 的 Windows 子系统安装指南 (Windows 10)](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10#update-to-wsl-2) 更新 WSL1 到 WSL2。
+- [Running WSL GUI Apps on Windows 10](https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242)
