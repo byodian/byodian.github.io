@@ -1,5 +1,5 @@
 body {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: 'Noto Sans SC', sans-serif;
   color: var(--color-text-default);
   background-color: #fcfcfc;
   @include font(inherit, var(--font-weight-normal), 1.5);
@@ -53,11 +53,7 @@ body {
   }
 
   & > h2 {
-    font-size: 2.369rem;
-    border-left-width: 5px;
-    border-left-color: #f9994b;
-    border-left-style: solid;
-    padding-left: 8px;
+    font-size: 2rem;
   }
 
   & > h3 {

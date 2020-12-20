@@ -90,8 +90,8 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Cover Image", name: "image", widget: "file", required: false }
-      - { label: "ImageAlt", name: "imageAlt", widget: "string" }
-      - { label: "ImageUrl", name: "imageUrl", widget: "file" }
+      - { label: "ImageAlt", name: "imageAlt", widget: "string" , required: false}
+      - { label: "ImageUrl", name: "imageUrl", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
   
   - label: "Pages"
