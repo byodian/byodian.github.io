@@ -14,18 +14,7 @@ const images = document.querySelectorAll('img');
 const dropdownList = document.querySelector('.dropdown-container');
 
 function showDropdown() {
-  dropdownList.classList.add('open');
-}
-
-function hideDropdown() {
-  dropdownList.classList.remove('open');
-}
-
-function toggleDropdown() {
-  console.log(123);
   dropdownList.classList.toggle('open');
 }
 
-dropdownList.addEventListener('mouseover', showDropdown);
-dropdownList.addEventListener('mouseleave', hideDropdown);
-
+dropdownList.addEventListener('click', showDropdown);

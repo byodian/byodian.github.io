@@ -54,6 +54,10 @@ body {
 
   & > h2 {
     font-size: 2rem;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.6rem;
+    }
   }
 
   & > h3 {
@@ -130,11 +134,19 @@ body {
 
 .post__title {
   @include font(2.471rem, var(--font-weight-bold), 1.15);
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.8rem;
+  }
 }
 
 .post__date {
   font-size: 1.4rem;
   margin-right: 1rem;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.25rem;
+  }
 }
 
 :not(pre) > code {
