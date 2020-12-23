@@ -1,0 +1,125 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# These lines should *not* be indented
+publish_mode: editorial_workflow
+media_folder: "/src/assets/uploads" # Media files will be stored in the repo under /src/assets/img
+
+public_folder: "/assets/uploads" # The src attribute for uploaded media will begin with /assets/img
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    description: >
+      文章页面
+    folder: "src/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "bookmarks" # Used in routes, e.g., /admin/collections/blog
+    label: "Bookmarks" # Used in the UI
+    description: >
+      收藏页面
+    folder: "src/bookmarks" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: ["news"]
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
+      - { label: "SourceUrl", name: "sourceUrl", widget: "string" }
+      - { label: "SourceName", name: "sourceName", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+        
+  - name: "recommend"
+    label: "Recommend"
+    description: >
+        推荐页面
+    create: false
+    slug: "{{ slug }}"
+    folder: "src/recommend"
+    fields: 
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }     
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "about"
+    label: "About"
+    description: >
+        关于我
+    create: false
+    slug: "{{ slug }}"
+    folder: "src/about"
+    fields: 
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+
+  - name: "projects" # Used in routes, e.g., /admin/collections/blog
+    label: "Projects" # Used in the UI
+    description: >
+      项目页面
+    folder: "src/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Myslug", name: "mySlug", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", dateFormat: "YYYY-MM-DD", timeFormat: "YYYY-MMM-DD HH:mm" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Cover Image", name: "image", widget: "file", required: false }
+      - { label: "ImageAlt", name: "imageAlt", widget: "string" , required: false}
+      - { label: "ImageUrl", name: "imageUrl", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main conent goes here" }
+  
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/_data/homepage.json"
+        fields:
+          - {label: "SiteName", name: "siteName", widget: "string"}
+          - label: "Studys"
+            name: "studys"
+            widget: "list"
+            fields: 
+              - { label: "Study URL", name: "url", widget: "string" }
+              - { label: "Study name", name: "text", widget: "string" }
+      - label: "Site Settings"
+        name: "settings"
+        file: "src/_data/setting.json"
+        fields:
+          - {label: "SiteName", name: "title", widget: "string"}
+          - {label: "PersonalInfo", name: "personalInfo", widget: "string"}
+          - { label: "Network ICON", name: "icon", widget: "file", hint: "This must be an icon" }
+          - { label: "Network LOGO", name: "logo", widget: "file", hint: "This must be an SVG" }
+          - { label: "Network AVATAR", name: "avatar", widget: "file" }
+          - label: "Social Networks"
+            name: "socials"
+            widget: "list"
+            fields: 
+              - { label: "Social Network URL", name: "url", widget: "string" }
+              - { label: "Social Network URL", name: "name", widget: "string" }
