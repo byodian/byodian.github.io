@@ -79,11 +79,6 @@
         </div>
       </nav>
       <main class="content">
-        {% block pageHeader %}
-          <section class="page-heading">
-            <h1 class="heading-primary">{{ title }}</h1>
-          </section>
-        {% endblock pageHeader %}
         {% block content %}
           {{ content | safe }}
         {% endblock content %}
