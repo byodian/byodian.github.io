@@ -17,16 +17,14 @@ permalink: /tags/{{ tag }}/
 
 {% block articlesPage %}
 
-  <section class="page-heading">
-    <h1 class="heading-primary">{{ tag }}</h1>
-  </section>
-  <section class="bookmarks">
-    <section class="categories">
+  <h1 class="heading-primary">{{ tag }}</h1>
+  <div class="bookmarks">
+    <div class="categories">
       {% set postslist = collections[tag] %}
       {% include "layouts/postslist.njk" %}
-    </section>
+    </div>
     {% include 'layouts/aside.njk' %}
-  </section>
+  </div>
 {% endblock articlesPage %}
 
 {% block pageFooter %}{% endblock pageFooter %}

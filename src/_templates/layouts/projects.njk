@@ -1,11 +1,11 @@
 {% extends "layouts/base.njk" %}
 {% block pageHeader %}{% endblock pageHeader %}
 {% block projectsPage %}
-  <section class="projects">
+  <div class="projects">
     <div class="columns">
       {% set columns = collections.projects %}
       {% include 'layouts/column.njk' %}
     </div>
-  </section>
+  </div>
 {% endblock projectsPage %}
 {% block pageFooter %}{% endblock pageFooter %}

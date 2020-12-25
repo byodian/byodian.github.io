@@ -3,14 +3,14 @@
 {% block content %}
   <div class="post">
     <div class="post-article">
-      <section class="post__info">
+      <div class="post__info">
         <h1 class="post__title">{{ title }}</h1>
         <time class="post__date" datetime="{{ date | dateISO }}">{{ date | dateReadable }}</time>
         {% for tag in tags %}
           {% set tagUrl %}/tags/{{ tag }}/{% endset %}
           <a href="{{ tagUrl }}" class="stress stress--tag">{{ tag }}</a>
         {% endfor %}
-      </section>
+      </div>
       {{ content | safe}}
     </div>
   </div>

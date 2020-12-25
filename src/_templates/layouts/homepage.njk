@@ -1,15 +1,15 @@
 {% extends "layouts/base.njk" %}
 {% block pageHeader %}{% endblock pageHeader %}
 {% block content %}
-  <section class="homepage-articles">
-    <section class="articles">
+  <div class="homepage-articles">
+    <div class="articles">
       {% set postslist = collections.posts | arrFilter %}
       {% include "layouts/postslist.njk" %}
-    </section>
-  </section>
-  <section class="homepage-projects">
+    </div>
+  </div>
+  <div class="homepage-projects">
     <div class="columns">
       {% set columns = collections.projects | arrFilter %}
       {% include 'layouts/column.njk' %}
-    </section>
+    </div>
   {% endblock content %}

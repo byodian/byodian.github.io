@@ -1,11 +1,11 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
-  <section class="bookmarks">
-    <section class="categories">
+  <div class="bookmarks">
+    <div class="categories">
       {% set postslist = collections.bookmarks %}
       {% include "layouts/postslist.njk" %}
-    </section>
+    </div>
     {% include 'layouts/aside.njk'%}
-  </section>
+  </div>
 {% endblock content %}
 {% block pageFooter %}{% endblock pageFooter %}
