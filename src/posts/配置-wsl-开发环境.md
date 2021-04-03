@@ -1,5 +1,5 @@
 ---
-title: 配置 Windows 终端 & WSL 开发环境
+title: 配置 wsl 开发环境
 mySlug: how to setting up wsl
 tags:
   - Linux

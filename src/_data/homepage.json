@@ -1,13 +1,3 @@
 {
-  "siteName": "byodian",
-  "studys": [
-    {
-      "url": "https://vuejs.org/",
-      "text": "Vue.js"
-    },
-    {
-      "url": "https://nodejs.org/en/",
-      "text": "Node.js"
-    }
-  ]
+  "siteName": "byodian"
 }

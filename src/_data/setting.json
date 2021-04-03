@@ -1,6 +1,6 @@
 {
-  "title": "byodian's blog | 效率工具 | 办公技巧 | 互联网自动化",
-  "personalInfo": "软件工具·效率技巧",
+  "title": "byodian's blog",
+  "personalInfo": "前端开发",
   "icon": "/assets/img/favicon.ico",
   "logo": "/assets/img/logo.svg#icon_logo",
   "avatar": "/assets/img/avatar.png",
@@ -24,6 +24,28 @@
     {
       "url": "https://t.me/awesometools",
       "name": "icon-telegram"
+    }
+  ],
+  "repos": [
+    {
+      "title": "resources",
+      "url": "https://github.com/byodian/resources",
+      "description": "资源导航"
+    },
+    {
+      "title": "blog",
+      "url": "https://github.com/byodian/blog",
+      "description": "开发学习笔记"
+    },
+    {
+      "title": "nba-telegram-bot",
+      "url": "https://github.com/byodian/nba-telegram-bot",
+      "description": "使用 Telegram bot 获取 NBA 比赛信息"
+    },
+    {
+      "title": "oneboxapp",
+      "url": "https://github.com/byodian/resources",
+      "description": "笔记应用"
     }
   ]
 }

@@ -6,7 +6,7 @@
   --grey: #999;
 
   --highlight-1: rgba(247, 112, 94, 0.993);
-  --highlight-2: #0684bd;
+  --highlight-2: #007fdc;
   --highlight-3: #f9994b;
 
   --color-text-default: var(--black-deep);
@@ -15,6 +15,9 @@
   // border
   --line: 1px solid var(--grey-light);
   --line-transparent: 2px solid transparent;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-xl: 6px;
 
   // box-shadow
   --shadow-outline: 0 0 1px var(--black-light);
@@ -24,6 +27,15 @@
   --gutter-big: 2rem;
   --gutter-middle: 1.2rem;
   --gutter-small: 0.875rem;
+
+  --space-4: 0.4rem;
+  --space-8: 0.8rem;
+  --space-6: 0.6rem;
+  --space-16: 1.6rem;
+  --space-24: 2.4rem;
+  --space-36: 3.6rem;
+  --space-48: 4.8rem;
+  --space-64: 6.4rem;
 
   // margin
   --margin-top: 4rem;

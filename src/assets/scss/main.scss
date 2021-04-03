@@ -4,25 +4,14 @@
 
 @import "base/normalize";
 @import "base/local-reset";
-@import "base/typography";
 @import "base/base";
 
-@import "layout/base";
-@import "layout/nav";
-@import "layout/footer";
-@import "layout/sidebar";
-@import "layout/categories";
-
-@import "pages/base";
-@import "pages/home";
-@import "pages/bookmarks";
-
 @import "components/social";
-@import "components/article";
-@import "components/columns";
-@import "components/stress-link";
-@import "components/btn";
-@import "components/tags";
-@import "components/dropdown.scss";
-
+@import "components/home";
+@import "components/post";
+@import "components/hero";
+@import "components/products";
+@import "components/articles";
+@import "components/repos";
+@import "utils";
 @import "../prism.css";

@@ -16,15 +16,12 @@ permalink: /tags/{{ tag }}/
 {% extends "layouts/base.njk" %}
 
 {% block articlesPage %}
-
   <h1 class="heading-primary">{{ tag }}</h1>
   <div class="bookmarks">
     <div class="categories">
       {% set postslist = collections[tag] %}
       {% include "layouts/postslist.njk" %}
     </div>
-    {% include 'layouts/aside.njk' %}
   </div>
 {% endblock articlesPage %}
-
 {% block pageFooter %}{% endblock pageFooter %}

@@ -14,11 +14,7 @@ module.exports = function(eleventyConfig) {
 
   // Layout Alliases 
   eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
-  eleventyConfig.addLayoutAlias('articles', 'layouts/articles.njk');
-  eleventyConfig.addLayoutAlias('bookmarks', 'layouts/bookmarkspage.njk');
-  eleventyConfig.addLayoutAlias('categories', 'layouts/categoriespage.njk');
-  eleventyConfig.addLayoutAlias('home', 'layouts/homepage.njk');
-  eleventyConfig.addLayoutAlias('projects', 'layouts/projects.njk');
+  eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
   // plugin

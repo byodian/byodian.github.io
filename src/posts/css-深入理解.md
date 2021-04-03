@@ -6,26 +6,30 @@ tags:
 date: 2021-04-01T14:45:33.330Z
 description: 进一步理解 CSS 。
 ---
+
 ## 无宽度和宽度分离原则
+
 对于块状元素，如果 `width: auto` ,则元素宽度就会自适应占据整个容器。
 
 宽度分离原则：CSS 中的 `width` 属性不与影响宽度的 `padding/border` 属性共存。使用包裹元素 width 独占一层标签，`padding`、`border`、`margin` 利用流动性在内部自适应呈现。
 
-    .container {
-    	width: 100px;
-    }
-    .item {
-    	margin: 0 20px;
-    	padding: 20px;
-    	border: 1px solid;
-    }
+```css
+.container {
+  width: 100px;
+}
+.item {
+  margin: 0 20px;
+  padding: 20px;
+  border: 1px solid;
+}
+```
 
 ### box-sizing
-
-    input, textarea, img, video, object {
-    	box-sizing: border;
-    }
-
+```css
+input, textarea, img, video, object {
+  box-sizing: border;
+}
+```
 ## inline elements vs. block-level elements
 
 - In a block formatting context, boxes are laid out one after the other, vertically, beginning at the top of a containing block.
@@ -53,7 +57,7 @@ height 不会运用于行内非替换元素，内容区域的高度应该基于�
 
 规范指出，如果包含块的高度没有显示指定 (高度由内容决定)，并且该元素不是绝对定位，则计算值为 auto。这里，auto 和百分比数值无法计算。
 
-> For absolutely positioned elements whose containing block is based on a block-level element, the percentage is calculated with respect to the height of the *padding box* of that element. This is a change from CSS1, where the percentage was always calculated with respect to the *content box* of the parent element.
+> For absolutely positioned elements whose containing block is based on a block-level element, the percentage is calculated with respect to the height of the _padding box_ of that element. This is a change from CSS1, where the percentage was always calculated with respect to the _content box_ of the parent element.
 
 绝对定位元素高度百分数值基于包含块的 `padding box` 计算，非绝对定位元素基于包含块的 `content-box` 计算。
 
@@ -67,7 +71,7 @@ height 不会运用于行内非替换元素，内容区域的高度应该基于�
 
 ### padding
 
-An element's padding area is the space between its content and its border. 
+An element's padding area is the space between its content and its border.
 
 一个元素的内边距是它的内容和边框之间的空间。
 
@@ -77,18 +81,22 @@ An element's padding area is the space between its content and its border.
 
 我们给内联元素加一个背景或者边框，设置垂直 `padding` ，就可以看到内联元素的尺寸空间确实受到了影响，但是不会影响其他元素的布局。
 
-    a {
-    	padding: .5rem 1rem;
-    	background-color: red;
-    }
+```css
+a {
+  padding: 0.5rem 1rem;
+  background-color: red;
+}
+```
 
 ### 垂直 padding 增加内联元素的点击区域
 
 利用垂直 `padding` 只影响内联元素的视觉效果，不影响其他元素的布局，可以用来**增加链接或按钮的点击区域大小**。默认情况下，链接的点击区域的高度受 `font-size` 的字体大小控制，和 `line-height` 无关
 
-    a {
-    	padding: 1rem 0;
-    }
+```css
+a {
+  padding: 1rem 0;
+}
+```
 
 内联元素垂直方向上的行为完全受 `line-height` 和 `vertical-align` 的影响。
 
@@ -96,47 +104,50 @@ An element's padding area is the space between its content and its border.
 
 padding 的百分数值相对于包含块的宽度计算。利用这种特性，可以实现等比例缩放的布局效果。
 
-    <div class="container">
-    	<img src="#" alt="hero">
-    </div>
+```css
+<div class="container" > <img src="#" alt="hero" > </div > .container {
+  padding: 10% 50%;
+  position: relative;
+}
 
-    .container{
-    	padding: 10% 50%;
-    	position: relative;
-    }
-    
-    .container img {
-    	position: absolute;
-    	width: 100%;
-    	height: 100%;
-    	left: 0; top: 0;
-    }
+.container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+```
 
 ### padding 与图形绘制
 
 padding 属性和 background-clip 属性配合，可以实现一些图像绘制效果。
 
-    /* menu icon*/
-    .icon-menu {
-    	display: inline-block;
-    	width: 14px; height: 1px;
-    	padding: 3px 0;
-    	border-top: 1px solid;
-    	border-bottom: 1px solid;
-    	background-color: currentColor;
-    	background-clip: content-box;
-    }
-    
-    /* dot icon */
-    .icon-dot {
-    	display: inline-block;
-    	width: 10px; height: 10px;
-    	padding: 1px;
-    	border-top: 1px solid;
-    	border-radius: 50%;
-    	background-color: currentColor;
-    	background-clip: content-box;
-    }
+```css
+/* menu icon*/
+.icon-menu {
+  display: inline-block;
+  width: 14px;
+  height: 1px;
+  padding: 3px 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-color: currentColor;
+  background-clip: content-box;
+}
+
+/* dot icon */
+.icon-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-top: 1px solid;
+  border-radius: 50%;
+  background-color: currentColor;
+  background-clip: content-box;
+}
+```
 
 ### margin
 
@@ -150,36 +161,32 @@ padding 属性和 background-clip 属性配合，可以实现一些图像绘制�
 
 - 如果一侧 auto ，则 auto 为剩余空间大小
 - 如果两侧均是 auto ，则平均分配空间。
-```css
-<div class="container">
-    <div class="item"></div>
-</div>
 
-.container {
-    width: 200px;
+```css
+<div class="container" > <div class="item" > </div > </div > .container {
+  width: 200px;
 }
 
 .item {
-    width: 100px;
-    height: 100px;
-    margin-right: auto; /* item 左对齐 */
+  width: 100px;
+  height: 100px;
+  margin-right: auto; /* item 左对齐 */
 }
 ```
+
 ![margin-left](https://github.com/byodian/blog/blob/master/doc/margin-left.png?raw=true)
 
-    <div class="container">
-    	<div class="item"></div>
-    </div>
+```css
+<div class="container" > <div class="item" > </div > </div > .container {
+  width: 300px;
+}
 
-    .container {
-    	width: 300px;
-    }
-    
-    .item {
-    	width: 100px;
-    	height: 100px;
-    	margin: auto; /*  居中对齐 */
-    }
+.item {
+  width: 100px;
+  height: 100px;
+  margin: auto; /*  居中对齐 */
+}
+```
 
 ![margin](https://github.com/byodian/blog/blob/master/doc/margin.png?raw=true)
 
@@ -216,16 +223,20 @@ CSS 中的 `width` 属性不与影响宽度的 `padding/border`属性共存。�
 ## 文本属性
 
 ### text-align
+
 - 只应用于块级元素
 - 只对行内元素起作用。
 
 ### line-height
+
 设置 inline 元素的高度，常用来设置文本行之间的距离。
 
 ### vertical-align
+
 垂直对齐的属性值相对于它的父元素。对齐同一包含块中的元素。
 
 ## ::selection
+
 应用样式到用户选定的那一部分文档。支持的属性有：
 
 - color
@@ -282,28 +293,29 @@ BFC 对于浮动元素的定位和清除是重要的。浮动元素的定位和�
 
 浮动元素和 BFC 元素实现自动填充的自适应布局。
 
-HTML 代码
+```html
+<div class="media-container">
+  <img class="media-picture" src="xx.png" >
+  <div class="media-body">
+    <h3>Title</h3>
+    <p>Description</p>
+  </div>
+</div>
+```
 
-    <div class="media-container">
-          <img class="media-picture" src="xx.png" >
-          <div class="media-body">
-            <h3>Title</h3>
-            <p>Description</p>
-          </div>
-        </div>
+```css
+/* .media-container 元素避免高度塌陷, 具有 BFC 特性的元素会包含所有的子元素*/
+/* .media-body clear float */
+.media-container,
+.media-body {
+  overflow: hidden;
+}
 
-CSS 代码
-
-    /* .media-container 元素避免高度塌陷, 具有 BFC 特性的元素会包含所有的子元素*/
-        /* .media-body clear float */
-        .media-container, .media-body {
-        	overflow: hidden;
-        }
-        
-        .media-picture {
-        	float: float;
-        	margin-right: 10px;
-        }
+.media-picture {
+  float: float;
+  margin-right: 10px;
+}
+```
 
 ## 层叠上下文（stacking context）
 
@@ -313,7 +325,7 @@ HTML 元素的一个三维概念，指具有层叠上下文的元素在显示器
 
 决定了同一层叠上下文中元素在 z 轴上的显示顺序，所有的元素都具有层叠水平，只是层叠水平各有差异。另外， z-index 只能影响定位元素、flex 容器的子元素以及 grid 容器子元素的层叠水平。
 
-### 层叠上下文特性
+### 层叠上下文特 性
 
 - 具有层叠上下文的元素层叠水平比普通元素高
 - 层叠上下文可以阻断元素的混合模式
@@ -330,13 +342,14 @@ HTML 元素的一个三维概念，指具有层叠上下文的元素在显示器
 - `opacity` 值小于 1 的元素
 - `mix-blend-mode` 值不为 **normal**
 - 下面属性的值不为 **none**
-    - `transform`
-    - `filter`
-    - `perspective`
-    - `clip-path`
-    - `mask` `mask-image` `mask-border`
+  - `transform`
+  - `filter`
+  - `perspective`
+  - `clip-path`
+  - `mask` `mask-image` `mask-border`
 
 ### 层叠原则
+
 当元素发生层叠的时候，其覆盖关系遵循两条规则：
 
 1. 当元素层叠水平和层叠顺序相同的时候，在 DOM 流中处于后面元素会覆盖前面的元素。
@@ -361,6 +374,7 @@ HTML 元素的一个三维概念，指具有层叠上下文的元素在显示器
 7. 正 `z-index`
 
 ## float
+
 浮动元素的本质：**实现文字环绕效果。**
 
 浮动元素的包含块：最近的块级元素
@@ -378,40 +392,53 @@ HTML 元素的一个三维概念，指具有层叠上下文的元素在显示器
 - 块元素只是将其内容显示在浮动元素之上。
 
 ### clear
+
 clear 属性应用于 block 水平元素
 
 ## 定位
 
 ### absolute
-The absolutely positioned element is positioned relative to its *nearest positioned ancestor*. If a positioned ancestor doesn't exist, it is positioned relative to the *initial containing block,* which the containing block of the document's root element.
 
-absolute 是非常独立的CSS属性值，其样式和行为表现不依赖任何其他CSS属性，就可以完成。
+The absolutely positioned element is positioned relative to its _nearest positioned ancestor_. If a positioned ancestor doesn't exist, it is positioned relative to the _initial containing block,_ which the containing block of the document's root element.
+
+absolute 是非常独立的 CSS 属性值，其样式和行为表现不依赖任何其他 CSS 属性，就可以完成。
 
 绝对定位的元素默认会待在自己静态定位时的地方，可通过外边距控制偏移位置。
 
-当 absolute 遇到 left/top/right/bottom 属性的时候，absolute元素才真正变成绝对定位元素。
+当 absolute 遇到 left/top/right/bottom 属性的时候，absolute 元素才真正变成绝对定位元素。
 
-当一个绝对定位元素，其对立定位方向属性同时有具体定位数值的时候，流体特性就发生了。此时宽度表现为格式化宽度，其大小自适应于包含块的 padding-box 的宽度。 
+当一个绝对定位元素，其对立定位方向属性同时有具体定位数值的时候，流体特性就发生了。此时宽度表现为格式化宽度，其大小自适应于包含块的 padding-box 的宽度。
 
 ### 绝对定位的流体特性
+
 条件：对立方向同时发生定位偏移的时候。
 
-    <div class="box"></div>
-    .box  {
-    	position: absolute;
-    	left: 0; right: 0; top: 0; bottom: 0;
-    }
+```css
+<div class="box" > </div > .box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+```
 
 ### absolute 水平垂直居中
+
 利用绝对定位的流体特性和 margin: auto 的自动分配特性实现居中。
 
-    .box {
-    	width: 200px;
-    	height: 100px;
-    	position: absolute;
-    	left: 0; right: 0; top: 0; bottom: 0;
-    	margin: auto;
-    }
+```css
+.box {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+```
 
 ## Flexbox
 
@@ -423,30 +450,30 @@ absolute 是非常独立的CSS属性值，其样式和行为表现不依赖任�
 - 如果不指定大小， 弹性项就会自动收缩 (默认值 `flex-basis: auto`)到内容宽度或内容高度。
 - `justify-content`、`align-content`、`align-items` 弹性容器有剩余空间时，这些属性才能生效。
 - 属性默认值
-    - `justify-content: flex-start`
-    - `align-items: stretch`
-    - `flex: 0 1 auto`
-    - `align-content: stretch`
-    - `order: 0`
+  - `justify-content: flex-start`
+  - `align-items: stretch`
+  - `flex: 0 1 auto`
+  - `align-content: stretch`
+  - `order: 0`
 - **多行 Flexbox 布局中没有办法控制特定的某一行。**解决这个问题，可以给所有的弹性项目设置 `max-width` ，限制可伸缩的范围。
 - Flexbox 核心优势：**填充多余空间。**通过综合使用 `flex-grow` 及 `max-width` 和 `min-width`，就能实现智能的多行 Flexbox 布局。
 - Flexbox 的**可伸缩性**主要体现在 `flex-basis`、`flex-grow`、`flex-shrink` 三个属性上面。
-    - `flex-basis` 设置弹性项目初始的主尺寸大小。默认值为 `auto` ，表示在设置 `width/height` 主尺寸的前提下，将继承 `width/height` 的属性值。否则，将根据内容确定大小。
-    - `flex-grow` 在通过 flex-basis 设置弹性项目的尺寸后，如果还有剩余空间，该属性将会起作用。其值是一个数值，表示剩余空间的一个比值，默认值为 `0`。
-    - `flex-shrink` 如果空间不够，该属性`值将会决定弹性项目如何`收缩，默认值为 `1`。
-    - `flex` 这三个属性的简写形式。在简写形式下，`flex-basis` 的值必须有写单位。
-  
+  - `flex-basis` 设置弹性项目初始的主尺寸大小。默认值为 `auto` ，表示在设置 `width/height` 主尺寸的前提下，将继承 `width/height` 的属性值。否则，将根据内容确定大小。
+  - `flex-grow` 在通过 flex-basis 设置弹性项目的尺寸后，如果还有剩余空间，该属性将会起作用。其值是一个数值，表示剩余空间的一个比值，默认值为 `0`。
+  - `flex-shrink` 如果空间不够，该属性`值将会决定弹性项目如何`收缩，默认值为 `1`。
+  - `flex` 这三个属性的简写形式。在简写形式下，`flex-basis` 的值必须有写单位。
+
 ## Properties for the flex items
 
 - `flex` There is a shortcut available to set several flex properties at once.
 
-    `flex-shrink`、`flex-grow`、`flex-basis`
+  `flex-shrink`、`flex-grow`、`flex-basis`
 
 - `align-self`
 
-    This is useful since other common adjustment techniques using CSS properties `float`, `clear` and `vertical-align` do not work on flex items.
+  This is useful since other common adjustment techniques using CSS properties `float`, `clear` and `vertical-align` do not work on flex items.
 
-    This property allows you to adjust each item's alignment individually, instead of setting them all at once.
+  This property allows you to adjust each item's alignment individually, instead of setting them all at once.
 
 ## Parent element's properties
 
@@ -459,29 +486,29 @@ absolute 是非常独立的CSS属性值，其样式和行为表现不依赖任�
 
 fr - a fraction of available space
 
-- `grid-template-row` Add some rows to the grid container.
+- `grid-template-rows` Add some rows to the grid container.
 
-    ```css
-    // Give your grid two rows
-    .grid {
-    	display: grid;
-    	grid-template-row: 100px 100px;
-    }
-    ```
+  ```css
+  // Give your grid two rows
+  .grid {
+    display: grid;
+    grid-template-rows: 100px 100px;
+  }
+  ```
 
-- `grid-template-column` adjust the rows to the grid container.
+- `grid-template-columns` adjust the rows to the grid container.
 
-    ```css
-    // Give your grid two columns
-    .grid {
-    	display: grid;
-    	grid-template-column: 100px 100px;
-    }
-    ```
+  ```css
+  // Give your grid two columns
+  .grid {
+    display: grid;
+    grid-template-columns: 100px 100px;
+  }
+  ```
 
 - `grid-column-gap` Add a gap between the columns.
 - `grid-row-gap` Add a gaap between the rows.
-- `gird-gap` This is a shorthand property for  `grid-row-gap` and `grid-column-gap` .
+- `gird-gap` This is a shorthand property for `grid-row-gap` and `grid-column-gap` .
 - `justify-items` Align all Items Horizontally.
 - `align-items` Align all Items Vertically.
 
@@ -496,47 +523,47 @@ fr - a fraction of available space
 
 - `grid-template-areas` Divide the Grid Into an Area Template.
 
-    you can use a period **(.)** to designate an empty cell in the grid.
+  you can use a period **(.)** to designate an empty cell in the grid.
 
-    ```css
-    grid-template-areas:
-          "header header header"
-          ". content content"
-          "footer footer footer";
-    ```
+  ```css
+  grid-template-areas:
+    "header header header"
+    ". content content"
+    "footer footer footer";
+  ```
 
 - `grid-area` Place items in grid areas.
 
-    `grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at`
+  `grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at`
 
-    ```css
-    grid-area: 1/1/4/4/;
-    ```
+  ```css
+  grid-area: 1/1/4/4/;
+  ```
 
 - `repeat()` Reduce Repetition
 
-    ```css
-    grid-template-columns: repeat(2, 1fr, 50px) 20px;
-    /*
-    * 'repeat(2, 1fr, 50px) 20px' means:
-    * 1fr 50px 1fr 50px 20px
-    */
-    ```
+  ```css
+  grid-template-columnss: repeat(2, 1fr, 50px) 20px;
+  /*
+  * 'repeat(2, 1fr, 50px) 20px' means:
+  * 1fr 50px 1fr 50px 20px
+  */
+  ```
 
 - `minmax()` Limit item size. The CSS function defines a size range greater than or equal to min and less than or equal to max.
 
-    ```css
-    grid-template-columns: 100px minmax(50px, 200px);
-    ```
+  ```css
+  grid-template-columnss: 100px minmax(50px, 200px);
+  ```
 
 - `auto-fit`
 - `auto-fill` Create flexible layouts.
 
-    The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and p**ushes your items to the side**, while `auto-fit` **collapses** those empty rows or columns and **stretches** your items to fit the size of the container.
+  The only difference is that when the container's size exceeds the size of all the items combined, `auto-fill` keeps inserting empty rows or columns and p**ushes your items to the side**, while `auto-fit` **collapses** those empty rows or columns and **stretches** your items to fit the size of the container.
 
-    ```css
-    repeat(auto-fill, minmax(60px, 1fr))
-    ```
+  ```css
+  repeat(auto-fill, minmax(60px, 1fr))
+  ```
 
 - Grid units
   - `fr` sets the column or row to a fraction of the available space.
@@ -544,10 +571,12 @@ fr - a fraction of available space
   - `%` Adjusts the column or row to the percent width of the its container.
 
 ## Overflow
+
 - 指定 Block-containers, flex containers, and grid containers 的内容溢出是否需要裁剪
 - 触发 BFC 特性
 
 ## ::after & ::before
+
 - 添加一些特别的符号，比如 / | » “
 - 添加图标。使用图标库，比如 fontawesome, 可以将 `content` 设置为 Unicode。
 - 添加边框或者三角形。使用 `border` 属性
@@ -556,19 +585,23 @@ fr - a fraction of available space
 - 提示信息。结合 `content: attr(data-*|其他属性)` 使用
 
 ## 单位
+
 **两条简单的规则**:
 
 1. 如果属性缩放根据它的的 `font-size` 变化，则使用 `em`（Size in `em` if the property scales according to its `font-size` ）
 2. 其他的尺寸使用 `rem` （Size everything else in `rem`）
 
 ## em
+
 - `em` 单位以文档的字号为参照
 - 在媒体查询中使用的 `em` 单位始终相对于浏览器偏好中设置的字号，而不是通过 CSS 调整的 HTML 元素的字号。
 
 **设置浏览器默认字体操作步骤：**
+
 1. Chrome 浏览器：设置 -> 外观 -> 字号
-2. Firefox 浏览器：选项 -> 常规 -> 语言和外观 ->  字体和颜色
+2. Firefox 浏览器：选项 -> 常规 -> 语言和外观 -> 字体和颜色
 
 ## 参考
+
 [REM vs EM – The Great Debate](https://zellwk.com/blog/rem-vs-em/)
 [PX, EM or REM Media Queries?](https://zellwk.com/blog/media-query-units/)

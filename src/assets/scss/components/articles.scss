@@ -1,0 +1,31 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 85vw;
+    margin: 0 auto;
+
+    @media screen and (min-width: 420px) {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+
+  &-items {
+    font-size: 1.4rem;
+  }
+
+  &-item {
+    margin-bottom: var(--space-4);
+  }
+
+  &-link {
+    display: inline-flex;
+    padding: var(--space-4);
+  }
+}

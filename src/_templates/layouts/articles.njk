@@ -1,9 +1,0 @@
-{% extends "layouts/base.njk" %}
-{% block pageHeader %}{% endblock pageHeader %}
-{% block articlesPage %}
-  <div class="articles">
-    {% set postslist = collections.posts %}
-    {% include "layouts/postslist.njk" %}
-  </div>
-{% endblock articlesPage %}
-{% block pageFooter %}{% endblock pageFooter %}

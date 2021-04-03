@@ -1,13 +1,15 @@
 // social icon 组件
 .social-icons {
   display: flex;
+  align-items: center;
+  margin-bottom: var(--space-24);
 
   a {
-    &:link,
-    &:visited {
+    &:link, &:visited {
       display: flex; // 子元素垂直水平对齐容器
       border-radius: 50%;
-      transition: all 0.2s;
+      transition: all 0.2s ease-in-out;
+      @include size(3rem, 3rem);
 
       &:not(:last-child) {
         margin-right: var(--gutter-big);
@@ -31,37 +33,6 @@
     margin: auto; // flex item 居中对齐
     fill: var(--black-deep);
     transition: all 0.2s;
-  }
-}
-
-// homepage social icons
-.homepage-icons {
-  align-items: center;
-
-  a {
-    &:link,
-    &:visited {
-      @include size(3rem, 3rem);
-    }
-  }
-
-  svg {
     @include size(1.5rem, 1.5rem);
-  }
-}
-
-// sidebar social icons
-.sidebar__social {
-  margin-top: 2rem;
-
-  a {
-    &:link,
-    &:visited {
-      @include size(3.5rem, 3.5rem);
-    }
-  }
-
-  svg {
-    @include size(2rem, 2rem);
   }
 }

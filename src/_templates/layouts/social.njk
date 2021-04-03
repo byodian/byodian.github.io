@@ -1,0 +1,9 @@
+<figure class="social-icons">
+  {% for icon in setting.socials %}
+    <a class="social-link" target="_blank" href="{{ icon.url}}">
+      <svg class="social-icon">
+        <use xlink:href="/assets/img/sprites.svg#{{ icon.name }}"></use>
+      </svg>
+    </a>
+  {% endfor %}
+</figure>

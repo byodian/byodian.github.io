@@ -1,0 +1,64 @@
+{% extends "layouts/base.njk" %} {% block content %}
+<div class="section hero">
+  <div class="hero-content">
+    <img class="hero-avatar" src="{{ setting.avatar }}" alt="头像" />
+    <h1 class="hero-name">byodian</h1>
+    {% include "layouts/social.njk" %}
+    <ul class="hero-items">
+      <li class="hero-item"><a href="#products" class="link hero-link">项目</a></li>
+      <li class="hero-item"><a href="#articles" class="link hero-link">文章</a></li>
+      <li class="hero-item"><a href="#about" class="link hero-link">关于</a></li>
+    </ul>
+  </div>
+</div>
+<div id="products" class="section products">
+  <h2 class="secondary-heading">项目</h2>
+  <div class="products-item margin-bottom-xl">
+    <img class="products-img" src="../../assets/img/boxwrap.svg" alt="笔记应用">
+    <h3 class="products-heading">将所有想法装进BOX</h3>
+    <p class="products-desc">毫无压力 想记就记</p>
+    <a class="link products-link" href="https://oneboxplus.herokuapp.com/">Note website</a>
+  </div>
+  <div class="products-item margin-bottom-xl">
+    <img class="products-img" src="../../assets/img/resources.svg" alt="资源导航">
+    <h3 class="products-heading">资源导航网站</h3>
+    <p class="products-desc">开发相关资源</p>
+    <a class="link products-link" href="https://resourcesplus.herokuapp.com/">Resources website</a>
+  </div>
+  <div class="products-item">
+    <img class="products-img" src="../../assets/img/natour.svg" alt="单页应用">
+    <h3 class="products-heading">响应式网站设计</h3>
+    <p class="products-desc">产品介绍</p>
+    <a class="link products-link" href="https://oneboxplus.herokuapp.com/">Natours website</a>
+  </div>
+</div>
+<div id="articles" class="section articles">
+  <h2 class="secondary-heading">文章</h2>
+  <div class="articles-wrapper">
+    <div class="content repos-content">
+      <h3 class="tertiary-heading">Repos</h3>
+      <ul class="items repos-items">
+        {% set repositories = setting.repos %} {% for repository in repositories %}
+        <li class="item repos-item">
+          <a class="link repos-link" href="{{repository.url}}">{{repository.title}}</a>
+          <span class="repos-description">{{repository.description}}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content articles-content">
+      <h3 class="tertiary-heading">Articles</h3>
+      <ul class="items articles-items">
+        {% set postslist = collections.posts %} {% for post in postslist %}
+        <li class="item articles-item">
+          <a class="link articles-link" href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="about" class="about">
+  <h2 class="secondary-heading">关于</h2>
+</div>
+{% endblock content %}
