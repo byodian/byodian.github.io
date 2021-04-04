@@ -44,8 +44,46 @@
     },
     {
       "title": "oneboxapp",
-      "url": "https://github.com/byodian/resources",
+      "url": "https://github.com/byodian/onebox",
       "description": "笔记应用"
+    }
+  ],
+  "products": [
+    {
+      "img": {
+        "url": "../../assets/img/boxwrap.svg",
+        "alt": "笔记应用"
+      },
+      "heading": "将所有想法装进BOX",
+      "description": "毫无压力 想记就记",
+      "link": {
+        "href": "https://oneboxplus.herokuapp.com/",
+        "text": "Note website"
+      }
+    },
+    {
+      "img": {
+        "url": "../../assets/img/resources.svg",
+        "alt": "资源导航"
+      },
+      "heading": "资源导航网站",
+      "description": "开发相关资源",
+      "link": {
+        "href": "https://resourcesplus.herokuapp.com/",
+        "text": "Resources website"
+      }
+    },
+    {
+      "img": {
+        "url": "../../assets/img/natour.svg",
+        "alt": "单页应用"
+      },
+      "heading": "响应式网站设计",
+      "description": "产品介绍",
+      "link": {
+        "href": "https://natoursplus.netlify.app/",
+        "text": "Natours website"
+      }
     }
   ]
 }
