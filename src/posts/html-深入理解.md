@@ -282,5 +282,8 @@ This can be used to define a change in topic or to visually separate groups of c
 Standardize time with `time` element along with `datetime` attribute. It is a inline element.
 
 ```html
-<p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>
+<p>
+	Master Camper Cat officiated the cage match between Goro and Scorpion 
+	<time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.
+</p>
 ```

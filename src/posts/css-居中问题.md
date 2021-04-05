@@ -19,7 +19,7 @@ description: 元素水平和垂直居中解决方案。
 
 ### 块级水平元素
 
-如果是**一个块级水平元素**，你可以使用设置 `margin-left` 和 `margin-right` 的属性值为 **auto，**来实现水平居中对齐，但这种方法必须需要设置一个具体的 `width`
+如果是**一个块级水平元素**，你可以使用设置 `margin-left` 和 `margin-right` 的属性值为 **auto**来实现水平居中对齐，但这种方法必须需要设置一个具体的 `width`
 
 ```css
 .center {

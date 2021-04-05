@@ -1,20 +1,27 @@
 // 文章样式
 .post {
   word-spacing: 0.2rem;
-  @include font(1.5rem, var(--font-weight-normal), 1.8);
+  @include font(1.4rem, var(--font-weight-normal), 1.8);
 
-  @media only screen and (max-width: 900px) {
-    // 600px
-    // padding: 0 1rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 1.6rem;
   }
 }
 
 .post-article {
-  & > div,
-  h1,
-  h2,
-  h3,
-  h4 {
+  padding: var(--space-24);
+
+  @media screen and (min-width: 768px) {
+    width: 85vw;
+    margin: 0 auto;
+    padding: var(--space-36);
+  }
+
+  @media screen and (min-width: 824px) {
+    max-width: 824px; 
+  }
+
+  & > div, h1, h2, h3, h4 {
     margin-bottom: 1rem;
   }
 
@@ -34,16 +41,13 @@
     font-size: 1.5rem;
   }
 
-  & > p,
-  ul,
-  ol {
+  & > p, ul, ol {
     margin-bottom: 1.5rem;
   }
 
-  & > ul,
-  ol {
+  & > ul, ol {
     & > li {
-      margin-left: 3.3rem;
+      margin-left: 2.3rem;
 
       p {
         margin-bottom: 0.5rem;
@@ -79,10 +83,7 @@
     }
   }
 
-  img,
-  object,
-  video,
-  audio {
+  img, object, video, audio {
     max-width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
@@ -120,6 +121,7 @@
   padding: 0.2rem 0.8rem;
   font: inherit;
   background-color: var(--color-code);
+  word-break: keep-all;
 }
 
 blockquote {
@@ -166,7 +168,7 @@ blockquote {
   outline: none;
 }
 
-// table 
+// table
 table {
   table-layout: fixed;
   width: 100%;
@@ -174,8 +176,7 @@ table {
   border: 1px solid var(--grey);
 }
 
-td,
-th {
+td, th {
   padding: 0.6rem 1.2rem;
   border: 1px solid var(--grey);
 }
