@@ -31,7 +31,7 @@
   }
 
   &-link {
-    border-bottom: 1px solid var(--highlight-2);
+    border-bottom: 2px solid var(--highlight-2);
 
     @media screen and (min-width: 420px) {
       grid-column: 2 / 3;
