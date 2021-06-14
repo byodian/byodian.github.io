@@ -81,11 +81,11 @@ SSH 客户端的主配置文件在 `/etc/ssh/ssh_config`，用户个人配置文
 
 ```bash
 Host *
-            Port 2222
+      Port 2222
 Host remoteServer
-            HostName 145.89.30.234
-            User root
-            Port 2323
+      HostName 145.89.30.234
+      User root
+      Port 2323
 ```
 
 ## 客户端 ssh
@@ -119,7 +119,7 @@ SSH 默认采用密码登录，密码登录存在很多缺点。
 
 ### 生成密钥
 
-```
+```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@domain.com"
 ```
 
