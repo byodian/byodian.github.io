@@ -69,7 +69,7 @@
       "heading": "资源导航网站",
       "description": "开发相关资源",
       "link": {
-        "href": "https://resourcesplus.herokuapp.com/",
+        "href": "https://resource.netlify.app",
         "text": "Resources website"
       }
     },
