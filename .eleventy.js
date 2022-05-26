@@ -7,9 +7,7 @@ moment.locale('en');
 module.exports = function(eleventyConfig) {
 
   // pathCopy
-  eleventyConfig.addPassthroughCopy('src/assets/img');
-  eleventyConfig.addPassthroughCopy('src/assets/uploads');
-
+  eleventyConfig.addPassthroughCopy('src/static');
   eleventyConfig.addPassthroughCopy('src/admin');
 
   // Layout Alliases 
@@ -58,7 +56,7 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse();
   });
 
-  eleventyConfig.addCollection('tagList', require('./src/_templates/getTagList'));
+  eleventyConfig.addCollection('tagList', require('./src/_includes/getTagList'));
 
   // html-minifer
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
@@ -81,8 +79,8 @@ module.exports = function(eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     dir: {
       input: 'src',
-      output: '_site',
-      includes: '_templates'
+      output: 'dist',
+      includes: '_includes',
     }
   }
 }

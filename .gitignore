@@ -1,4 +1,20 @@
+# Logs
+*.log
+yarn-debug.log
+yarn-error.log
+
+# Dependency directories
 /node_modules/
+
+# Build
 /dist/
-package-lock.json
-.vscode
+
+# dotenv environment variables file
+.env
+
+#Mac OS
+.DS_Store
+
+#Temp build files
+src/static/*.js
+src/static/*.css
