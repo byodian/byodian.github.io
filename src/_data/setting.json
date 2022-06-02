@@ -4,27 +4,13 @@
   "icon": "/assets/img/favicon.ico",
   "logo": "/assets/img/logo.svg#icon_logo",
   "avatar": "/assets/img/avatar.png",
-  "socials": [
-    {
-      "url": "https://github.com/byodian",
-      "name": "icon-github"
-    },
-    {
-      "url": "https://twitter.com/byodian1",
-      "name": "icon-twitter"
-    },
-    {
-      "url": "https://www.instagram.com/byodian1/",
-      "name": "icon-instagram"
-    },
-    {
-      "url": "https://t.me/byodian1",
-      "name": "icon-telegram"
-    }
-  ],
+  "socials": {
+    "githubUrl": "https://github.com/byodian",
+    "telegramUrl": "https://t.me/byodian1"
+  },
   "menu": [
     {
-      "name": "博客",
+      "name": "文章",
       "url": "/blog"
     },
     {
@@ -43,6 +29,10 @@
       "name": "Weekly",
       "url": "/weekly"
     }
+  ],
+  "resume": [
+    "我叫白永建，非计算机专业，通过自学转行做前端开发。我热爱编程，喜欢动手实践。对于一切能够提高工作效率的事情，我都愿意尝试，目前习惯使用双拼输入法、vim、命令行工具和 fish shell 🤟。",
+    "写博客是为了记录自己学习编程的过程以及提高写作水平。"
   ],
   "repos": [
     {
@@ -73,7 +63,7 @@
         "alt": "笔记应用"
       },
       "heading": "将所有想法装进BOX",
-      "description": "毫无压力 想记就记",
+      "description": "毫无压力，想记就记",
       "link": {
         "href": "https://oneboxplus.herokuapp.com/",
         "text": "Note website"
@@ -85,7 +75,7 @@
         "alt": "资源导航"
       },
       "heading": "资源导航网站",
-      "description": "开发相关资源",
+      "description": "工具集合",
       "link": {
         "href": "https://resource.netlify.app",
         "text": "Resources website"

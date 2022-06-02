@@ -11,11 +11,9 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <div id="root" class="md:container mx-auto xl:px-16 md:px-8 px-4 pt-4">
-      {% block content %}
-        {{ content | safe }}
-      {% endblock content %}
-    </div>
+
+    {{ content | safe }}
+
     <script src="/static/app.js"></script>
     <script src="https://kit.fontawesome.com/d101a7035d.js" crossorigin="anonymous"></script>
   </body>

@@ -2,7 +2,7 @@
 title: CSS 居中问题
 mySlug: centering in css
 tags:
-  - css
+  - CSS
 date: 2021-04-01T14:42:49.375Z
 description: 元素水平和垂直居中解决方案。
 ---

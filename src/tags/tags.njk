@@ -1,0 +1,21 @@
+---
+layout: "layouts/main.njk"
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - blog
+    - snippets
+    - workflows
+    - all
+    - tagList
+  addAllPagesToCollections: true
+permalink: /tags/{{ tag }}/
+---
+
+<h2 class="text-2xl mb-4">Tags: {{ tag }}</h2>
+
+{% set listData = collections[tag] %}
+{% include "components/shared.njk" %}
+

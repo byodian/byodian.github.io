@@ -1,0 +1,22 @@
+---
+layout: "layouts/main.njk"
+title: "标签"
+permalink: "/tags/"
+eleventyExcludeFromCollections: true
+---
+
+<section class="tags mb-4">
+  <h2 class="text-2xl mb-4">{{ title }}</h2>
+
+  <ul>
+    {% for tag in collections.tagList %}
+      <li class="mb-1">
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        {% set blogCount %}{{ collections[tag].length }}{% endset %}
+        <a class="text-blue-500" href="{{ tagUrl }}">{{ tag }}</a> - 
+        <span>{{ blogCount }} 篇文章</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+</section>

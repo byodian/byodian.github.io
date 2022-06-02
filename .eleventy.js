@@ -2,18 +2,18 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require("html-minifier");
 const moment = require('moment');
-moment.locale('en');
+const getTagList = require('./src/_assets/scripts/utils/getTagList.js')
+moment.locale('zh-cn');
 
 module.exports = function(eleventyConfig) {
-
   // pathCopy
   eleventyConfig.addPassthroughCopy('src/static');
   eleventyConfig.addPassthroughCopy('src/admin');
 
   // Layout Alliases 
   eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
-  eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
+  eleventyConfig.addLayoutAlias('main', 'layouts/main.njk');
+  eleventyConfig.addLayoutAlias('blog', 'layouts/blog.njk');
 
   // plugin
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('LL');
+    return moment(date).format('L');
   });
 
   // filter array
@@ -39,7 +39,6 @@ module.exports = function(eleventyConfig) {
     return selectedArr;
   });
 
-
   /**
    * Collections
    */
@@ -48,15 +47,23 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob('./src/projects/*.md').reverse();
   });
 
-  eleventyConfig.addCollection('posts', collection => {
-    return collection.getFilteredByGlob(['./src/posts/*.md']).reverse();
+  eleventyConfig.addCollection('blog', collection => {
+    return collection.getFilteredByGlob(['./src/blog/*.md']).reverse();
   });
 
-  eleventyConfig.addCollection('bookmarks', collection => {
-    return collection.getFilteredByGlob('./src/bookmarks/*.md').reverse();
+  eleventyConfig.addCollection('snippets', collection => {
+    return collection.getFilteredByGlob('./src/snippets/*.md').reverse();
   });
 
-  eleventyConfig.addCollection('tagList', require('./src/_includes/getTagList'));
+  eleventyConfig.addCollection('workflows', collection => {
+    return collection.getFilteredByGlob('./src/workflows/*.md').reverse();
+  });
+
+  eleventyConfig.addCollection('weekly', collection => {
+    return collection.getFilteredByGlob('./src/weekly/*.md').reverse();
+  });
+
+  eleventyConfig.addCollection('tagList', getTagList);
 
   // html-minifer
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {

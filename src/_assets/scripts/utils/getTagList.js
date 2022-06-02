@@ -1,8 +1,7 @@
 module.exports = function(collection) {
-  let tagSet = new Set();
-
+  const tagSet = new Set();
   // This Set items contain the `filter` in the /src/tags.njk 
-  const filterTag = new Set( ['posts', 'projects', 'all', 'bookmarks', 'tagLists'] );
+  const filterTag = new Set( ['blog', 'snippets', 'all', 'workflows', 'tagList'] );
 
   /**
     * collections.getAll() return an array about all collections
@@ -31,12 +30,9 @@ module.exports = function(collection) {
       for (const tag of tags) {
         tagSet.add(tag);
       }
-
     }
   });
 
   // Return an array in addCollections
-
   return [...tagSet];
-
 };

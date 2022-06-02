@@ -2,7 +2,7 @@
 title: CSS 深入理解
 mySlug: CSS In-depth Understanding
 tags:
-  - css
+  - CSS
 date: 2021-04-01T14:45:33.330Z
 description: 进一步理解 CSS 。
 ---

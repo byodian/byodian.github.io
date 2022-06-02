@@ -1,0 +1,8 @@
+<ul class="mb-4">
+  {% for item in listData %}
+    <li class="mb-1">
+      <a class="text-blue-500" href="{{ item.url }}">{{ item.data.title }}</a>
+      <span class="text-gray-400 italic">{{ item.date | dateReadable }}</span>
+    </li>
+  {% endfor %}
+</ul>

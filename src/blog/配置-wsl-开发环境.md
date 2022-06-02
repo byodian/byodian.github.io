@@ -2,8 +2,7 @@
 title: 配置 wsl 开发环境
 mySlug: how to setting up wsl
 tags:
-  - Linux
-date: 2020-06-15T11:13:04.430Z
+  - Shell
 description: WSL 是 Windows Subsystem for Linux 的缩写，译为适用于Linux 的 windows 子系统。
 ---
 ## 介绍 WSL

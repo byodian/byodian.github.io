@@ -2,7 +2,7 @@
 title: JavaScript函数
 mySlug: javascript function
 tags:
-  - function
+  - JavaScript
 date: 2021-04-01T14:41:28.516Z
 description: javascript 函数
 ---

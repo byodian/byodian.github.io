@@ -1,0 +1,13 @@
+<section id="app-products" class="mb-8">
+  <h2 class="text-2xl mb-2">项目</h2>
+  {% set products = setting.products %}
+
+  {% for product in products %}
+  <ul>
+    <li class="mb-2">
+      <p class="products-heading">{{ product.heading }} - {{ product.description }}</p>
+      <a class="text-blue-500" href="{{ product.link.href }}">{{ product.link.text }}</a>
+      </li>
+  </ul>
+  {% endfor %}
+</section>

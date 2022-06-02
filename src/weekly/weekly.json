@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/weekly.njk",
+  "pemalink": "layouts/{{ mySlug | slug}}/index.html"
+}

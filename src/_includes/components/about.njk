@@ -1,0 +1,8 @@
+<div id="about" class="mb-8">
+  {% for para in setting.resume %}
+    <p class="mb-4">{{ para }}</p>
+  {% endfor %}
+  
+  <p>你可以通过 <a class="text-orange-500" href="{{ setting.githubUrl}}">github</a> 和 <a class="text-orange-500" href="setting.telegramUrl">telegram</a> 联系我，欢迎交流和分享你的想法。
+  </p>
+</div>
