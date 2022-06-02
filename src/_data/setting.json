@@ -22,6 +22,28 @@
       "name": "icon-telegram"
     }
   ],
+  "menu": [
+    {
+      "name": "博客",
+      "url": "/blog"
+    },
+    {
+      "name": "标签",
+      "url": "/tags"
+    },
+    {
+      "name": "Snippets",
+      "url": "/snippets"
+    },
+    {
+      "name": "Workflows",
+      "url": "/workflows"
+    },
+    {
+      "name": "Weekly",
+      "url": "/weekly"
+    }
+  ],
   "repos": [
     {
       "title": "resources",

@@ -2,10 +2,7 @@
 {% block content %}
   <div class="post">
     <div class="post-article">
-      <div class="post__info">
-        <h1 class="post__title">{{ title }}</h1>
-        <time class="post__date" datetime="{{ date | dateISO }}">{{ date | dateReadable }}</time>
-      </div>
+    <h1 class="text-4xl">{{ title }}</h1>
       {{ content | safe}}
     </div>
   </div>

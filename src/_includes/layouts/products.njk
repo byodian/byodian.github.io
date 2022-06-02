@@ -1,12 +1,11 @@
-<div id="products" class="section products">
-  <h2 class="secondary-heading">项目</h2>
+<section id="app-products" class="">
+  <h2 class="secondary-heading">主题</h2>
   {% set products = setting.products %}
   {% for product in products %}
   <div class="products-item margin-bottom-xl">
-    <img class="products-img" src="{{ product.img.url }}" alt="{{ product.img.alt }}">
     <h3 class="products-heading">{{ product.heading }}</h3>
     <p class="products-desc">{{ product.description }}</p>
     <a class="link products-link" href="{{ product.link.href }}">{{ product.link.text }}</a>
   </div>
   {% endfor %}
-</div>
+</section>
