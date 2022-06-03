@@ -1,4 +1,4 @@
 {
-  "layout": "blog",
+  "layout": "layouts/article.njk",
   "permalink" : "blog/{{ mySlug | slugify }}/index.html"
 }

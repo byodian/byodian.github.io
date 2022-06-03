@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: "layouts/main.njk"
 title: "文章"
 permalink: "/blog/"
 eleventyExcludeFromCollections: true
 ---
 
 {% set listData = collections.blog %}
-{% include "components/shared.njk" %}
+{% include "components/section.njk" %}

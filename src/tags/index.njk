@@ -5,15 +5,15 @@ permalink: "/tags/"
 eleventyExcludeFromCollections: true
 ---
 
-<section class="tags mb-4">
-  <h2 class="text-2xl mb-4">{{ title }}</h2>
+<section class="tags">
+  <h2>{{ title }}</h2>
 
-  <ul>
+  <ul class="list-none pl-0">
     {% for tag in collections.tagList %}
-      <li class="mb-1">
+      <li class="pl-0">
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         {% set blogCount %}{{ collections[tag].length }}{% endset %}
-        <a class="text-blue-500" href="{{ tagUrl }}">{{ tag }}</a> - 
+        <a class="text-blue-500 no-underline" href="{{ tagUrl }}">{{ tag }}</a> - 
         <span>{{ blogCount }} 篇文章</span>
       </li>
     {% endfor %}
