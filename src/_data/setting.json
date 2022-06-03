@@ -1,9 +1,9 @@
 {
   "title": "byodian's blog",
   "personalInfo": "前端开发",
-  "icon": "/assets/img/favicon.ico",
-  "logo": "/assets/img/logo.svg#icon_logo",
-  "avatar": "/assets/img/avatar.png",
+  "icon": "/static/img/favicon.ico",
+  "logo": "/static/img/logo.svg#icon_logo",
+  "avatar": "/static/img/avatar.png",
   "socials": {
     "githubUrl": "https://github.com/byodian",
     "telegramUrl": "https://t.me/byodian1"
@@ -59,7 +59,7 @@
   "products": [
     {
       "img": {
-        "url": "../../assets/img/boxwrap.svg",
+        "url": "../../static/img/boxwrap.svg",
         "alt": "笔记应用"
       },
       "heading": "将所有想法装进BOX",
@@ -71,7 +71,7 @@
     },
     {
       "img": {
-        "url": "../../assets/img/resources.svg",
+        "url": "../../static/img/resources.svg",
         "alt": "资源导航"
       },
       "heading": "资源导航网站",
@@ -83,7 +83,7 @@
     },
     {
       "img": {
-        "url": "../../assets/img/natour.svg",
+        "url": "../../static/img/natour.svg",
         "alt": "单页应用"
       },
       "heading": "响应式网站设计",

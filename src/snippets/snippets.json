@@ -1,4 +1,4 @@
 {
   "layout": "layouts/snippets.njk",
-  "permalink": "snippets/{{ mySlug | slug }}/index.html"
+  "permalink": "snippets/{{ mySlug | slugify }}/index.html"
 }
