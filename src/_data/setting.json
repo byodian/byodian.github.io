@@ -4,10 +4,8 @@
   "icon": "/static/img/favicon.ico",
   "logo": "/static/img/logo.svg#icon_logo",
   "avatar": "/static/img/avatar.png",
-  "socials": {
-    "githubUrl": "https://github.com/byodian",
-    "telegramUrl": "https://t.me/byodian1"
-  },
+  "githubUrl": "https://github.com/byodian",
+  "telegramUrl": "https://t.me/byodian1",
   "menu": [
     {
       "name": "文章",
