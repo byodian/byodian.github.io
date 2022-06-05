@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
   // filter array
   eleventyConfig.addFilter('arrFilter', arr => {
 
-    const selectedArr = arr.slice(0, 3);
+    const selectedArr = arr.slice(0, 5);
     return selectedArr;
   });
 

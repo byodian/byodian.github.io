@@ -3,10 +3,11 @@
   "personalInfo": "前端开发",
   "icon": "/static/img/favicon.ico",
   "logo": "/static/img/logo.svg#icon_logo",
-  "avatar": "/static/img/avatar.png",
   "githubUrl": "https://github.com/byodian",
   "telegramUrl": "https://t.me/byodian1",
+  "ogImage": "https://byodiandev.com/static/img/avatar-3x.png",
   "author": "@byodian",
+  "siteUrl": "https://byodiandev.com",
   "menu": [
     {
       "name": "文章",

@@ -1,13 +1,13 @@
 ---
-title: 'head 元素'
-mySlug: 'What is the head'
+title: "HTML 文档中的 head"
+mySlug: "What is the head"
 tags: HTML
 description: 'head 是 HTML 文档的一部分，但在网页加载完成后，head 的内容不会被展示。'
 ---
 
 HTML 文档的 head 在网页内容加载完成后，其内容不会被显示。它包含了网页的一些信息，比如网页的标题、指向外部的样式和脚本链接以及页面的元数据等。
 
-## 什么是 head 元素
+## 什么是 head
 
 HTML 文档的 head 包含在 `<head>` 元素中，它的工作是展示网页文档的**元数据**
 （[metadata](https://en.wikipedia.org/wiki/Metadata)）和引入外部文件。元数据的定义很简单，即描述数据的数据，在这里描述 HTML 文档。
@@ -93,13 +93,17 @@ Open Graph 协议会使一个在社交媒体中分享的网页链接变成一个
 ![player card](https://i.imgur.com/TGFF3ZF.png)
 
 twitter 卡片有四种类型：
+- `summary`
+- `summary_large_image`
+- `app`
+- `image2|image3|image6|image7`
 
-| 类型             | 描述                                                              |
-| ---------------- | ----------------------------------------------------------------- |
-| [总结类卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)（`summary`）| 显示标题、描述和缩略图 |
-| [带大图片的总结类卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image)（`summary_large_image`）| 与总结卡片类似，但图片更大 |
-| [应用卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/app-card)（`app`）| 直接下载应用的卡片 |
-| [播放器卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/player-card)（`image2`/`image3`/`image6`/`image7`）| 展示视频、音频的卡片 |
+| 类型             | 描述                                                  |
+| ---- | ----------------------------------------------------------------- |
+| [总结类卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary) | 显示标题、描述和缩略图 |
+| [带大图片的总结类卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image) | 与总结卡片类似，但图片更大 |
+| [应用卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/app-card) | 直接下载应用的卡片 |
+| [播放器卡片](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/player-card) | 展示视频、音频的卡片 |
 
 在推文中，嵌入一个**总结卡片**链接的步骤
 

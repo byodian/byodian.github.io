@@ -1,6 +1,6 @@
 <section id="app-blog" class="mb-8">
   <h2 class="mb-2">最近文章</h2>
 
-  {% set listData = collections.blog %}
+  {% set listData = collections.blog | arrFilter %}
   {% include "components/shared.njk" %}
 </section>

@@ -6,4 +6,27 @@ eleventyExcludeFromCollections: true
 ---
 
 {% set listData = collections.snippets %}
-{% include "components/section.njk" %}
+
+<h2>{{ title }}</h2>
+
+<table class="app-snippets">
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>描述</th>
+      <th>分类</th>
+      <th>最近更新</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in listData %}
+    <tr>
+      <td><a class="text-blue-500 no-underline" href="{{ item.url }}">{{ item.data.title }}</a></td>
+      <td>{{ item.data.description }}</td>
+      <td>{{ item.data.tags }}</td>
+      <td>{{ item.date | dateReadable  }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
