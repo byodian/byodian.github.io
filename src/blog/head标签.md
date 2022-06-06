@@ -1,7 +1,9 @@
 ---
 title: "HTML 文档中的 head"
 mySlug: "What is the head"
-tags: HTML
+tags: 
+  - HTML
+created: 2022-06-05
 description: 'head 是 HTML 文档的一部分，但在网页加载完成后，head 的内容不会被展示。'
 ---
 

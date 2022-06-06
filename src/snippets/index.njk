@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
       <td><a class="text-blue-500 no-underline" href="{{ item.url }}">{{ item.data.title }}</a></td>
       <td>{{ item.data.description }}</td>
       <td>{{ item.data.tags }}</td>
-      <td>{{ item.date | dateReadable  }}</td>
+      <td>{{ item.data.created | dateReadable  }}</td>
     </tr>
     {% endfor %}
   </tbody>

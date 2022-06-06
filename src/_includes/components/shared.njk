@@ -2,7 +2,7 @@
   {% for item in listData %}
   <li class="pl-0">
     <a class="text-blue-500 no-underline" href="{{ item.url }}">{{ item.data.title }}</a>
-    <span class="text-gray-400 italic">{{ item.date | dateReadable }}</span>
+    <span class="text-gray-400 italic">{{ item.data.created | dateReadable }}</span>
   </li>
   {% endfor %}
 </ul>

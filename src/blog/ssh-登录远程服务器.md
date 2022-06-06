@@ -3,7 +3,7 @@ title: SSH 登录远程服务器
 mySlug: ssh
 tags:
   - Command line
-date: 2021-06-14T08:39:50.946Z
+created: 2021-06-14T08:39:50.946Z
 description: 使用 ssh 登录远程服务器
 ---
 ## SSH 基础知识

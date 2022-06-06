@@ -3,7 +3,7 @@ title: CSS 居中问题
 mySlug: centering in css
 tags:
   - CSS
-date: 2021-04-01T14:42:49.375Z
+created: 2021-04-01T14:42:49.375Z
 description: 元素水平和垂直居中解决方案。
 ---
 ## 水平方向居中对齐
