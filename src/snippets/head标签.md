@@ -1,5 +1,5 @@
 ---
-title: "head"
+title: "HTML Bead"
 mySlug: "What is the head"
 tags: 
   - HTML

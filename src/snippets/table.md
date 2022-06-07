@@ -1,5 +1,5 @@
 ---
-title: table
+title: HTML Table
 mySlug: table
 tags:
   - HTML
