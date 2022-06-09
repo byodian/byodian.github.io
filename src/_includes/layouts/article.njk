@@ -5,6 +5,9 @@ layout: "layouts/main.njk"
 <article>
   <h1>{{ title }}</h1>
 
+  <p class="text-gray-500">最近修改：<time datetime="{{ date | dateReadable }}">{{ date | dateReadable }}</time></p>
+
   {{ content | safe }}
+
 </article>
 
