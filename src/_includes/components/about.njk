@@ -1,11 +1,24 @@
 <div id="about" class="mb-8">
   {% for para in setting.resume %}
-    <p class="mb-4">{{ para }}</p>
+  <p class="mb-4">{{ para }}</p>
   {% endfor %}
-  
+
+
+  <p>我关注的技术开发者，在编程和其他很多方面，他们都对我产生了很多积极的影响。</p>
+
+  <ul>
+    {% for people in setting.inspairedList %}
+    <li>
+      <a href="{{  people.url }}" target="_blank">{{ people.name }}</a> - 
+      <span>{{ people.description }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
   <p>
     你可以通过
     <a class="no-underline text-orange-500" href="{{ setting.githubUrl}}" target="_blank"">github</a> 和
-    <a class="no-underline text-orange-500" href="{{ setting.telegramUrl }}" target="_blank">telegram</a> 联系我，欢迎交流和分享你的想法。
+    <a class=" no-underline text-orange-500" href="{{ setting.telegramUrl }}" target="_blank">telegram</a>
+    联系我，欢迎交流和分享你的想法。
   </p>
 </div>

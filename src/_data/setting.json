@@ -34,6 +34,56 @@
     "我叫白永建，非计算机专业，通过自学转行做前端开发。我热爱编程，喜欢动手实践。对于一切能够提高工作效率的事情，我都愿意尝试，目前习惯使用双拼输入法、vim、命令行工具和 fish shell 🤟。",
     "写博客是为了记录自己学习编程的过程以及提高写作水平。"
   ],
+  "inspairedList": [
+    {
+      "name": "Hao Chen",
+      "category": "",
+      "description": "陈皓",
+      "url": "https://coolshell.cn"
+    },
+    {
+      "name": "Randy Lu",
+      "category": "",
+      "description": "全栈开发工程师",
+      "url": "https://lutaonan.com/"
+    },
+    {
+      "name": "Wes bos",
+      "category": "",
+      "description": "全栈开发，做前端开发的教学工作",
+      "url": "https://wesbos.com/"
+    },
+    {
+      "name": "Mark Otto",
+      "category": "CSS",
+      "description": "Bootstrap 创建者",
+      "url": "https://markdotto.com/"
+    },
+    {
+      "name": "Ahmad Shadeed",
+      "category": "CSS",
+      "description": "数字产品设计师和前端开发工程师",
+      "url": "https://markdotto.com/"
+    },
+    {
+      "name": "ThePrimeagen",
+      "category": "",
+      "description": "全栈开发、Youtuber，常在 Twitch 直播写代码",
+      "url": "https://linktr.ee/ThePrimeagen"
+    },
+    {
+      "name": "Chris Ferdinandi",
+      "category": "JavaScript",
+      "description": "前端开发，做 Vanilla JavaScript 教学工作",
+      "url": "https://gomakethings.com/"
+    },
+    {
+      "name": "Takuya Matsuyama",
+      "category": "Front end",
+      "description": "日本自由工作者和 Youtuber，也做自己的产品",
+      "url": "https://www.craftz.dog/"
+    }
+  ],
   "repos": [
     {
       "title": "resources",
