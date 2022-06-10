@@ -2,6 +2,7 @@
 title: HTML Form
 mySlug: html form
 created: 2022-06-07
+updated: 2022-06-10
 tags:
   - HTML
   - CSS
@@ -10,13 +11,11 @@ description: HTML 表单控件
 
 ## 什么是表单
 
-HMLT 表单是用户和 web 站点或应用程序之间交互的主要内容之一。
+HTML 表单和常规 HTML 文档的主要区别在于，大多数情况下，表单收集的数据被发送到 web 服务器。HMLT 表单是用户和 web 站点或应用程序之间交互的主要内容之一。
 
-HTML 表单和常规 HTML 文档的主要区别在于，大多数情况下，表单收集的数据被发送到 web 服务器。
+从用户体验的角度来看，要记住：**表单越大，失去用户的风险就越大。**
 
-从用户体验的角度来看，要记住：表单越大，失去用户的风险就越大。
-
-## 表格元素
+## 表单元素
 
 - `<form>`
 - `<fieldset>`
@@ -38,21 +37,21 @@ HTML 表单和常规 HTML 文档的主要区别在于，大多数情况下，表
 
 ## HTML5 input 类别
 
-HTML5 最新的 `input` 控件提供内建的客户端格式验证（client-side validation）和在触摸设备下更好的输入体验（使用时可根据控件类型不同，展示不同的键盘）。
+HTML5 最新的 `input` 控件提供内建的**客户端格式验证**（client-side validation）和在触摸设备下更好的**输入体验**（触摸设备可根据控件类型，展示不同的键盘）。
 
-- `email` 类型可结合 `multiple` 属性使用，多个值需要使用英文逗号分隔。触摸设备的键盘会展示 `@` 按键。
+- `email` 类型可结合 `multiple` 属性使用，多个值需使用**英文逗号**分隔。触摸设备的键盘会展示 `@` 按键。
   ```html
   <input type="email" name="email" multiple />
   ```
-- `tel` 电话号码类型。在触摸设备下，使用此控件会展示**电话号码键盘**。使用 HMLT `[pattern](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern)` 属性可以对输入值进行限制。
+- `tel` 电话号码类型。在触摸设备下，使用此控件会展示**电话号码键盘**。你可以使用 HMLT [pattern](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern) 属性对输入值进行限制。
   ```html
   <input type="tel" name="tel" />
   ```
-- `search` 与 `text` 类型相比主要区别是它的样式表现。它的样式在各主流浏览器下有不同的表现。比如有些版本的浏览器会展示一个清除内容的按钮。
+- `search` 与 `text` 类型相比主要区别是样式表现。它的样式在各主流浏览器下有不同的表现，比如有些版本的浏览器会展示一个清除内容的按钮。
   ```html
   <input type="search" name="search" />
   ```
-- `url` 链接类型提供客户端检验，输入不是以 `http` 等协议（mail 协议除外）开头的链接会报告一个错误。触摸设备键盘显示 `/` `.com` 等按键。
+- `url` 链接类型提供客户端检验，输入不是以 `http` 等协议（mail 协议除外）开头的链接会报告一个错误。触摸设备的键盘会显示 `/` 和 `.com` 等按键。
   ```html
   <input type="url" name="url" />
   ```
@@ -67,10 +66,10 @@ HTML5 最新的 `input` 控件提供内建的客户端格式验证（client-side
   ```
 
   - `min` 和 `max` 属性可以指定最小和最大输入值。
-  - `min` 和 `step` 的值会定义输入值的合法性，比如 `min="2.1"` 和 `step="2”`，合法的输入值有 2.1、4.1、6.1、 8.1 等等必须是以 `.1` 结尾的偶数值，任何整数、奇数形式的 `.1` 和其他形式的浮点数都是非法值。参考 [min impact on step](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step#min_impact_on_step)
+  - `min` 和 `step` 的值会定义输入值的合法性，比如 `min="2.1"` 和 `step="2"`，合法的输入值有 2.1、4.1、6.1 等等必须是以 `.1` 结尾的偶数值，任何整数、奇数形式的 `.1` 和其他形式的浮点数都是非法值。参考 [min impact on step](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step#min_impact_on_step)
     ```html
     <!-- 合法值：2.1, 4.1, 6.1, 8.1 等等 -->
-    <!-- 非法值：整数和 奇数形式的 3.1, 5.1, 6.1 以及其他不是 .1 结尾的浮点数-->
+    <!-- 非法值：整数和奇数形式的 3.1, 5.1, 6.1 以及其他不是 .1 结尾的浮点数-->
     <input type="number" min="2.1" step="2" />
     ```
 
@@ -90,7 +89,7 @@ HTML5 最新的 `input` 控件提供内建的客户端格式验证（client-side
 - `week`
 - `date`
 
-## Multi-line text fields
+## 多行文本控件（Multi-line text fields）
 
 `<textarea>` 默认值在开启和关闭标签之间，而 `<input>` 是一个没有关闭标签空元素，它的默认值应该放在 `value` 属性中。
 
@@ -112,6 +111,8 @@ CSS 属性
 <textarea cols="30" rows="8">这里是 textarea 默认值</textarea>
 
 <input type="text" value="这里是 input 的默认值" />
+
+<div contenteditable>这是一个可编辑的 div 元素</div>
 ```
 
 ## 下拉选择控件
@@ -198,11 +199,15 @@ A process bar represents a value that changes over time up to a maximum values s
 
 如果你想要自定义表单控件，你必须通过 HTML、CSS 和 JavaScript 创建属于自己的表单控件或者使用第三方库。
 
-### 使用 CSS 容易美化的表单控件
+根据调整表单控件样式的难易程度，可将表单元素分为三类：简单、中等、困难。**不要尝试修改分类为困难的表单控件，我认为这是在浪费时间，你应该自定义这部分控件或者使用第三方库代替。**
+
+### 简单
+
+调整这部分控件只需要很少的 CSS 规则。
 
 - `<form>`
 - `<fieldset>` 和 `<legend>`
-- 单行文本 `<input>`，除了 `<input type="search">`
+- 单行文本输入 `<input type="text">`
 - 多行 `<textarea>`
 - 按钮
 - `<label>`
@@ -222,7 +227,7 @@ textare {
 }
 ```
 
-L**egend placement**
+**legend placement**
 
 `<legend>` 元素对于可访问性来说是非常重要的，辅助设备会读出它的内容，其的样式也容易调整。
 
@@ -238,12 +243,11 @@ legend {
 }
 ```
 
-### 使用 CSS 较难美化的表单控件
+### 中等
+调整这部分控件需要编写大量的 CSS 规则，但修改的困难程度处于我们可控制的范围。首先你应该使用 `appearance: none;` 移除浏览器默认样式。
 
 - 单选框和复选框
 - `<input type="search">`
-
-使用 **appearance**
 
 CSS `appearance` 属性控制着系统级别的样式。一般情况下 `appearance: none;` 会移除 `border` 的样式。
 
@@ -252,7 +256,8 @@ CSS `appearance` 属性控制着系统级别的样式。一般情况下 `appeara
 appearance: none;
 ```
 
-### 不能使用 CSS 样式化的表单控件
+### 困难部分
+调整这部分控件的样式很难达到我们满意的效果，因为我们没有能力去修改它们内部组件的样式。在生产环境中，建议使用自定义控件或者第三方库代替。
 
 - `<input type="color">`
 - 日期对应的控件
@@ -264,6 +269,13 @@ appearance: none;
 - `<input type="color">` 只能通过 CSS 移除此控件的 `border` 和 `padding` 属性。
 - `<input type="range">` 你只能修改滑块控件的轨道样式，无法修改拖拽按钮的样式。
 - `<input type="file">` 文件控件的按钮的样式不能被修改。你可以隐藏此按钮，通过相关联的 `<label>` 标签激活此按钮。比如：
+
+  ```html
+  <p>
+    <label for="file">Choose a file</label>
+    <input type="file" name="file" id="file">
+  </p>
+  ```
 
   ```css
   input[type='file'] {
@@ -324,7 +336,7 @@ TODO
 
 ### 框架
 
-- https://github.com/draganbabic/uni-form
+- [uni-form](https://github.com/draganbabic/uni-form)
 - [Formalize](https://formalize.me/)
 
 ### 处理 HTML 表单控件
@@ -335,12 +347,8 @@ TODO
 
 ## References
 
-**[An Extensive Guide To Web Form Usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/)**
-
-**[7 Basic Best Practices for Buttons](https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php)**
-
-**[Pagination in Web Forms | Evaluating the Effectiveness of Web Forms](https://www.uxmatters.com/mt/archives/2010/03/pagination-in-web-forms-evaluating-the-effectiveness-of-web-forms.php)**
-
-**[Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)**
-
-[https://uxdesign.smashingmagazine.com/category/forms](https://uxdesign.smashingmagazine.com/category/forms)
+- [An Extensive Guide To Web Form Usability](https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/)
+- [7 Basic Best Practices for Buttons](https://www.uxmatters.com/mt/archives/2012/05/7-basic-best-practices-for-buttons.php)
+- [Pagination in Web Forms](https://www.uxmatters.com/mt/archives/2010/03/pagination-in-web-forms-evaluating-the-effectiveness-of-web-forms.php)
+- [Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+- [uxdesign-forms](https://uxdesign.smashingmagazine.com/category/forms)
