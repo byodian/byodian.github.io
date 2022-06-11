@@ -63,7 +63,7 @@ table {
 
 td {
   overflow: hidden;
-  text-overflow: ellipais;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 ```
