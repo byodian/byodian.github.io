@@ -2,7 +2,7 @@
 title: HTML Form
 mySlug: html form
 created: 2022-06-07
-updated: 2022-06-10
+updated: 2022-06-12
 tags:
   - HTML
   - CSS
@@ -326,11 +326,87 @@ select {
 
 ## UI 伪类
 
-TODO
+使用伪类样式化表单控件。
 
-## 自定义表单控件
+- `:hover`
+- `:focus`
+- `:active`
+- `:required` `:optional`
+- `:valid` `:invalid` `:in-range` `:out-of-range`
+- `:enabled` `:disabled` `:read-only` `:read-write`
+- `:checked`
 
-TODO
+### :required 和 :optional
+
+具有 required 属性的表单控件，匹配 `:required` ，其他不具有必选属性的控件，匹配 `:optional`
+
+### :valid 和 :invalid（数据是否合法）
+
+- 具有 `required` 属性的表单控件，如果没有输入任何值会被认为不合法，它们将匹配 `:invalid` 和 `:required`
+- 使用 `min` 和 `max` 属性限制输入值，如果值在范围外，则会匹配 `:invalid` 和 `:out-of-range`
+- 没有任何输入限制的表单控件，默认匹配 `:valid`
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="GRQwxwq" data-preview="true" data-editable="true" data-user="byodian" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/byodian/pen/GRQwxwq">
+  Blog - HTML form pseudo-classes</a> by byodian (<a href="https://codepen.io/byodian">@byodian</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+### :enabled 、:disabled 、:read-only 、:read-write（基于控件的状态）
+
+`:read-only` 匹配使用 `readonly` 属性的 input 控件。
+
+### 单选框和复选框的状态（checked、default、indeterminate）
+
+- `:default` 匹配默认设置 `checked` 属性的单选或复选框
+- `:indeterminate` 匹配既不是 checked 也不是 unchecked 状态的单选或者复选框。
+  - `<input/radio>` 输入框，所有具有相同名称的单选框都处于未选中状态时
+  - `<input/checkbox>` 复选框的 `indeterminate` 属性通过 JavaScript 设置为 `true` 时
+  - `<process>` 元素没有值时
+
+<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="eYVQweM" data-preview="true" data-editable="true" data-user="byodian" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/byodian/pen/eYVQweM">
+  Blog - HTML Radio state pseudo-classes</a> by byodian (<a href="https://codepen.io/byodian">@byodian</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+## 客户端表单校验（client-side validation）
+
+检查是否完成必填项的输入，输入值是否符合规定的格式。
+
+### 两种校验方式
+
+- 内建的表单校验。使用 HTML 表单校验特性，这些方式通常有比使用 JavaScript 更好的性能
+- JavaScript 校验。
+
+### 内建的表单校验（build-in form validation）
+
+- requried
+- minlength 和 maxlength 指定**文本类字符串**数据的长度
+- min 和 max 指定**数字 input 类型**值的最小和最大值
+- pattern 指定一个正则表达式
+
+当一个表单选项数据是合法值时，它将匹配 `:valid` CSS 伪类元素，你可以使用它为合法的元素指定样式。
+
+当一个表单选项的数据是非法值时，它将匹配 `:invalid` CSS 伪类元素，有时也会匹配其他伪类元素，比如 `:out-of-range` 。
+
+DOM 接口 [ValidityState](https://developer.mozilla.org/en-US/docs/Web/API/ValidityState) 提供了多种错误方式，阻止表单的提交
+
+- badInput
+- patternMismatch
+- rangeOverflow/rangeUnderflow
+- stepMismatch
+- tooLong/tooShort
+- typeMismatch
+- valueMissing/customError
+
+### 使用 JavaScript 校验表单
+
+如果你想控制错误信息的样式或者兼容不支持 HTML 内建表单验证的浏览器，你可以使用 JavaScrpt 的方式校验表单。
+
+使用 **[Constraint validation API](https://developer.mozilla.org/en-US/docs/Web/API/Constraint_validation)** 检验输入值。
 
 ## 第三方库
 
