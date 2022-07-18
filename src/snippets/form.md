@@ -1,11 +1,11 @@
 ---
 title: HTML Form
 mySlug: html form
-created: 2022-06-07
-updated: 2022-06-12
 tags:
   - HTML
   - CSS
+created: 2022-06-06
+updated: 2022-06-12
 description: HTML 表单控件
 ---
 
