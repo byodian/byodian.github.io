@@ -11,9 +11,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/admin');
 
   // Layout Alliases 
-  eleventyConfig.addLayoutAlias('base', 'layouts/base.njk');
-  eleventyConfig.addLayoutAlias('main', 'layouts/main.njk');
-  eleventyConfig.addLayoutAlias('blog', 'layouts/blog.njk');
+  // page
+  eleventyConfig.addLayoutAlias('base', 'base.njk');
+  eleventyConfig.addLayoutAlias('page', 'pages/page.njk');
+  eleventyConfig.addLayoutAlias('article', 'pages/article.njk');
+
+  // components
+  eleventyConfig.addLayoutAlias('page-section', 'components/page-section.njk');
+  eleventyConfig.addLayoutAlias('shared', 'components/shared.njk');
 
   // plugin
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -48,7 +53,11 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection('blog', collection => {
-    return collection.getFilteredByGlob(['./src/blog/*.md']).reverse();
+    return collection.getFilteredByGlob(['./src/blog/*.md'])
+      .sort((a, b) => {
+        return a.data.created - b.data.created
+      })
+      .reverse();
   });
 
   eleventyConfig.addCollection('snippets', collection => {
