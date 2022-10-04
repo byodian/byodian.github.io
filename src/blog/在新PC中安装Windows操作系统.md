@@ -7,6 +7,10 @@ created: 2022-10-04T16:40:48.123Z
 description: 如何在新PC中安装Windows操作系统
 ---
 
+使用 U 盘启动器是安装操作系统常用的方法。而制作一个 U 盘启动器，对于 U 盘的大小和文件系统格式都有一定的要求。
+
+本文介绍如何制作一个 U 盘启动器，以及一些必要的知识。
+
 ## 文件系统类型
 
 选择与操作系统兼容的文件格式很重要。最常用的文件系统包括：
@@ -17,16 +21,21 @@ description: 如何在新PC中安装Windows操作系统
 - **APFS**：从 MacOS 10.13 开始供 Mac 用户使用的原生解决方案。如果仅在 macOS 上使用驱动器，则使用此选项。如果不使用第三方实用程序，Windows 将无法检测到这种文件系统。
 - **Ext4（第四种扩展文件系统）**：是 Linux 默认使用的日志文件系统，并且是作为 ext3 的后续产品开发的。
 
+这里我们选择 U 盘的文件格式为 FAT32。
+
 ## [如何格式化固态硬盘](https://www.kingston.com/cn/blog/personal-storage/how-to-format-ssd?utm_source=pocket_mylist)
 
 1. 使用 [kingston SSD Manager](https://www.kingston.com/tw/support/technical/ssdmanager) 或者 BIOS 安全擦除数据
-2. 在 Windows 中，通常通过磁盘管理工具
+2. 在 Windows 中，通过磁盘管理工具格式化 U 盘
 3. 在 Mac 中，最简单的方法是使用磁盘工具（disk utility），从左侧列表中选择你的硬盘，然后单击「抹掉」，输入驱动器的「名称」，然后选择「格式」（文件系统），点击确定
 
 ## 如何制作 Windows 系统的 U 盘启动器（命令行工具）
+简而言之，使用 Mac 或者 Windows 操作系统的文件资源管理器将 Windows 产品 DVD 或 ISO 的全部内容都复制并粘贴到 USB 闪存驱动器即可。
+
+由于 FAT32 文件系统的大小限制，写入文件最大为 4GB，且 Win10 wim 镜像文件大多超过 4GB，无法直接复制到 FAT32 格式的 U 盘 。我们可以将 wim 镜像文件分解为多个较小的 swm 文件，然后将这些小文件复制到 U 盘对应的文件夹，下一节介绍如何拆解 wim 镜像文件。
 
 1. 下载 Windows 镜像文件（ISO）
-2. 将 U 盘插入你的 Mac 电脑
+2. 将 U 盘插入你的电脑
 3. 使用 **Mac 磁盘管理工具 （Disk Utility）** 或者 **Windows 磁盘管理**将 U 盘格式化为 **Windows FAT32** 格式。
 4. 挂载 Windows 镜像文件，可以使用鼠标双击或者使用命令行工具挂载镜像
     
@@ -35,12 +44,10 @@ description: 如何在新PC中安装Windows操作系统
     hdiutil mount ~/Downloads/win10_your_download.iso
     ```
     
-5. 将 Windows 镜像文件复制到你的 USB 驱动器。
-    1. 使用文件资源管理器将 Windows 产品 DVD 或 ISO 的全部内容都复制并粘贴到 USB 闪存驱动器。
-    2. 由于 FAT32 文件系统的大小限制，最大写入文件大小为 4GB，且 Win10 镜像 wim 文件大多超过 4GB，无法直接复制到 FAT32 格式的 USB 驱动器。我们可以将 wim 镜像文件分解为多个较小的 swm 文件，然后将这些小文件复制到对应的文件夹。
+5. 将 Windows 镜像文件复制到你的 USB 驱动器
 6. 将 Windows 安装到新的 PC
     1. 将 USB 驱动器连接到新 PC
-    2. 打开 PC，通过 BIOS 面板设置 U 盘为第一启动项。
+    2. 打开 PC，通过 BIOS 面板设置 U 盘为第一启动项
     3. Windows 安装程序启动，根据说明执行安装系统步骤
 
 ### 如何复制大于 4GB 的 Windows 镜像文件
@@ -98,11 +105,13 @@ description: 如何在新PC中安装Windows操作系统
 1. [Rufus](https://rufus.ie/en/) (for Windows)
 2. [balenaEtcher](https://www.balena.io/etcher/) (for Mac)
 3. [WoeUSB](https://github.com/slacka/WoeUSB) （for Linux）
+4. [Windows 11 安装助手](https://www.microsoft.com/zh-CN/software-download/windows11)
+4. [Windows 10 安装助手](https://www.microsoft.com/zh-CN/software-download/windows10)
 
 ## 参考
 
 - [如何格式化固态硬盘](https://www.kingston.com/cn/blog/personal-storage/how-to-format-ssd)
-- ****[如何使用 Mac 制作 Windows 10 U 盘启动盘](https://chinese.freecodecamp.org/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/)****
+- [如何使用 Mac 制作 Windows 10 U 盘启动盘](https://chinese.freecodecamp.org/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/)
 - [从 USB 闪存驱动器安装 Windows](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/install-windows-from-a-usb-flash-drive?view=windows-11)
 - [创建可启动 Windows PE 介质](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11)
 - [Windows PE](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro?view=windows-11)
