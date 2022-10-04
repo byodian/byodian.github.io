@@ -67,7 +67,7 @@ description: 如何在新PC中安装Windows操作系统
     # Windows 操作系统 cmd or powershell 输入命令
     # D:\ - 挂载的镜像驱动器路径
     # E:\ - U 盘驱动器路径
-    # exclude.txt 文件内容为 install.wims
+    # exclude.txt 文件内容为 install.wim
     xcopy D:\ E:\ /s /e /h /i /exclude:exclude.txt
     
     # or
