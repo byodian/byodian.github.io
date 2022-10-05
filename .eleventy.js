@@ -6,7 +6,11 @@ const getTagList = require('./src/_assets/scripts/utils/getTagList.js')
 moment.locale('zh-cn');
 
 function sortByCreated(arr) {
-  return arr.sort((a, b) => a.data.created - b.data.created).reverse()
+  return arr
+    .sort((a, b) => {
+      return a.data.created - b.data.created
+    })
+    .reverse()
 }
 
 module.exports = function(eleventyConfig) {
@@ -82,6 +86,37 @@ module.exports = function(eleventyConfig) {
     );
   });
 
+  /**
+    * @return {Array} - blogs [{ year: 2021, blogs: [] }, { year: 2022, blogs: [] }]
+    */
+  eleventyConfig.addCollection('blogs', collection => {
+    // {
+    //    2022: [{ content: "..." }, { content: '...' }],
+    //    2021: [{ content: "..." }, { content: '...' }]
+    // }
+    const blogsByCreated = sortByCreated(collection.getFilteredByGlob(['./src/blog/*.md']))
+      .reduce((blogObj, item) => {
+        const year = item.data.created.getFullYear()
+
+        if (blogObj.hasOwnProperty(year)) {
+            blogObj[year].push(item)
+        } else {
+          blogObj[year] = [item]
+        }
+
+        return blogObj
+      }, {})
+      
+    return Object.keys(blogsByCreated)
+      .map(item => {
+        return {
+          year: item,
+          blogs: blogsByCreated[item]
+        }
+      })
+      .reverse()
+  });
+
   eleventyConfig.addCollection('tagList', getTagList);
 
   // html-minifer
@@ -99,7 +134,6 @@ module.exports = function(eleventyConfig) {
   });
   
   return {
-
     passthroughFileCopy: true,
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',

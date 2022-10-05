@@ -1,0 +1,14 @@
+<section>
+  {% block Heading %}
+    <h2>{{ title }}</h2>
+  {% endblock %}
+
+   
+  {% for item in articles %}
+    <h3>{{ item.year }}</h3>
+
+    {% set listData = item.blogs %} 
+    {% include "components/shared.njk" %}
+  {% endfor %}
+
+</section>

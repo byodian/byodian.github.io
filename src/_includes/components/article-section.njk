@@ -1,0 +1,12 @@
+<section>
+  {% block Heading %}
+    <h2>{{ title }}</h2>
+  {% endblock %}
+
+   
+  {% for item in blogs %}
+    <h3>{{ item.year }}</h3>
+
+    {% include "components/shared.njk" %}
+  {% endfor %}
+</section>
