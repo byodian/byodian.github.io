@@ -5,6 +5,10 @@ const moment = require('moment');
 const getTagList = require('./src/_assets/scripts/utils/getTagList.js')
 moment.locale('zh-cn');
 
+function sortByCreated(arr) {
+  return arr.sort((a, b) => a.data.created - b.data.created).reverse()
+}
+
 module.exports = function(eleventyConfig) {
   // pathCopy
   eleventyConfig.addPassthroughCopy('src/static');
@@ -49,27 +53,33 @@ module.exports = function(eleventyConfig) {
    */
 
   eleventyConfig.addCollection('projects', collection => {
-    return collection.getFilteredByGlob('./src/projects/*.md').reverse();
+    return sortByCreated(
+      collection.getFilteredByGlob('./src/projects/*.md')
+    );
   });
 
   eleventyConfig.addCollection('blog', collection => {
-    return collection.getFilteredByGlob(['./src/blog/*.md'])
-      .sort((a, b) => {
-        return a.data.created - b.data.created
-      })
-      .reverse();
+    return sortByCreated(
+      collection.getFilteredByGlob(['./src/blog/*.md'])
+    )
   });
 
   eleventyConfig.addCollection('snippets', collection => {
-    return collection.getFilteredByGlob('./src/snippets/*.md').reverse();
+    return sortByCreated(
+      collection.getFilteredByGlob('./src/snippets/*.md')
+    );
   });
 
   eleventyConfig.addCollection('workflows', collection => {
-    return collection.getFilteredByGlob('./src/workflows/*.md').reverse();
+    return sortByCreated(
+      collection.getFilteredByGlob('./src/workflows/*.md')
+    );
   });
 
   eleventyConfig.addCollection('weekly', collection => {
-    return collection.getFilteredByGlob('./src/weekly/*.md').reverse();
+    return sortByCreated(
+      collection.getFilteredByGlob('./src/weekly/*.md')
+    );
   });
 
   eleventyConfig.addCollection('tagList', getTagList);

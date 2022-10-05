@@ -16,6 +16,6 @@ permalink: /tags/{{ tag }}/
 
 <h2 class="mb-4">Tags: {{ tag }}</h2>
 
-{% set listData = collections[tag] %}
+{% set listData = collections[tag] | reverse %}
 {% include "components/shared.njk" %}
 
