@@ -1,15 +1,23 @@
 ---
-layout: "page"
+layout: "base"
 ---
 
-<article>
-  <h1>{{ title }}</h1>
+<div id="root" class="md:container mx-auto xl:px-64 md:px-8 px-4 pt-4">
+  <header class="mt-16 mb-8">
+    <p><a class="font-bold" href="/">byodian's blog</a></p>
+  </header>
 
-  {% if updated %}
-    <p class="text-gray-499">最近修改：<time datetime="{{ updated | dateReadable }}">{{ updated | dateReadable }}</time></p>
-  {% endif %}
+  <article class="prose prose-sm prose-zinc">
+    <h1>{{ title }}</h1>
 
-  {{ content | safe }}
+      <p class="text-gray-499 italic"><time datetime="{{ created | dateReadable }}">{{ created | dateReadable }}</time></p>
 
-</article>
+    {{ content | safe }}
 
+    {% if updated %}
+      <p class="text-gray-499">最近修改：<time datetime="{{ updated | dateReadable }}">{{ updated | dateReadable }}</time></p>
+    {% endif %}
+  </article>
+
+  {% include "layouts/footer.njk" %}
+</div>
