@@ -36,8 +36,13 @@ Developing efficient workflows in Vim is all about repetition, first and foremos
 ```
 
 ## Search
-- Append `/e` to the end of a search to place the cursor at the end of the next match. I.e `/search phrase/e`
-- Stay in search mode `/some-pattern<C-g>` or `/some-pattern<C-t>`
+- Append `/e` to the end of a search to place the cursor at the end of the next match. I.e `/patten/e`
+- Stay in search mode `/pattern<C-g>` or `/pattern<C-t>`
+- Append `\C` to the end of a search to enable a case-sensitive search. Examples: 
+  - `/copyright` - case insensitive
+  - `/Copyright` - case sensitive
+  - `/copyright\C` - case sensitive
+  - `/Copyright\c` - case insensitive
 
 ## [Power of g](https://vim.fandom.com/wiki/Power_of_g)
 - `gQ`
@@ -186,7 +191,7 @@ Examples:
 - `ysiw` - [surround plugin](https://github.com/tpope/vim-surround)
 - `:%norm ysiw"A: ""`
     
-## <code>`</code>character
+## ` character
 - <code>`[</code> - Navigate to the beginning of your most recently **yanked** or **changed** text
 - <code>`]</code> - Navigate to the end of your most recently **yanked** or **changed** text
 

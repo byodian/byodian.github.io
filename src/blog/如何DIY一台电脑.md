@@ -3,7 +3,7 @@ title: 如何 DIY 一台电脑主机
 mySlug: how to build a new pc
 tags:
   - 装机
-created: 2022-10-04T16:58:00.123Z
+created: 2022-10-04
 description: 如何在新PC中安装Windows操作系统
 ---
 
