@@ -105,10 +105,9 @@ description: PowerShell终端配置
     notepad $Home\.config\powershell\user_profile.ps1
     ```
     
-    在配置文件中键入以下内容，开启主题的使用。Oh My Posh 内建了许多开箱即用的[主题](https://ohmyposh.dev/docs/themes)，这里我选择 robbyrussel 主题。
+    然后在配置文件中键入以下内容，开启主题的使用。Oh My Posh 内建了许多开箱即用的[主题](https://ohmyposh.dev/docs/themes)，这里我选择 robbyrussel 主题。
     
     ```
-    # Prompt
     oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\robbyrussel.omp.json" | Invoke-Expression
     ```
     
@@ -117,7 +116,28 @@ description: PowerShell终端配置
     你也可以自定义主题样式，详细步骤请参考[Customize](https://ohmyposh.dev/docs/configuration/overview)
     
 2. 安装 [posh-git](https://github.com/dahlbyk/posh-git)
-    
+
+   posh-git 是一个 PowerShell 模块，整合 git 和 PowerShell，提供 git 状态信息，此状态信息可以展示在终端 prompt 中，也提供 tab 键自动补全 git 命令、分支名称和路径等支持。安装步骤参考[posh-git installation](https://github.com/dahlbyk/posh-git#installation)，简单步骤如下：
+   
+   ```powershell
+   # Installing posh-git via PowerShellGet
+   PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+   
+   # or Installing posh-git via Chocolatey
+   choco install poshgit
+   
+   # or Installing posh-git via Scoop
+   scoop bucket add extras
+   scoop install posh-git
+   ```
+   
+   在自定义配置文件中添加一行，重启终端即可生效。
+   
+   ```
+   # user_profile.ps1
+   Import-Module posh-git
+   ```
+   
 3. 安装 nvm
     
     ```powershell
@@ -190,7 +210,7 @@ description: PowerShell终端配置
 1. `Install-Module posh-git -Scope CurrentUser -Force`
 1. `Uninstall-Module -Name oh-my-posh` - Uninstall a module
 1. `Get-InstalledModule -Name oh-my-posh | Uninstall-Module` - Use the pipeline to uninstall a module
-1. 
+1. `setx` Creates or modifies environment variables in the user or system environment
 
 ## about_Environment_Provider
 The environment Environment provider lets you get, add, change, clear, delete environment variables and values in Powershell.
