@@ -212,7 +212,7 @@ description: PowerShell终端配置
     
     Specifies the source for PSReadLine to get predictive suggestions.
     
-    `Set-PSReadLineOption -PredictionSource Hisory`
+    `Set-PSReadLineOption -PredictionSource History`
     
     Sets the style for the display of the predictive text. The default is **InlineView**.
     
