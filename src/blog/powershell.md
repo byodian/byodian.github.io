@@ -258,6 +258,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 # fzf
 Import-Module PSFzf
+Set-PsFzfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHistory 'Ctrl+r'
 
 # Alias
 Set-Alias ll ls
