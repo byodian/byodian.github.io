@@ -119,7 +119,7 @@ description: PowerShell终端配置
     
     然后在配置文件中键入以下内容，开启主题的使用。Oh My Posh 内建了许多开箱即用的[主题](https://ohmyposh.dev/docs/themes)，这里我选择 robbyrussel 主题。
     
-    ```
+    ```powershell
     oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\robbyrussel.omp.json" | Invoke-Expression
     ```
     
@@ -145,7 +145,7 @@ description: PowerShell终端配置
    
    在自定义配置文件中添加一行，重启终端即可生效。
    
-   ```
+   ```powershell
    # user_profile.ps1
    Import-Module posh-git
    ```
@@ -169,7 +169,7 @@ description: PowerShell终端配置
     
     添加下面的内容到自定义配置文件
     
-    ```
+    ```powershell
     # user_profile.ps1
     Import-Module Terminal-Icons
     ```
@@ -184,7 +184,7 @@ description: PowerShell终端配置
     
     配置自定义文件，重启终端
     
-    ```
+    ```powershell
     # user_profile.ps1
     Import-Module z
     ```
@@ -237,7 +237,7 @@ description: PowerShell终端配置
     
     自定义文件添加下面的内容
     
-    ```
+    ```powershell
     # Fzf
     Import-Module PSFzf
     Set-PsFzfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHistory 'Ctrl+r'
