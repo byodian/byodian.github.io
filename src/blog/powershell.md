@@ -244,7 +244,7 @@ description: PowerShell终端配置
     ```
 
 ## user_profile.ps1 自定义配置文件
-```
+```powershell
 Import-Module posh-git
 Import-Module Terminal-Icons
 Import-Module z
