@@ -45,10 +45,27 @@ Developing efficient workflows in Vim is all about repetition, first and foremos
   - `/Copyright\c` - case insensitive
 
 ## [Power of g](https://vim.fandom.com/wiki/Power_of_g)
+
+The global command `:g` is very useful - multiple repeats
+
+```json
+:[range]g[lobal]/{pattern}/[cmd]
+```
+
+For example:
+
+- `:g/pattern/d` – Remove lines matching pattern
+- `:3,4g/pattern/d` – Remove lines matching pattern between 3 and 4 line
+- `:g/pattern/y A` - Yank all lines matching ‘pattern’ into the register.
+- `:g!/pattern/d` – Remove lines that do NOT match the pattern
+- `:v/pattern/d` – Also removes lines that do not match the pattern
+- `:cdo g/function/norm! ciw func<cr>`
+
 - `gQ`
 - `g0`
 - `g$`
 - `g <ctrl-g>`
+- `g <ctrl-a>`
 - `g#`
 - `g&`
 - `g-`
@@ -62,24 +79,6 @@ Developing efficient workflows in Vim is all about repetition, first and foremos
 - `gf`
 - `gd`
 - `gg`
-
-The global command `:g` is very useful - multiple repeats
-
-```json
-:[range]g[lobal]/{pattern}/[cmd]
-```
-
-Example:
-
-`:normal!` `!` 
-
-- `:g/pattern/d` – Remove lines matching pattern
-- `:3,4g/pattern/d` – Remove lines matching pattern between 3 and 4 line
-- `:g/pattern/y A` - Yank all lines matching ‘pattern’ into the register.
-- `:g!/pattern/d` – Remove lines that do NOT match the pattern
-- `:v/pattern/d` – Also removes lines that do not match the pattern
-- `:cdo g/function/norm! ciw func<cr>`
-
 
 ## Copying and pasting lines
 - The slow way is to navigate to the line I want, yank it, go back and paste it.
@@ -96,7 +95,7 @@ Example:
  
     [https://vimtricks.com/p/vimtricks-avoid-paste-formatting](https://vimtricks.com/p/vimtricks-avoid-paste-formatting)
 
-## The **shortcut** keyboards in insert mode 
+## The shortcut keyboards in insert mode 
 - `<c-w>` - delete a word
 - `<c-x><C-f>` - autocomplete filenames in vim.
 - `<c-n>` - 自动提示
@@ -104,7 +103,7 @@ Example:
 - `<c-r>=` - From insert mode, enters Vim’s expression register
 - `<c-f>` - switch from Command-Line mode to the command-line window. Or During the `/` portion of a search,  open a search history window.
 - `<c-a>` or `<C-x>` - increment or decrement hex, binary, and octal numbers in normal mode.
-- `<c-k>` + 2 letters - add special characters in insert mode. Examples:
+- `<c-k>` + 2 letters - add special characters in insert mode. see mode `:help dig`. Examples:
     - `<c-k>oo` • bullet
     - `<c-k>Db` ◆ diamond bullet
     - `<c-k>Pd` £ pound
@@ -116,28 +115,15 @@ Example:
 what a quick fix list is effectively what a quick fix list is a series of entries in which point to a specific file and location.
 
 A lot of times they’re associated with errors links or search results.
+
 - quickfix
+  - `:cw` 错误信息分屏显示
+  - `:cp` 跳到上一个错误
+  - `:cl` 列出所有错误
+  - `:cc` 显示错误详细信息
+  - `:cdo`
 - location-list
-
-**quickfix**
-
-- `:cw` 错误信息分屏显示
-- `:cp` 跳到上一个错误
-- `:cl` 列出所有错误
-- `:cc` 显示错误详细信息
-- `:cdo`
-
-**location-list**, `:ldo`
-
-## args
-- `:args /path/*`
-- `:wn`
-
-[https://vimtricks.com/p/vimtrick-edit-files-sequentially/](https://vimtricks.com/p/vimtrick-edit-files-sequentially/) - Edit files sequentially
-
-## 重复操作
-- `.` 小数点可以重复上一次的命令
-- `N<command>` 重复某个命令 N 次
+  `:ldo`
 
 ## DOS 与 Linux 的换行符
 字符转换命令
@@ -145,7 +131,7 @@ A lot of times they’re associated with errors links or search results.
 - `dos2unix [-kn] file [newfile]`
 - `unix2dos [-kn] file [newfile]`
 
-## **The undo tree** usr_32.txt
+## The undo tree usr_32.txt
   - If you make changes, undo, then make a different change, then undo, then make a different change, you create undo branches.
   - To view the change tree, run `:undolist`, to navigate the undo branches, use `g-`, `g+`
   - Go back to an earlier text state with the `:earlier` command. 
@@ -157,7 +143,7 @@ A lot of times they’re associated with errors links or search results.
   - `guap` - Lowercase paragraph
 
 ## Sort lines in Vim:
-**[sort-motion plugin](https://github.com/christoomey/vim-sort-motion)** - The primary interface to this plugin is via the `gs` mapping, for sorting based on a text object or motion. 
+[sort-motion plugin](https://github.com/christoomey/vim-sort-motion) - The primary interface to this plugin is via the `gs` mapping, for sorting based on a text object or motion. 
 
 Examples:
 
@@ -166,7 +152,7 @@ Examples:
 - `gsii` => Sort the current indentation level (requires [text-obj-indent plugin](https://github.com/kana/vim-textobj-indent))
 - `gsi(` => Sort within parenthesis. `(b, c, a)` would become `(a, b, c)`
 
-**Vim has some built in options:**
+Vim has some built in options
 
 - `:sort` - sort all lines
 - `:sort!` - sort in reverse
@@ -174,20 +160,17 @@ Examples:
 - `:sort i` - ignore case
 - `:sort n` - sort numerically
 
-**There are ways to sort elements of a single line in vanilla vim as well**, as detailed in this [StackExchange response](https://vi.stackexchange.com/questions/17532/is-there-an-efficient-way-to-sort-a-selection-of-comma-separated-values-in-a-sin/17538#17538), but they will involve some regex.
+There are ways to sort elements of a single line in vanilla vim as well, as detailed in this [StackExchange response](https://vi.stackexchange.com/questions/17532/is-there-an-efficient-way-to-sort-a-selection-of-comma-separated-values-in-a-sin/17538#17538), but they will involve some regex.
 
-## Jump between changes
+## jump between changes
 - `:changes` - Show list of changes
 - `g;` - Jump to previous
 - `g,` - Jump to next
 
-## `:norm` 
+## :norm 
 The command allows you to execute normal mode operations from the command line. By combining with `%` , we can run a sequence of operations on an entire file. 
 
 - `:%norm` - Run a normal mode command on the entire file.
-
-Examples: 
-
 - `ysiw` - [surround plugin](https://github.com/tpope/vim-surround)
 - `:%norm ysiw"A: ""`
     
@@ -208,7 +191,7 @@ Examples:
 - `:Man` command - Open that command's man page
 - `:dig` - open a list of all digraphs available on your system (complication options can affect the list)
 - `:reg` - open the vim registers
-- **Toggle Vim boolean options**
+- Toggle Vim boolean options
     - adding a bang `!` at the end. `:set number!`, `:set cusorcolumn!`
     - `:set number` will turn the feature on
     - `:set nonumber` will turn the feature off
@@ -223,7 +206,7 @@ followed by `CTRL-m`. [UTF-8 C1 Controls and Latin1 Supplement](https://www.w3
 ## Others
 1. You can edit your visual selection by using  `o` to bounce your cursor to the opposite end of the selection. Adjust the top bound as needed, then press `o` to return to the bottom.
 2. Use `gv` in Vim to reselect the last visual selection
-3. **[filename-modifiers](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#filename-modifiers)**。[关于Unix：在Vim中打开与当前文件相同的文件夹中的文件](https://www.codenong.com/1708623)
+3. [filename-modifiers](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#filename-modifiers)。[关于Unix：在Vim中打开与当前文件相同的文件夹中的文件](https://www.codenong.com/1708623)
     
     `:p` Make file name a full path, `:h expand`, `:wildcards`
     
@@ -236,6 +219,13 @@ followed by `CTRL-m`. [UTF-8 C1 Controls and Latin1 Supplement](https://www.w3
 10. To find out what’s stored in each register, simply use Vim’s `:registers` command, or `:reg` for short.
 11. Use `m{capital letter}` to make a global mark. Close and reopen VIm, and press `'{capital letter}` to open the file w/ the global mark.
 12. 使用命令 `:mksession ~/.mysession.vim` ( `:mks` is ok) 保存已经打开的多窗口文件。 如果文件重复，vim 默认会报错，使用 `:mksession! ~/.mysession.vim` 代替。在终端输入命令 `vim -S ~/.mysession.vim` 打开保存的会话。
+13. `.` 小数点可以重复上一次的命令
+14. `N<command>` 重复某个命令 N 次
+15. args
+    - `:args /path/*`
+    - `:wn`
+
+[https://vimtricks.com/p/vimtrick-edit-files-sequentially/](https://vimtricks.com/p/vimtrick-edit-files-sequentially/) - Edit files sequentially
 
 ## Helps
 - `:help wildoptions` - command-line completion allows fuzzy-matching in some cases
