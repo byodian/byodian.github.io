@@ -2,16 +2,17 @@
 layout: "base"
 ---
 
-<div id="root" class="md:container mx-auto xl:px-64 md:px-8 px-4 pt-4">
+<div id="root" class="container max-w-4xl mx-auto px-6 pt-4">
   <header class="mt-16 mb-8">
     <p><a class="font-bold" href="/">byodian's blog</a></p>
   </header>
 
-  <article class="prose prose-sm prose-zinc">
-    <h1>{{ title }}</h1>
+  <div class="pb-5 mb-5 border-b  border-gray-100">
+    <h1 class="text-5xl">{{ title }}</h1>
+    <p class="text-gray-400"><time datetime="{{ created | dateReadable }}">{{ created | dateReadable }}</time></p>
+  </div>
 
-    <p class="text-gray-499 italic"><time datetime="{{ created | dateReadable }}">{{ created | dateReadable }}</time></p>
-
+  <article class="prose lg:prose-lg">
     {{ content | safe }}
 
     {% if updated %}
