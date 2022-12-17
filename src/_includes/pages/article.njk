@@ -9,15 +9,17 @@ layout: "base"
 
   <div class="pb-5 mb-5 border-b  border-gray-100">
     <h1 class="text-5xl">{{ title }}</h1>
-    <p class="text-gray-400"><time datetime="{{ created | dateReadable }}">{{ created | dateReadable }}</time></p>
+    <p class="text-gray-400">
+      <time datetime="{{ created | dateReadable }}">发布于{{ created | dateReadable }}</time>
+
+      {% if updated %}
+       · <time datetime="{{ updated | dateReadable }}">更新于{{ updated | dateReadable }}</time>
+      {% endif %}
+    </p>
   </div>
 
   <article class="prose lg:prose-lg">
     {{ content | safe }}
-
-    {% if updated %}
-      <p class="text-gray-499">最近修改：<time datetime="{{ updated | dateReadable }}">{{ updated | dateReadable }}</time></p>
-    {% endif %}
   </article>
 
   {% include "layouts/footer.njk" %}

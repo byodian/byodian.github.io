@@ -7,6 +7,7 @@
     "clean": "del dist",
     "dev:postcss": "postcss src/_assets/css/*.css -o src/static/style.css --watch --verbose",
     "dev:scripts": "esbuild src/_assets/js/*.js --bundle --watch --outfile=src/static/app.js",
+    "dev:cms": "npx netlify-cms-proxy-server",
     "dev:11ty": "eleventy --serve --watch",
     "build:postcss": "postcss src/_assets/css/*.css -o src/static/style.css",
     "build:scripts": "esbuild src/_assets/js/*.js --bundle --minify --outfile=src/static/app.js",

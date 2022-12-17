@@ -42,7 +42,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('L');
+    return moment(date).format('LL');
   });
 
   // filter array
@@ -71,12 +71,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection('snippets', collection => {
     return sortByCreated(
       collection.getFilteredByGlob('./src/snippets/*.md')
-    );
-  });
-
-  eleventyConfig.addCollection('workflows', collection => {
-    return sortByCreated(
-      collection.getFilteredByGlob('./src/workflows/*.md')
     );
   });
 
