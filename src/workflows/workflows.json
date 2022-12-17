@@ -1,4 +1,0 @@
-{
-  "layout": "article",
-  "permalink": "workflows/{{ mySlug | slugify }}/index.html"
-}
