@@ -1,11 +1,11 @@
 <section id="app-products" class="mb-8">
   <h2 class="mb-2">项目</h2>
-  {% set products = setting.products %}
+  {% set products = homepage.products %}
 
   {% for product in products %}
   <ul class="list-none pl-0">
     <li class="pl-0">
-      <span>{{ product.heading }} - {{ product.description }}</span>
+      <span>{{ product.title }} - {{ product.description }}</span>
       <a class="text-blue-500 no-underline" href="{{ product.link.href }}">{{ product.link.text }}</a>
     </li>
   </ul>

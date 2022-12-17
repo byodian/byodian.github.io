@@ -5,6 +5,7 @@ tags:
   - HTML
 created: 2022-06-05
 description: 'head 是 HTML 文档的一部分，但其内容不会在网页中展示。'
+category: blog
 ---
 
 HTML 文档的 head 在网页内容加载完成后，其内容不会被显示。它包含了网页的一些信息，比如网页的标题、指向外部的样式和脚本链接以及页面的元数据等。

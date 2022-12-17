@@ -1,13 +1,13 @@
 <div id="about" class="mb-8">
-  {% for para in setting.resume %}
-  <p class="mb-4">{{ para }}</p>
+  {% for para in homepage.resume %}
+  <p class="mb-4">{{ para.content }}</p>
   {% endfor %}
 
 
   <p>我关注的技术开发者，在编程和其他很多方面，他们都对我产生了很多积极的影响。</p>
 
   <ul>
-    {% for people in setting.inspairedList %}
+    {% for people in homepage.inspairedList %}
     <li>
       <a href="{{  people.url }}">{{ people.name }}</a> - 
       <span>{{ people.description }}</span>

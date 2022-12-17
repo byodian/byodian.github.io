@@ -1,0 +1,24 @@
+{
+  "menu": [
+    {
+      "name": "文章",
+      "url": "/blog"
+    },
+    {
+      "name": "标签",
+      "url": "/tags"
+    },
+    {
+      "name": "Snippets",
+      "url": "/snippets"
+    },
+    {
+      "name": "Workflows",
+      "url": "/workflows"
+    },
+    {
+      "name": "Weekly",
+      "url": "/weekly"
+    }
+  ]
+}
