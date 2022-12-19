@@ -2,7 +2,7 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlmin = require("html-minifier");
 const moment = require('moment');
-const getTagList = require('./src/_assets/js/utils/getTagList.js')
+const getTagList = require('./src/scripts/getTagList.js')
 moment.locale('zh-cn');
 
 function sortByCreated(arr) {
@@ -15,7 +15,7 @@ function sortByCreated(arr) {
 
 module.exports = function(eleventyConfig) {
   // pathCopy
-  eleventyConfig.addPassthroughCopy('src/static');
+  eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/admin');
 
   // Layout Alliases 
@@ -37,12 +37,8 @@ module.exports = function(eleventyConfig) {
    */
 
   // Date Format
-  eleventyConfig.addFilter('dateISO', date => {
-    return moment(date).toISOString();
-  });
-
   eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('LL');
+    return moment(new Date(date)).format('LL');
   });
 
   // filter array

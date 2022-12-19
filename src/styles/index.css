@@ -1,6 +1,6 @@
-@import './utils/_tailwind.css';
-@import './utils/_variables.css';
-@import './utils//_prism-tomorrow.css';
+@import './tailwind.css';
+@import './variables.css';
+@import './prism-tomorrow.css';
 
 h1 {
   @apply text-4xl tracking-tighter mb-3 lg:text-7xl;
@@ -15,5 +15,3 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
-
-

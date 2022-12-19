@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "del dist",
-    "dev:postcss": "postcss src/_assets/css/*.css -o src/static/style.css --watch --verbose",
-    "dev:scripts": "esbuild src/_assets/js/*.js --bundle --watch --outfile=src/static/app.js",
+    "dev:postcss": "postcss src/styles/index.css -o dist/index.css --watch --verbose",
+    "dev:scripts": "esbuild src/scripts/index.js --bundle --watch --outfile=dist/index.js",
     "dev:cms": "npx netlify-cms-proxy-server",
     "dev:11ty": "eleventy --serve --watch",
-    "build:postcss": "postcss src/_assets/css/*.css -o src/static/style.css",
-    "build:scripts": "esbuild src/_assets/js/*.js --bundle --minify --outfile=src/static/app.js",
+    "build:postcss": "postcss src/styles/index.css -o dist/index.css",
+    "build:scripts": "esbuild src/scripts/index.js --bundle --minify --outfile=dist/index.js",
     "build:11ty": "eleventy",
     "start": "npm-run-all clean --parallel dev:*",
     "build": "npm-run-all clean build:*"
