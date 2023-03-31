@@ -217,9 +217,9 @@ description: PowerShell终端配置
 
    `Set-PSReadLineOption -PredictionSource History`
 
-   Sets the style for the display of the predictive text. The default is **InlineView**.
+   Sets the style for the display of the predictive text. The default is **ListView**.
 
-   `Set-PSReadLineOption -PredictionViewStyle ListView`
+   `Set-PSReadLineOption -PredictionViewStyle`**InlineView**
 
    ```powershell
    # user_profile.ps1
@@ -230,11 +230,11 @@ description: PowerShell终端配置
    ```
 6. 安装 `fzf` [PSFzf](https://github.com/kelleyma49/PSFzf)
 
-   PSFzf is a PowerShell module that wraps fzf, a fuzzy file finder for the command line.
+   PSFzf is a PowerShell module that wraps fzf, a fuzzy file finder for the command line. [Failed to import module](https://github.com/kelleyma49/PSFzf/issues/190)
 
    ```powershell
    scoop install fzf
-   Install-Module -Name PSFzf -Scope CurrentUser -Force
+   Install-Module -Name PSFzf -RequiredVersion 2.0.0 -Scope CurrentUser -Force
    ```
 
    自定义文件添加下面的内容
@@ -256,8 +256,8 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\robbyrussel.omp.json" | Inv
 # PSReadLine
 Import-Module PSReadLine
 Set-PSReadLineOption -EditMode Emacs
-Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle InlineView
 
 # fzf
 Import-Module PSFzf
