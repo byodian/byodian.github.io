@@ -233,17 +233,23 @@ description: PowerShell终端配置
    PSFzf is a PowerShell module that wraps fzf, a fuzzy file finder for the command line. [Failed to import module](https://github.com/kelleyma49/PSFzf/issues/190)
 
    ```powershell
+   # 安装 fzf
    scoop install fzf
+   # 安装 PSFzf
    Install-Module -Name PSFzf -RequiredVersion 2.0.0 -Scope CurrentUser -Force
    ```
 
    自定义文件添加下面的内容
 
    ```powershell
-   # Fzf
    Import-Module PSFzf
    Set-PsFzfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHistory 'Ctrl+r'
    ```
+7. 重启配置文件
+
+  ```powershell
+  . $PROFILE
+  ```
 
 ## user_profile.ps1 自定义配置文件
 
