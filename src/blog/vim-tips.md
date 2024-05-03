@@ -4,6 +4,7 @@ mySlug: vim tips
 tags:
   - vim
 created: 2022-07-19T16:58:00.123Z
+updated: 2024-05-03T02:45:16.342Z
 description: vim tips
 ---
 
@@ -212,7 +213,7 @@ followed by `CTRL-m`. [UTF-8 C1 Controls and Latin1 Supplement](https://www.w3
     
 4. Use `ea` to append to the end of the current word.
 5. Swap two characters in Vim with `xp`
-6. Put from the `"%` register to put the name of the current file.
+6. Put from the `"%p` register to put the name of the current file.
 7. To make it easier to navigate conflict markers, you could tweak the built-in matchit plugin: [stackoverflow.com/a/71676129/853…](http://stackoverflow.com/a/71676129/853%E2%80%A6)
 8. Multiple cursor support 
 9. Open the quickfix window with `:cwin` and see the results. Next we do another search. To get back to our previous, older quickfix window, we use `:colder`. Then, we can return to the most recent search results with `:cnewer`.
