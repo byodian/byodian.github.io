@@ -95,6 +95,7 @@ For example:
 - Pasting into Vim from @StackOverflow? Avoid indent fail by using set `:paste` or use the system clipboard with `"*p` 
  
     [https://vimtricks.com/p/vimtricks-avoid-paste-formatting](https://vimtricks.com/p/vimtricks-avoid-paste-formatting)
+- To select a register from which to paste, one can use `"{register}p` to paste from the register `{register}`. See [pasting registers](https://vim.fandom.com/wiki/Pasting_registers).
 
 ## The shortcut keyboards in insert mode 
 - `<c-w>` - delete a word
