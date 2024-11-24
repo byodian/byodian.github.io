@@ -16,9 +16,13 @@ jobs:
           with:
             node-version: '16.x'
 
-        - run: npm ci
-
-        - run: npm run build
+        # 安装依赖
+        - name: Install dependencies
+          run: yarn install --frozen-lockfile
+  
+        # 构建项目
+        - name: Build project
+          run: yarn build
 
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v4
