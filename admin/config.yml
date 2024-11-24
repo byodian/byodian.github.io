@@ -1,0 +1,162 @@
+backend:
+  name: git-gateway
+  branch: master
+
+# These lines should *not* be indented
+publish_mode: editorial_workflow
+media_folder: '/src/assets/img' # Media files will be stored in the repo under /src/assets/img
+public_folder: '/src/assets/img' # The src attribute for uploaded media will begin with /assets/img
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+# publish_mode: editorial_workflow
+collections:
+  - name: 'Blog' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog' # Used in the UI
+    folder: 'src/blog' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
+    slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Myslug', name: 'mySlug', widget: 'string' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        allow_add: true
+      - { label: 'Publish Date', name: 'created', widget: 'datetime' }
+      - { label: 'Edit Date', name: 'updated', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Main conent goes here',
+        }
+
+  - name: 'Snippets' # Used in routes, e.g., /admin/collections/blog
+    label: 'Snippets' # Used in the UI
+    folder: 'src/snippets' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Myslug', name: 'mySlug', widget: 'string' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        allow_add: true
+      - { label: 'Publish Date', name: 'created', widget: 'datetime' }
+      - { label: 'Edit Date', name: 'updated', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Main conent goes here',
+        }
+
+  - name: 'Weekly' # Used in routes, e.g., /admin/collections/blog
+    label: 'Weekly' # Used in the UI
+    folder: 'src/weekly' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Myslug', name: 'mySlug', widget: 'string' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        allow_add: true
+      - { label: 'Publish Date', name: 'created', widget: 'datetime' }
+      - { label: 'Edit Date', name: 'updated', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown',
+          hint: 'Main conent goes here',
+        }
+
+  - label: 'Settings'
+    name: 'Settings'
+    files:
+      - label: 'Settings'
+        name: 'settings'
+        file: 'src/_data/setting.json'
+        fields:
+          - { label: 'SiteName', name: 'title', widget: 'string' }
+          - { label: 'PersonalInfo', name: 'personalInfo', widget: 'string' }
+          - { label: 'Github', name: 'githubUrl', widget: 'string' }
+          - { label: 'Telegram', name: 'telegramUrl', widget: 'string' }
+          - { label: 'MetaAuthor', name: 'author', widget: 'string' }
+          - { label: 'MetaOGImage', name: 'ogImage', widget: 'string' }
+          - { label: 'MetaSiteUrl', name: 'siteUrl', widget: 'string' }
+          - {
+              label: 'Favicon',
+              name: 'icon',
+              widget: 'image',
+              hint: 'This must be an icon',
+            }
+          - {
+              label: 'Logo',
+              name: 'logo',
+              widget: 'image',
+              hint: 'This must be an SVG',
+            }
+      - label: Navigation
+        name: items
+        file: 'src/_data/navigation.json'
+        fields:
+          - label: Nav Items
+            name: menu
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: URL, name: url, widget: string }
+      - label: HomePage
+        name: home
+        file: 'src/_data/homepage.json'
+        fields:
+          - label: 'Resume'
+            name: 'resume'
+            widget: 'list'
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Content, name: content, widget: text }
+          - label: 'Links'
+            name: 'inspairedList'
+            widget: 'list'
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Category, name: category, widget: string }
+              - { label: Description, name: description, widget: string }
+              - { label: Url, name: url, widget: string }
+
+          - label: 'Products'
+            name: 'products'
+            widget: 'list'
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Url
+                name: link 
+                widget: object
+                allow_add: false
+                collapsed: false
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Link, name: href, widget: string }
+
