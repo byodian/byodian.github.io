@@ -3,6 +3,15 @@
   <p class="mb-4">{{ para.content }}</p>
   {% endfor %}
 
+  <p>技能</p>
+
+  <ul>
+    {% for skill in homepage.skills %}
+    <li>
+      <span>{{ skill }}</span>
+    </li>
+    {% endfor %}
+  </ul>
 
   <p>我关注的技术开发者，在编程和其他很多方面，他们都对我产生了很多积极的影响。</p>
 

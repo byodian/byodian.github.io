@@ -1,8 +1,8 @@
 {
   "resume": [
-    { "content": "我叫白永建，非计算机专业，通过自学转行做前端开发。我热爱编程，喜欢动手实践。对于一切能够提高工作效率的事情，我都愿意尝试，目前习惯使用双拼输入法、vim、命令行工具和 fish shell 🤟。" },
-    { "content": "写博客记录自己学习编程的过程以及提高写作水平。" }
+    { "content": "我是白永建，目前做全栈开发。我热爱编程，喜欢动手实践。对于一切能够提高工作效率的事情，我都愿意尝试，目前习惯使用双拼输入法、vim、命令行工具和 fish shell 🤟。" }
   ],
+  "skills": ["SQL(MySQL, PostgreSQL, MongoDB, Redis, influxDB)",  "Java", "Spring Boot, Spring Security", "HTML, CSS, JavaScript, TypeScript", "React, Vue.js", "Maven", "Mybatis", "Linux, Docker, Git", "Bash shell", "Python"],
   "inspairedList": [
     {
       "name": "Hao Chen",
@@ -55,28 +55,47 @@
   ],
   "products": [
     {
-      "title": "将所有想法装进BOX",
-      "description": "毫无压力，想记就记",
-      "link": {
-        "href": "https://oneboxplus.herokuapp.com/",
-        "title": "Note website"
-      }
+      "title": "OneIMG",
+      "description": "文字转图片工具",
+      "online": "https://oneimgai.com/",
+      "repos": [
+        { 
+          "href": "https://github.com/byodian/oneimg",
+          "title": "源代码"
+        }
+      ]
+    },
+    {
+      "title": "Notifier",
+      "description": "使用 Cloudflare Workers 自动将 GitHub Stars 通知发送到 Telegram",
+      "repos": [
+        { 
+          "href": "https://github.com/byodian/notifier",
+          "title": "源代码"
+        }
+      ]
+    },
+    {
+      "title": "笔记网站",
+      "description": "将所有想法装进BOX",
+      "online": "https://noteverso.com",
+      "repos": [
+        {
+          "href": "https://github.com/Noteverso",
+          "title": "源代码"
+        }
+      ]
     },
     {
       "title": "资源导航网站",
       "description": "工具集合",
-      "link": {
-        "href": "https://resource.netlify.app",
-        "title": "Resources website"
-      }
-    },
-    {
-      "title": "响应式网站设计",
-      "description": "产品介绍",
-      "link": {
-        "href": "https://natoursplus.netlify.app/",
-        "title": "Natours website"
-      }
+      "online": "https://resource.netlify.app",
+      "repos": [
+        {
+          "href": "https://github.com/byodian/resources",
+          "title": "源代码"
+        }
+      ]
     }
   ]
 }

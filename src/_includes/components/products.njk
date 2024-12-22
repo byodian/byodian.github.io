@@ -6,7 +6,16 @@
   <ul class="list-none pl-0">
     <li class="pl-0">
       <span>{{ product.title }} - {{ product.description }}</span>
-      <a class="text-blue-500 no-underline" href="{{ product.link.href }}">{{ product.link.text }}</a>
+      <div>
+        {% if product.online %}
+            <a href="{{ product.online }}">在线预览</a>
+        {% endif %}
+        {% if product.repos %}
+           {% for repo in product.repos %}
+             <a href="{{ repo.href }}">{{ repo.title }}</a>
+           {% endfor %}
+        {% endif %}
+      </div>
     </li>
   </ul>
   {% endfor %}
