@@ -456,18 +456,18 @@ absolute 是非常独立的 CSS 属性值，其样式和行为表现不依赖任
   - `align-content: stretch`
   - `order: 0`
 - **多行 Flexbox 布局中没有办法控制特定的某一行。**解决这个问题，可以给所有的弹性项目设置 `max-width` ，限制可伸缩的范围。
-- Flexbox 核心优势：**填充多余空间。**通过综合使用 `flex-grow` 及 `max-width` 和 `min-width`，就能实现智能的多行 Flexbox 布局。
-- Flexbox 的**可伸缩性**主要体现在 `flex-basis`、`flex-grow`、`flex-shrink` 三个属性上面。
+- Flexbox 核心优势：**填充多余空间。**通过综合使用 `grow` 及 `max-width` 和 `min-width`，就能实现智能的多行 Flexbox 布局。
+- Flexbox 的**可伸缩性**主要体现在 `flex-basis`、`grow`、`shrink` 三个属性上面。
   - `flex-basis` 设置弹性项目初始的主尺寸大小。默认值为 `auto` ，表示在设置 `width/height` 主尺寸的前提下，将继承 `width/height` 的属性值。否则，将根据内容确定大小。
-  - `flex-grow` 在通过 flex-basis 设置弹性项目的尺寸后，如果还有剩余空间，该属性将会起作用。其值是一个数值，表示剩余空间的一个比值，默认值为 `0`。
-  - `flex-shrink` 如果空间不够，该属性`值将会决定弹性项目如何`收缩，默认值为 `1`。
+  - `grow` 在通过 flex-basis 设置弹性项目的尺寸后，如果还有剩余空间，该属性将会起作用。其值是一个数值，表示剩余空间的一个比值，默认值为 `0`。
+  - `shrink` 如果空间不够，该属性`值将会决定弹性项目如何`收缩，默认值为 `1`。
   - `flex` 这三个属性的简写形式。在简写形式下，`flex-basis` 的值必须有写单位。
 
 ## Properties for the flex items
 
 - `flex` There is a shortcut available to set several flex properties at once.
 
-  `flex-shrink`、`flex-grow`、`flex-basis`
+  `shrink`、`grow`、`flex-basis`
 
 - `align-self`
 

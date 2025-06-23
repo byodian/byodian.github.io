@@ -1,4 +1,4 @@
-module.exports = function(collection) {
+export default function getTagList(collection) {
   const tagSet = new Set();
   // This Set items contain the `filter` in the /src/tags.njk 
   const filterTag = new Set( ['blog', 'snippets', 'all', 'workflows', 'tagList'] );
@@ -35,4 +35,4 @@ module.exports = function(collection) {
 
   // Return an array in addCollections
   return [...tagSet];
-};
+}

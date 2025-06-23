@@ -1,42 +1,34 @@
 {
   "name": "byodian.github.io",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "blog powered by 11ty, Tailwind CSS, and Netlify CMS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "clean": "del dist",
-    "dev:postcss": "postcss src/styles/index.css -o dist/index.css --watch --verbose",
-    "dev:scripts": "esbuild src/scripts/index.js --bundle --watch --outfile=dist/index.js",
-    "dev:cms": "npx netlify-cms-proxy-server",
-    "dev:11ty": "eleventy --serve --watch",
-    "build:postcss": "postcss src/styles/index.css -o dist/index.css",
-    "build:scripts": "esbuild src/scripts/index.js --bundle --minify --outfile=dist/index.js",
-    "build:11ty": "eleventy",
-    "start": "npm-run-all clean --parallel dev:*",
-    "build": "npm-run-all clean build:*"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "dev:cms": "npx netlify-cms-proxy-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^3.1.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "@mdx-js/mdx": "^3.1.0",
+    "@tailwindcss/postcss": "^4.1.10",
     "@tailwindcss/typography": "^0.5.2",
-    "autoprefixer": "^10.4.7",
     "concat": "^1.0.3",
-    "del-cli": "^4.0.1",
+    "cssnano": "^7.0.7",
     "eslint": "^8.16.0",
     "html-minifier": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.0",
     "moment": "^2.29.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^9.1.0",
-    "postcss-import": "^14.1.0",
-    "tailwindcss": "^3.0.24"
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.10"
   },
-  "dependencies": {
-    "esbuild": "^0.14.42"
-  }
+  "dependencies": {}
 }
