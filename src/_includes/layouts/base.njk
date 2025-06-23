@@ -24,7 +24,15 @@
   </head>
   <body>
 
-    {{ content | safe }}
+  <div id="root" class="md:container prose prose-zinc mx-auto xl:px-64 md:px-8 px-4 pt-4">
+    {% include "components/header.njk" %}
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    {% include "components/footer.njk" %}
+  </div>
 
     <script src="https://kit.fontawesome.com/d101a7035d.js" crossorigin="anonymous"></script>
   </body>

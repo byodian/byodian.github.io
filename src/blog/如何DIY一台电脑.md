@@ -1,6 +1,6 @@
 ---
 title: 如何 DIY 一台电脑主机
-mySlug: how to build a new pc
+mySlug: how to build your own PC
 tags:
   - 装机
 created: 2022-10-04

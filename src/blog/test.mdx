@@ -1,16 +1,17 @@
 ---
-layout: article
 title: test mdx
-mySlug: test-mdx
+mySlug: test mdx
 tags:
   - MDX
 created: 2025-06-23T08:39:50.946Z
 description: This is a test MDX file to demonstrate the use of components in MDX
+permalink : blog/test-mdx/index.html
+key: World
 ---
 
 export function Exclaim(props) {
-  return <>{props.target}!!!</>
+  return <>{props.target}!</>
 }
 
-# Hello from <Exclaim target={props.key} />
+# Hello <Exclaim target={props.key} />
 
