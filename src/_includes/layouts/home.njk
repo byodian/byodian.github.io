@@ -2,6 +2,10 @@
 layout: "base"
 ---
 
-{% include "components/about.njk" %}
-{% include "components/products.njk" %}
-{% include "components/latest-blog.njk" %}
+{% include "components/header.njk" %}
+
+<main>
+    {{ content | safe }}
+</main>
+
+{% include "components/footer.njk" %}

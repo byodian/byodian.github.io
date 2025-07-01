@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh" class="h-full">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,17 +22,11 @@
     <style>{{ style }}</style>
     <title>{{ title }}</title>
   </head>
-  <body>
+  <body class="h-full">
 
-  <div id="root" class="md:container prose prose-zinc mx-auto xl:px-64 md:px-8 px-4 pt-4">
-    {% include "components/header.njk" %}
-
-    <main>
+    <div id="root" class="flex flex-col h-full md:container prose prose-zinc mx-auto xl:px-64 md:px-8 px-4 pt-4">
       {{ content | safe }}
-    </main>
-
-    {% include "components/footer.njk" %}
-  </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/d101a7035d.js" crossorigin="anonymous"></script>
   </body>
