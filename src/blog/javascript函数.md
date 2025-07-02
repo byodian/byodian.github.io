@@ -1,6 +1,6 @@
 ---
 title: JavaScript函数
-mySlug: javascript function
+slug: javascript function
 tags:
   - JavaScript
 created: 2021-04-01T14:41:28.516Z

@@ -1,6 +1,6 @@
 ---
 title: vim tips
-mySlug: vim tips
+slug: vim tips
 tags:
   - vim
 created: 2022-07-19T16:58:00.123Z

@@ -1,6 +1,6 @@
 ---
 title: SSH 登录远程服务器
-mySlug: ssh
+slug: ssh
 tags:
   - Command line
 created: 2021-06-14T08:39:50.946Z

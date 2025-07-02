@@ -1,6 +1,6 @@
 ---
 title: "第 22 周 - 用五天时间做了一份面试题"
-mySlug: "week 22"
+slug: "week 22"
 created: 2022-06-06
 date: Last Modified
 description: 这是个人的第一篇周总结。

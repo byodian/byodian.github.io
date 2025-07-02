@@ -1,4 +1,4 @@
 {
   "layout": "post",
-  "permalink": "snippets/{{ mySlug | slug }}/index.html"
+  "permalink": "snippets/{{ slug | slugify }}/index.html"
 }

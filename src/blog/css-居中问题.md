@@ -1,6 +1,6 @@
 ---
 title: CSS 居中问题
-mySlug: centering in css
+slug: centering in css
 tags:
   - CSS
 created: 2021-04-01T14:42:49.375Z

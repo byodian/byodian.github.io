@@ -1,6 +1,6 @@
 ---
 title: CSS 深入理解
-mySlug: CSS In-depth Understanding
+slug: CSS In-depth Understanding
 tags:
   - CSS
 created: 2021-04-01T14:45:33.330Z

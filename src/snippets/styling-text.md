@@ -1,6 +1,6 @@
 ---
 title: Styling text
-mySlug: styling text
+slug: styling text
 tags: 
   - HTML
   - CSS

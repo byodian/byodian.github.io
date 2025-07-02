@@ -1,6 +1,6 @@
 ---
 title: HTML Form
-mySlug: html form
+slug: html form
 tags:
   - HTML
   - CSS

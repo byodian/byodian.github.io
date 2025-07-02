@@ -1,6 +1,6 @@
 ---
 title: HTML Table
-mySlug: table
+slug: table
 tags:
   - HTML
   - CSS

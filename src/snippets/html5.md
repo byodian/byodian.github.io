@@ -1,6 +1,6 @@
 ---
 title: HTML Boilerplate
-mySlug: html boilerplate
+slug: html boilerplate
 tags: 
   - HTML
 created: 2022-06-05

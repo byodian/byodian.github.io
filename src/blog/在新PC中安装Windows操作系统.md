@@ -1,6 +1,6 @@
 ---
 title: 如何在新 PC 中安装 Windows 操作系统
-mySlug: how to install windows os in new PC
+slug: how to install windows os in new PC
 tags:
   - 装机
 created: 2022-10-04

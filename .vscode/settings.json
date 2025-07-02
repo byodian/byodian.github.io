@@ -1,0 +1,6 @@
+{
+    "frontMatter.dashboard.openOnStart": false,
+    "frontMatter.panel.openOnSupportedFile": false,
+    "[markdown]": {
+    }
+}

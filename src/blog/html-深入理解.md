@@ -1,6 +1,6 @@
 ---
 title: HTML 深入理解
-mySlug: HTML In depth Understanding
+slug: HTML In depth Understanding
 tags:
   - HTML
 created: 2021-04-01T14:47:56.322Z

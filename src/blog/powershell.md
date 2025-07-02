@@ -1,6 +1,6 @@
 ---
 title: Powershell 终端配置
-mySlug: how set up powershell
+slug: how set up powershell
 tags:
   - Shell
 created: 2022-10-05

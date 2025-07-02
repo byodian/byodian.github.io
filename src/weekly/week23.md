@@ -1,6 +1,6 @@
 ---
 title: "第 23 周 - 复习 HTML 表格和表单元素"
-mySlug: "week 23"
+slug: "week 23"
 created: 20222-06-15
 description: 第 23 周记录
 ---
